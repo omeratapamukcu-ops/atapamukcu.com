@@ -23,6 +23,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // --- TESTIMONIAL READ MORE ---
+  const testimonialToggles = document.querySelectorAll('.testimonial-toggle');
+
+  testimonialToggles.forEach(function (button) {
+    button.addEventListener('click', function () {
+      const card = button.closest('.testimonial-expandable');
+      const isExpanded = card.classList.toggle('expanded');
+      button.textContent = isExpanded ? 'Kısalt' : 'Devamını oku';
+    });
+  });
+
   // --- HEADER SCROLL EFFECT ---
   const header = document.getElementById('header');
 
