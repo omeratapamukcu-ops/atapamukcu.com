@@ -1,0 +1,71 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.(jpg|jpeg|png|webp|svg|css|js|ico))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/sosyal-kaygi",
+      "destination": "/sosyal-kaygi.html",
+      "permanent": true
+    },
+    {
+      "source": "/panik-atak",
+      "destination": "/panik-atak.html",
+      "permanent": true
+    },
+    {
+      "source": "/okb",
+      "destination": "/okb.html",
+      "permanent": true
+    },
+    {
+      "source": "/travma",
+      "destination": "/travma.html",
+      "permanent": true
+    },
+    {
+      "source": "/online-psikolog",
+      "destination": "/online-psikolog.html",
+      "permanent": true
+    },
+    {
+      "source": "/antalya-psikolog",
+      "destination": "/antalya-psikolog.html",
+      "permanent": true
+    },
+    {
+      "source": "/genel-kaygi",
+      "destination": "/genel-kaygi.html",
+      "permanent": true
+    },
+    {
+      "source": "/depresyon",
+      "destination": "/depresyon.html",
+      "permanent": true
+    },
+    {
+      "source": "/ozgul-fobi",
+      "destination": "/ozgul-fobi.html",
+      "permanent": true
+    }
+  ]
+}
