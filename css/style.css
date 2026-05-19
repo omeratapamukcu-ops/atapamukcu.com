@@ -271,13 +271,27 @@ ul { list-style: none; }
 }
 
 .fit-item {
-  background: rgba(255, 255, 255, 0.58);
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(23, 54, 39, 0.08);
-  border-radius: 999px;
-  padding: 16px 20px 16px 48px;
+  border-radius: 16px;
+  padding: 18px 20px 18px 48px;
   color: #173627;
   font-weight: 700;
   position: relative;
+}
+
+.local-seo-link {
+  text-align: center;
+  margin-top: 34px;
+}
+
+.local-seo-link a {
+  color: #173627;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(23, 54, 39, 0.35);
 }
 
 .fit-item::before {
