@@ -2,14 +2,6 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1K0Q69Q2Z"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-M1K0Q69Q2Z');
-  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Antalya Online Psikolog | Psikolog Ata Pamukçu</title>
   <meta name="description" content="Antalya merkezli online psikolog Ata Pamukçu ile kaygı, panik, OKB, sosyal kaygı ve travma sonrası tepkiler için psikolojik destek. Online görüşme, hızlı randevu.">
@@ -31,9 +23,6 @@
   <meta name="twitter:description" content="Antalya merkezli online psikolog Ata Pamukçu ile kaygı, panik, OKB, sosyal kaygı ve travma sonrası tepkiler için psikolojik destek. Online görüşme, hızlı randevu.">
   <meta name="twitter:image" content="https://www.atapamukcu.com/images/hero-photo.jpg">
 
-  <link rel="stylesheet"   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sansita:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
@@ -184,5 +173,22 @@
   </script>
 
   <script src="js/script.js" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.addEventListener('load', function () {
+      var loadAnalytics = function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-M1K0Q69Q2Z';
+        document.head.appendChild(script);
+        gtag('js', new Date());
+        gtag('config', 'G-M1K0Q69Q2Z');
+      };
+      if ('requestIdleCallback' in window) requestIdleCallback(loadAnalytics, {timeout: 15000});
+      else setTimeout(loadAnalytics, 15000);
+    });
+  </script>
+
 </body>
 </html>
