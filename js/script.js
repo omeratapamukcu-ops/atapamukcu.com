@@ -45,4 +45,31 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  // --- LAZY SUBSTACK EMBED ---
+  const substackMount = document.querySelector('[data-substack-embed]');
+
+  function loadSubstackEmbed() {
+    if (!substackMount || substackMount.dataset.loaded === 'true') return;
+    substackMount.dataset.loaded = 'true';
+    substackMount.innerHTML = '<iframe src="https://atapamukcu.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no" loading="lazy" title="Psikoloji 3.0 Substack abonelik formu"></iframe>';
+  }
+
+  if (substackMount) {
+    if ('IntersectionObserver' in window) {
+      const substackObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            loadSubstackEmbed();
+            substackObserver.disconnect();
+          }
+        });
+      }, { rootMargin: '200px 0px' });
+      substackObserver.observe(substackMount);
+    } else {
+      window.addEventListener('load', function () {
+        setTimeout(loadSubstackEmbed, 4000);
+      });
+    }
+  }
+
 });
