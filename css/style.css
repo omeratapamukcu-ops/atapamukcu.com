@@ -164,9 +164,16 @@ ul { list-style: none; }
   justify-content: center;
 }
 
-.hero-image img {
+.hero-image picture {
+  display: block;
   width: 100%;
   max-width: 380px;
+  aspect-ratio: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   aspect-ratio: 1;
   object-fit: cover;
@@ -968,6 +975,10 @@ ul { list-style: none; }
   .footer-grid {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .hero-image picture {
+    max-width: 240px;
   }
 
   .hero-image img {
