@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.atapamukcu.com/</loc>
+    <loc>https://www.atapamukcu.com/act-bdt-farki</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/act-nedir</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/anda-kalma</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/anksiyete-nedir</loc>
@@ -16,13 +28,13 @@
     <loc>https://www.atapamukcu.com/antalya-kaygi-psikolog</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/antalya-okb-psikolog</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/antalya-online-psikolog</loc>
@@ -34,7 +46,7 @@
     <loc>https://www.atapamukcu.com/antalya-panik-atak-psikolog</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/antalya-psikolog</loc>
@@ -46,10 +58,52 @@
     <loc>https://www.atapamukcu.com/antalya-sosyal-kaygi-psikolog</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/bdt-nedir</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/bilissel-ayrisma</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/bilissel-carpitmalar</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/cbt-nedir</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/davranis-analizi-nedir</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/davranissal-aktivasyon</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/degerler-calismasi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/depresyon-belirtileri</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -61,10 +115,10 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.atapamukcu.com/depresyon-belirtileri</loc>
+    <loc>https://www.atapamukcu.com/dusunce-kaydi</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/enerji-dusuklugu</loc>
@@ -97,10 +151,40 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.atapamukcu.com/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/kabul-ne-demek</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/kabul-ve-kararlilik-terapisi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/kisisellestirilmis-terapi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
     <loc>https://www.atapamukcu.com/kompulsiyon-nedir</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/maruz-birakma-terapisi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/ofke-kontrolu</loc>
@@ -109,13 +193,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.atapamukcu.com/okb</loc>
+    <loc>https://www.atapamukcu.com/okb-belirtileri</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.atapamukcu.com/okb-belirtileri</loc>
+    <loc>https://www.atapamukcu.com/okb</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -139,12 +223,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.atapamukcu.com/panik-atak</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.atapamukcu.com/panik-atak-aninda-ne-yapmali</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -157,10 +235,34 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.atapamukcu.com/panik-atak</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.atapamukcu.com/panik-bozukluk</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/pbt-nedir</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/psikolojik-esneklik</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/psikolojik-surec-haritasi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/sinav-kaygisi</loc>
@@ -181,12 +283,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.atapamukcu.com/sosyal-kaygi</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.atapamukcu.com/sosyal-kaygi-belirtileri</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -197,6 +293,18 @@
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/sosyal-kaygi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/surec-temelli-terapi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/surekli-endise</loc>
@@ -211,10 +319,10 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.atapamukcu.com/travma</loc>
+    <loc>https://www.atapamukcu.com/terapi-surecinde-dongu-analizi</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/travma-belirtileri</loc>
@@ -224,6 +332,12 @@
   </url>
   <url>
     <loc>https://www.atapamukcu.com/travma-kacinma</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/travma</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -251,6 +365,12 @@
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/yasantisal-kacinma</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/yaygin-anksiyete-bozuklugu</loc>

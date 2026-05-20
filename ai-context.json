@@ -50,7 +50,15 @@
       "Exposure",
       "Davranışsal aktivasyon",
       "Psikolojik esneklik",
-      "Online psikolojik destek"
+      "Online psikolojik destek",
+      "Acceptance and Commitment Therapy",
+      "ACT",
+      "Process-Based Therapy",
+      "PBT",
+      "Bilişsel ayrışma",
+      "Yaşantısal kaçınma",
+      "Maruz bırakma",
+      "Bilişsel çarpıtmalar"
     ],
     "alumniOf": [
       {
@@ -171,6 +179,33 @@
         "https://www.atapamukcu.com/travma-belirtileri",
         "https://www.atapamukcu.com/travma-kacinma",
         "https://www.atapamukcu.com/tssb"
+      ]
+    },
+    {
+      "name": "Terapi yaklaşımları: ACT, PBT ve BDT",
+      "pillar": "https://www.atapamukcu.com/act-nedir",
+      "pages": [
+        "https://www.atapamukcu.com/act-nedir",
+        "https://www.atapamukcu.com/psikolojik-esneklik",
+        "https://www.atapamukcu.com/kabul-ve-kararlilik-terapisi",
+        "https://www.atapamukcu.com/bilissel-ayrisma",
+        "https://www.atapamukcu.com/degerler-calismasi",
+        "https://www.atapamukcu.com/yasantisal-kacinma",
+        "https://www.atapamukcu.com/kabul-ne-demek",
+        "https://www.atapamukcu.com/anda-kalma",
+        "https://www.atapamukcu.com/surec-temelli-terapi",
+        "https://www.atapamukcu.com/pbt-nedir",
+        "https://www.atapamukcu.com/psikolojik-surec-haritasi",
+        "https://www.atapamukcu.com/kisisellestirilmis-terapi",
+        "https://www.atapamukcu.com/terapi-surecinde-dongu-analizi",
+        "https://www.atapamukcu.com/davranis-analizi-nedir",
+        "https://www.atapamukcu.com/davranissal-aktivasyon",
+        "https://www.atapamukcu.com/bilissel-carpitmalar",
+        "https://www.atapamukcu.com/dusunce-kaydi",
+        "https://www.atapamukcu.com/maruz-birakma-terapisi",
+        "https://www.atapamukcu.com/cbt-nedir",
+        "https://www.atapamukcu.com/act-bdt-farki",
+        "https://www.atapamukcu.com/bdt-nedir"
       ]
     }
   ]
