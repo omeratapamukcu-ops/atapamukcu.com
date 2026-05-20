@@ -58,7 +58,12 @@
       "Bilişsel ayrışma",
       "Yaşantısal kaçınma",
       "Maruz bırakma",
-      "Bilişsel çarpıtmalar"
+      "Bilişsel çarpıtmalar",
+      "Erteleme",
+      "Mükemmeliyetçilik",
+      "Performans kaygısı",
+      "Başarısızlık korkusu",
+      "Karar verememe"
     ],
     "alumniOf": [
       {
@@ -206,6 +211,18 @@
         "https://www.atapamukcu.com/cbt-nedir",
         "https://www.atapamukcu.com/act-bdt-farki",
         "https://www.atapamukcu.com/bdt-nedir"
+      ]
+    },
+    {
+      "name": "Erteleme, mükemmeliyetçilik ve performans kaygısı",
+      "pillar": "https://www.atapamukcu.com/erteleme",
+      "pages": [
+        "https://www.atapamukcu.com/erteleme",
+        "https://www.atapamukcu.com/mukemmeliyetcilik",
+        "https://www.atapamukcu.com/basarisizlik-korkusu",
+        "https://www.atapamukcu.com/performans-kaygisi",
+        "https://www.atapamukcu.com/kendini-sabote-etmek",
+        "https://www.atapamukcu.com/karar-verememe"
       ]
     }
   ]

@@ -158,6 +158,42 @@ ul { list-style: none; }
   opacity: 1;
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.btn-secondary {
+  display: inline-block;
+  color: #173627;
+  padding: 14px 4px;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(23, 54, 39, 0.35);
+}
+
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 560px;
+}
+
+.hero-trust span {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 11px;
+  border: 1px solid rgba(23, 54, 39, 0.13);
+  border-radius: 999px;
+  color: #24533d;
+  background: rgba(255, 255, 255, 0.42);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
 .hero-image {
   display: flex;
   justify-content: center;
@@ -1156,6 +1192,8 @@ ul { list-style: none; }
 
 /* --- RESPONSIVE --- */
 @media (max-width: 900px) {
+  .hero-actions{justify-content:center}
+  .hero-trust{justify-content:center;margin-left:auto;margin-right:auto}
   .hero .container,
   .about-grid,
   .fit-grid {
