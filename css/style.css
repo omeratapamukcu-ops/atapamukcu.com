@@ -1157,3 +1157,17 @@ ul { list-style: none; }
     padding: 12px 14px;
   }
 }
+
+
+/* --- SEO guide/local page refinements --- */
+.nav-right { flex-wrap: wrap; justify-content: flex-end; row-gap: 8px; }
+.about-page-photo { max-width: 240px; margin: 0 auto 32px; }
+.about-page-photo img { border-radius: 24px; box-shadow: 0 16px 34px rgba(23, 54, 39, 0.12); }
+.guide-card a { border-bottom: 1px solid rgba(23, 54, 39, 0.22); }
+.local-seo-link { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.local-seo-link a { border-bottom: 1px solid rgba(23, 54, 39, 0.25); }
+@media (max-width: 760px) {
+  .nav-inner { height: auto; min-height: 64px; padding: 12px 0; align-items: flex-start; gap: 12px; }
+  .nav-right { gap: 12px; }
+  .nav-right a { font-size: 11px; letter-spacing: 1px; }
+}
