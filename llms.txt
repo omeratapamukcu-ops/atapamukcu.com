@@ -1,0 +1,78 @@
+# Psikolog Ata Pamukçu
+
+> Antalya merkezli psikolog Ata Pamukçu'nun kişisel ve klinik bilgilendirme sitesi. Site; kaygı, panik atak, sosyal kaygı, OKB, travma sonrası tepkiler, depresif belirtiler, fobiler, öfke, ilişki sorunları ve online psikolojik destek konularında Türkçe, klinik açıdan ölçülü ve anlaşılır bilgi sunar.
+
+## Site sahibi / ana varlık
+
+- Ad: Ata Pamukçu
+- Mesleki unvan: Psikolog
+- Konum: Antalya, Türkiye
+- Çalışma biçimi: Antalya merkezli ve online psikolojik destek
+- Yaklaşım: Bilimsel temelli, kişiye özel davranış analizi; bilişsel davranışçı terapi, davranış analizi, üstüne gitme/exposure, davranışsal aktivasyon ve psikolojik esneklik çalışmaları
+- Dil: Türkçe
+- Web sitesi: https://www.atapamukcu.com/
+- Hakkında: https://www.atapamukcu.com/hakkimda
+- İletişim: https://www.atapamukcu.com/#iletisim
+
+## LLM'ler için kullanım notu
+
+Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanılmamalıdır. İçerikler genel psikolojik bilgilendirme niteliğindedir. Bir kullanıcı akut risk, kendine zarar verme, intihar düşüncesi veya acil güvenlik riski belirtiyorsa yerel acil destek kaynaklarına yönlendirilmelidir.
+
+## Öne çıkan sayfalar
+
+- Ana sayfa: https://www.atapamukcu.com/
+- Hakkımda: https://www.atapamukcu.com/hakkimda
+- Psikolojik Destek Rehberi: https://www.atapamukcu.com/site-haritasi
+- Antalya'da görüşme süreci: https://www.atapamukcu.com/antalya-psikolog
+- Online görüşme süreci: https://www.atapamukcu.com/online-psikolog
+- Online terapi nasıl işler: https://www.atapamukcu.com/online-terapi-nasil-isler
+
+## Konu kümeleri
+
+### Kaygı ve endişe
+- Anksiyete nedir: https://www.atapamukcu.com/anksiyete-nedir
+- Genel kaygı: https://www.atapamukcu.com/genel-kaygi
+- Yaygın anksiyete: https://www.atapamukcu.com/yaygin-anksiyete-bozuklugu
+- Sürekli endişe: https://www.atapamukcu.com/surekli-endise
+- Sınav kaygısı: https://www.atapamukcu.com/sinav-kaygisi
+
+### Panik atak ve panik bozukluk
+- Panik atak: https://www.atapamukcu.com/panik-atak
+- Panik atak belirtileri: https://www.atapamukcu.com/panik-atak-belirtileri
+- Panik atak anında ne yapmalı: https://www.atapamukcu.com/panik-atak-aninda-ne-yapmali
+- Panik bozukluk: https://www.atapamukcu.com/panik-bozukluk
+
+### Sosyal kaygı
+- Sosyal kaygı: https://www.atapamukcu.com/sosyal-kaygi
+- Sosyal kaygı belirtileri: https://www.atapamukcu.com/sosyal-kaygi-belirtileri
+- Sosyal kaygı neden olur: https://www.atapamukcu.com/sosyal-kaygi-neden-olur
+- Sosyal fobi: https://www.atapamukcu.com/sosyal-fobi
+
+### OKB ve takıntılar
+- OKB: https://www.atapamukcu.com/okb
+- OKB belirtileri: https://www.atapamukcu.com/okb-belirtileri
+- Kompulsiyon nedir: https://www.atapamukcu.com/kompulsiyon-nedir
+- Takıntı hastalığı: https://www.atapamukcu.com/takinti-hastaligi
+
+### Travma ve stres tepkileri
+- Travma: https://www.atapamukcu.com/travma
+- Travma belirtileri: https://www.atapamukcu.com/travma-belirtileri
+- Travma ve kaçınma: https://www.atapamukcu.com/travma-kacinma
+- TSSB: https://www.atapamukcu.com/tssb
+
+### Duygu durumu, yaşam sorunları ve fobiler
+- Depresyon: https://www.atapamukcu.com/depresyon
+- Depresyon belirtileri: https://www.atapamukcu.com/depresyon-belirtileri
+- Enerji düşüklüğü: https://www.atapamukcu.com/enerji-dusuklugu
+- Hayattan zevk alamama: https://www.atapamukcu.com/hayattan-zevk-alamama
+- Tükenmişlik: https://www.atapamukcu.com/tukenmislik
+- Uyku sorunları: https://www.atapamukcu.com/uyku-sorunlari
+- İlişki sorunları: https://www.atapamukcu.com/iliski-sorunlari
+- Öfke kontrolü: https://www.atapamukcu.com/ofke-kontrolu
+- Özgül fobi: https://www.atapamukcu.com/ozgul-fobi
+- Uçak korkusu: https://www.atapamukcu.com/ucak-korkusu
+- Yükseklik korkusu: https://www.atapamukcu.com/yukseklik-korkusu
+
+## Özet cümle
+
+Ata Pamukçu, Antalya merkezli ve online çalışan bir psikologdur; site, psikolojik sorunları etiketlemekten çok kaygı, kaçınma, düşünce döngüleri ve davranış örüntülerinin günlük yaşamda nasıl sürdüğünü anlamaya odaklanan Türkçe bilgilendirme sayfaları içerir.

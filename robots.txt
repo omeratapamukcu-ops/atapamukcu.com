@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /ai-context.json
+Allow: /llms-full.txt
+Allow: /llms.txt
 
 Sitemap: https://www.atapamukcu.com/sitemap.xml

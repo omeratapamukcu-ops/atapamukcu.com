@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI context for Psikolog Ata Pamukçu",
+  "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
+  "url": "https://www.atapamukcu.com/ai-context.json",
+  "dateModified": "2026-05-20",
+  "inLanguage": "tr-TR",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://www.atapamukcu.com/#ata-pamukcu",
+    "name": "Ata Pamukçu",
+    "alternateName": "Psikolog Ata Pamukçu",
+    "jobTitle": "Psikolog",
+    "url": "https://www.atapamukcu.com/",
+    "image": "https://www.atapamukcu.com/images/hero-photo.jpg",
+    "email": "atapamukcu@gmail.com",
+    "telephone": "+905327624060",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Antalya",
+      "addressCountry": "TR"
+    },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "Türkiye"
+      },
+      {
+        "@type": "City",
+        "name": "Antalya"
+      }
+    ],
+    "knowsLanguage": [
+      "tr"
+    ],
+    "sameAs": [
+      "https://instagram.com/atapamukcu",
+      "https://atapamukcu.substack.com"
+    ],
+    "knowsAbout": [
+      "Kaygı",
+      "Panik atak",
+      "Sosyal kaygı",
+      "Obsesif kompulsif bozukluk",
+      "Travma sonrası tepkiler",
+      "Depresif belirtiler",
+      "Davranış analizi",
+      "Bilişsel davranışçı terapi",
+      "Exposure",
+      "Davranışsal aktivasyon",
+      "Psikolojik esneklik",
+      "Online psikolojik destek"
+    ]
+  },
+  "importantPages": [
+    {
+      "name": "Ana sayfa",
+      "url": "https://www.atapamukcu.com/"
+    },
+    {
+      "name": "Hakkımda",
+      "url": "https://www.atapamukcu.com/hakkimda"
+    },
+    {
+      "name": "Psikolojik Destek Rehberi",
+      "url": "https://www.atapamukcu.com/site-haritasi"
+    },
+    {
+      "name": "Antalya'da görüşme süreci",
+      "url": "https://www.atapamukcu.com/antalya-psikolog"
+    },
+    {
+      "name": "Online görüşme süreci",
+      "url": "https://www.atapamukcu.com/online-psikolog"
+    },
+    {
+      "name": "Kaygı",
+      "url": "https://www.atapamukcu.com/genel-kaygi"
+    },
+    {
+      "name": "Panik atak",
+      "url": "https://www.atapamukcu.com/panik-atak"
+    },
+    {
+      "name": "Sosyal kaygı",
+      "url": "https://www.atapamukcu.com/sosyal-kaygi"
+    },
+    {
+      "name": "OKB",
+      "url": "https://www.atapamukcu.com/okb"
+    },
+    {
+      "name": "Travma",
+      "url": "https://www.atapamukcu.com/travma"
+    }
+  ],
+  "safetyNote": "The website provides general psychological information and appointment/contact information. It is not a crisis, emergency, diagnosis, or medical advice service."
+}
