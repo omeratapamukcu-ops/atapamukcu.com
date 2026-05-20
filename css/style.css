@@ -203,7 +203,7 @@ ul { list-style: none; }
 
 .section-eyebrow {
   text-align: center;
-  color: #3a7a5e;
+  color: #24533d;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -615,7 +615,7 @@ ul { list-style: none; }
   text-align: left;
 }
 
-.teknik-card h4 {
+.teknik-card h3 {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 18px;
   color: #173627;
@@ -1117,7 +1117,7 @@ ul { list-style: none; }
 }
 
 .author-note-kicker {
-  color: #3a7a5e !important;
+  color: #24533d !important;
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 1.2px;
@@ -1154,7 +1154,7 @@ ul { list-style: none; }
   gap: 32px;
 }
 
-.footer-col h4 {
+.footer-col h3 {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 18px;
   margin-bottom: 8px;
