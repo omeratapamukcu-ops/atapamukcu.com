@@ -140,17 +140,16 @@ ul { list-style: none; }
 .btn-primary {
   display: inline-block;
   background: #173627;
-  color: #eaf6f0;
-  padding: 14px 32px;
-  border-radius: 4px;
+  color: #fff;
+  padding: 16px 28px;
+  border-radius: 999px;
   font-weight: 700;
   font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  text-transform: none;
+  letter-spacing: 0.2px;
   border: none;
   cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-  text-align: center;
+  transition: all 0.2s ease;
 }
 
 .btn-primary:hover {
@@ -363,8 +362,8 @@ ul { list-style: none; }
   color: #173627;
   font-size: 13px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  text-transform: none;
+  letter-spacing: 0.2px;
 }
 
 .sorun-card h3 {
