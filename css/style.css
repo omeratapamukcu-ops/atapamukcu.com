@@ -559,15 +559,21 @@ ul { list-style: none; }
   color: #2a5a43;
 }
 
+.about-text {
+  text-align: left;
+}
+
 .about-text ul {
   margin-top: 8px;
+  max-width: 520px;
 }
 
 .about-text ul li {
-  padding: 4px 0 4px 16px;
+  padding: 4px 0 4px 18px;
   position: relative;
   font-size: 15px;
   color: #2a5a43;
+  text-align: left;
 }
 .about-text ul li::before {
   content: "•";
@@ -1191,7 +1197,45 @@ ul { list-style: none; }
 .local-seo-link { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .local-seo-link a { border-bottom: 1px solid rgba(23, 54, 39, 0.25); }
 @media (max-width: 760px) {
-  .nav-inner { height: auto; min-height: 64px; padding: 12px 0; align-items: flex-start; gap: 12px; }
-  .nav-right { gap: 12px; }
-  .nav-right a { font-size: 11px; letter-spacing: 1px; }
+  .site-header {
+    position: sticky;
+  }
+
+  .nav-inner {
+    height: auto;
+    min-height: 0;
+    padding: 14px 0 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    gap: 10px 14px;
+  }
+
+  .nav-right a {
+    font-size: 10.5px;
+    line-height: 1.1;
+    letter-spacing: 0.8px;
+  }
+
+  .instagram-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .hero {
+    padding: 42px 0 64px;
+  }
 }
