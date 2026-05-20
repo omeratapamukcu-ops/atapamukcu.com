@@ -51,7 +51,28 @@
       "Davranışsal aktivasyon",
       "Psikolojik esneklik",
       "Online psikolojik destek"
-    ]
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Akdeniz Üniversitesi"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Viyana Teknik Üniversitesi"
+      }
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "İleri düzey Bilişsel Davranışçı Terapi eğitimi"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Mindfulness temelli terapi eğitimi"
+      }
+    ],
+    "description": "Antalya merkezli ve online çalışan psikolog. Kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, fobiler ve duygu çökkünlüğü alanlarında davranış analizi ve bilimsel temelli psikolojik destek çerçevesiyle çalışır."
   },
   "importantPages": [
     {
@@ -95,5 +116,62 @@
       "url": "https://www.atapamukcu.com/travma"
     }
   ],
-  "safetyNote": "The website provides general psychological information and appointment/contact information. It is not a crisis, emergency, diagnosis, or medical advice service."
+  "safetyNote": "The website provides general psychological information and appointment/contact information. It is not a crisis, emergency, diagnosis, or medical advice service.",
+  "editorialPolicy": {
+    "medicalDisclaimer": "İçerikler genel psikolojik bilgilendirme niteliğindedir; tanı, tedavi planı veya acil durum yönlendirmesi yerine geçmez.",
+    "contentFrame": "Sayfalar belirtilerden çok kaygı, kaçınma, güvence arama, bedensel alarm ve davranış örüntülerinin günlük yaşamda nasıl sürdüğünü açıklamaya odaklanır.",
+    "visibleSeoPolicy": "Yerel arama sinyalleri korunur; kullanıcıya görünen bağlantı metinlerinde anahtar kelime yığması yerine doğal, süreç odaklı ifadeler kullanılır."
+  },
+  "topicClusters": [
+    {
+      "name": "Kaygı ve endişe",
+      "pillar": "https://www.atapamukcu.com/genel-kaygi",
+      "pages": [
+        "https://www.atapamukcu.com/anksiyete-nedir",
+        "https://www.atapamukcu.com/yaygin-anksiyete-bozuklugu",
+        "https://www.atapamukcu.com/surekli-endise",
+        "https://www.atapamukcu.com/sinav-kaygisi",
+        "https://www.atapamukcu.com/antalya-kaygi-psikolog"
+      ]
+    },
+    {
+      "name": "Panik atak ve panik beklentisi",
+      "pillar": "https://www.atapamukcu.com/panik-atak",
+      "pages": [
+        "https://www.atapamukcu.com/panik-atak-belirtileri",
+        "https://www.atapamukcu.com/panik-atak-aninda-ne-yapmali",
+        "https://www.atapamukcu.com/panik-bozukluk",
+        "https://www.atapamukcu.com/antalya-panik-atak-psikolog"
+      ]
+    },
+    {
+      "name": "OKB ve kompulsiyon döngüleri",
+      "pillar": "https://www.atapamukcu.com/okb",
+      "pages": [
+        "https://www.atapamukcu.com/okb-belirtileri",
+        "https://www.atapamukcu.com/kompulsiyon-nedir",
+        "https://www.atapamukcu.com/takinti-hastaligi",
+        "https://www.atapamukcu.com/antalya-okb-psikolog"
+      ]
+    },
+    {
+      "name": "Sosyal kaygı",
+      "pillar": "https://www.atapamukcu.com/sosyal-kaygi",
+      "pages": [
+        "https://www.atapamukcu.com/sosyal-kaygi-belirtileri",
+        "https://www.atapamukcu.com/sosyal-kaygi-neden-olur",
+        "https://www.atapamukcu.com/sosyal-fobi",
+        "https://www.atapamukcu.com/antalya-sosyal-kaygi-psikolog"
+      ]
+    },
+    {
+      "name": "Travma sonrası tepkiler",
+      "pillar": "https://www.atapamukcu.com/travma",
+      "pages": [
+        "https://www.atapamukcu.com/travma-belirtileri",
+        "https://www.atapamukcu.com/travma-kacinma",
+        "https://www.atapamukcu.com/tssb"
+      ]
+    }
+  ]
 }

@@ -6,6 +6,8 @@
 
 - Ad: Ata Pamukçu
 - Mesleki unvan: Psikolog
+- Eğitim: Akdeniz Üniversitesi Psikoloji; Viyana Teknik Üniversitesi Wirtschaftsingenieurwesen
+- Terapi eğitimi: İleri düzey Bilişsel Davranışçı Terapi ve mindfulness temelli terapi eğitimi
 - Konum: Antalya, Türkiye
 - Çalışma biçimi: Antalya merkezli ve online psikolojik destek
 - Yaklaşım: Bilimsel temelli, kişiye özel davranış analizi; bilişsel davranışçı terapi, davranış analizi, üstüne gitme/exposure, davranışsal aktivasyon ve psikolojik esneklik çalışmaları
@@ -13,6 +15,13 @@
 - Web sitesi: https://www.atapamukcu.com/
 - Hakkında: https://www.atapamukcu.com/hakkimda
 - İletişim: https://www.atapamukcu.com/#iletisim
+
+## Uzmanlık ve güven çerçevesi
+
+- İçerikler psikolog Ata Pamukçu tarafından, tanı koymadan bilgilendirme amacıyla hazırlanır.
+- Sayfalar klinik olarak ölçülü dil kullanır; kesin sonuç, hızlı çözüm veya abartılı vaat sunmaz.
+- Görüşme süreci kişiye özel değerlendirme, davranış haritası ve uygulanabilir adımlar üzerine kurulur.
+- Yerel SEO görünürlüğü korunurken kullanıcıya görünen metinlerde anahtar kelime yığması yapılmaz.
 
 ## LLM'ler için kullanım notu
 
