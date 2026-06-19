@@ -4,7 +4,7 @@
   "name": "AI context for Psikolog Ata Pamukçu",
   "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
   "url": "https://www.atapamukcu.com/ai-context.json",
-  "dateModified": "2026-05-20",
+  "dateModified": "2026-06-19",
   "inLanguage": "tr-TR",
   "mainEntity": {
     "@type": "Person",
@@ -63,7 +63,11 @@
       "Mükemmeliyetçilik",
       "Performans kaygısı",
       "Başarısızlık korkusu",
-      "Karar verememe"
+      "Karar verememe",
+      "Psikolojik mini araçlar",
+      "Kaygı döngüsü haritası",
+      "Panik atak anı planı",
+      "Psikoloji 3.0"
     ],
     "alumniOf": [
       {
@@ -127,6 +131,30 @@
     {
       "name": "Travma",
       "url": "https://www.atapamukcu.com/travma"
+    },
+    {
+      "name": "Başlangıç rehberi",
+      "url": "https://www.atapamukcu.com/baslangic"
+    },
+    {
+      "name": "Görüşme süreci",
+      "url": "https://www.atapamukcu.com/surec"
+    },
+    {
+      "name": "Psikolojik mini araçlar",
+      "url": "https://www.atapamukcu.com/araclar"
+    },
+    {
+      "name": "Kaygı döngüsü haritası",
+      "url": "https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi"
+    },
+    {
+      "name": "Panik atak anı planı",
+      "url": "https://www.atapamukcu.com/araclar/panik-atak-ani-plani"
+    },
+    {
+      "name": "Psikoloji 3.0",
+      "url": "https://www.atapamukcu.com/psikoloji-3"
     }
   ],
   "safetyNote": "The website provides general psychological information and appointment/contact information. It is not a crisis, emergency, diagnosis, or medical advice service.",
@@ -223,6 +251,14 @@
         "https://www.atapamukcu.com/performans-kaygisi",
         "https://www.atapamukcu.com/kendini-sabote-etmek",
         "https://www.atapamukcu.com/karar-verememe"
+      ]
+    },
+    {
+      "name": "Mini psikolojik araçlar",
+      "pillar": "https://www.atapamukcu.com/araclar",
+      "pages": [
+        "https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi",
+        "https://www.atapamukcu.com/araclar/panik-atak-ani-plani"
       ]
     }
   ]

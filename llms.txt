@@ -32,6 +32,10 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 - Ana sayfa: https://www.atapamukcu.com/
 - Hakkımda: https://www.atapamukcu.com/hakkimda
 - Psikolojik Destek Rehberi: https://www.atapamukcu.com/site-haritasi
+- Başlangıç rehberi: https://www.atapamukcu.com/baslangic
+- Görüşme süreci: https://www.atapamukcu.com/surec
+- Psikolojik mini araçlar: https://www.atapamukcu.com/araclar
+- Psikoloji 3.0 köprü sayfası: https://www.atapamukcu.com/psikoloji-3
 - Antalya'da görüşme süreci: https://www.atapamukcu.com/antalya-psikolog
 - Online görüşme süreci: https://www.atapamukcu.com/online-psikolog
 - Online terapi nasıl işler: https://www.atapamukcu.com/online-terapi-nasil-isler
@@ -111,6 +115,10 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 - Performans kaygısı: https://www.atapamukcu.com/performans-kaygisi
 - Kendini sabote etmek: https://www.atapamukcu.com/kendini-sabote-etmek
 - Karar verememe: https://www.atapamukcu.com/karar-verememe
+
+### Mini araçlar
+- Kaygı döngüsü haritası: https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi
+- Panik atak anı planı: https://www.atapamukcu.com/araclar/panik-atak-ani-plani
 
 ## Özet cümle
 

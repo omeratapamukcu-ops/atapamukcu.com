@@ -164,7 +164,7 @@
   </url>
   <url>
     <loc>https://www.atapamukcu.com/</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -308,7 +308,7 @@
   </url>
   <url>
     <loc>https://www.atapamukcu.com/site-haritasi</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -417,6 +417,36 @@
   <url>
     <loc>https://www.atapamukcu.com/yukseklik-korkusu</loc>
     <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/baslangic</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/araclar</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/araclar/panik-atak-ani-plani</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/psikoloji-3</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
