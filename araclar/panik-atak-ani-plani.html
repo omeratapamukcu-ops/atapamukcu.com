@@ -57,21 +57,8 @@
 <div class="article-card" id="result" style="display:none;"><h2>Panik atak anı planınız</h2><pre id="out" style="white-space:pre-wrap;font-family:inherit;"></pre><button type="button" class="btn-secondary" onclick="copyResult()">Metni kopyala</button></div>
 <div class="article-card muted"><h2>Önemli sınır</h2><p>İlk kez yaşanan, alışılmıştan farklı veya tıbbi risk düşündüren belirtilerde önce tıbbi değerlendirme gerekir. Bu araç acil durum yönetimi veya tanı koyma amacıyla kullanılmamalıdır.</p></div>
 <div class="related-pages"><div class="related-grid"><a href="/panik-atak-belirtileri" class="related-card"><span><strong>Panik belirtilerini tanımak</strong><br>Bedensel alarmın nasıl çalıştığını okuyun.</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="/panik-atak-aninda-ne-yapmali" class="related-card"><span><strong>Atak anında ne yapılabilir?</strong><br>Panik anı için kısa rehberi okuyun.</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="/araclar/kaygi-dongusu-haritasi" class="related-card"><span><strong>Kaygı döngüsü haritası</strong><br>Döngüyü daha geniş haritalayın.</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
-<script>
-function v(id){return document.getElementById(id).value.trim();}
-function buildPlan(){var text='Panik atak anı planım
+<script src="/js/tools.js?v=20260619-tools-fix" defer></script>
 
-1. Hatırlatma: '+v('reminder')+'
-
-2. Kontrol davranışı: '+v('avoid')+'
-
-3. Küçük adım: '+v('step')+'
-
-4. Atak sonrası: '+v('after')+'
-
-Not: Amaç paniği zorla durdurmak değil, alarm dalgasını büyüten davranışları azaltmaktır.';localStorage.setItem('panikAtakAniPlani',text);document.getElementById('out').textContent=text;document.getElementById('result').style.display='block';}
-function copyResult(){navigator.clipboard.writeText(document.getElementById('out').textContent);}
-</script>
     </div></section>
   </main>
   <footer class="site-footer" id="iletisim"><div class="container"><div class="footer-grid"><div class="footer-col"><h3>ATA PAMUKÇU</h3><p><a href="/hakkimda">Hakkımda</a></p><p><a href="/baslangic">Başlangıç</a></p><p><a href="/araclar">Araçlar</a></p><p><a href="/psikoloji-3">Psikoloji 3.0</a></p></div><div class="footer-col"><h3>YER</h3><p>ANTALYA</p></div><div class="footer-col"><h3>İLETİŞİM</h3><p><a href="mailto:atapamukcu@gmail.com">ATAPAMUKCU@GMAIL.COM</a></p><p><a href="tel:+905327624060">(532) 762-4060</a></p></div></div></div></footer>
