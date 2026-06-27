@@ -1366,6 +1366,58 @@ ul { list-style: none; }
   display: none;
 }
 
+@media (max-width: 900px) {
+  body {
+    padding-bottom: calc(112px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-sticky-cta {
+    position: fixed !important;
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    z-index: 9999;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid rgba(23, 54, 39, 0.14);
+    border-radius: 20px;
+    background: rgba(234, 246, 240, 0.97);
+    box-shadow: 0 14px 40px rgba(23, 54, 39, 0.22);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    transform: translateZ(0);
+  }
+
+  .mobile-sticky-cta p {
+    color: #173627;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .mobile-sticky-cta a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border-radius: 999px;
+    background: #173627;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .mobile-sticky-cta a:hover {
+    opacity: 1;
+    background: #1f4a33;
+  }
+}
+
 /* --- RESPONSIVE --- */
 @media (max-width: 900px) {
   .hero-actions{justify-content:center}
@@ -1450,55 +1502,6 @@ ul { list-style: none; }
 }
 
 @media (max-width: 600px) {
-  body {
-    padding-bottom: calc(98px + env(safe-area-inset-bottom));
-  }
-
-  .mobile-sticky-cta {
-    position: fixed;
-    left: 12px;
-    right: 12px;
-    bottom: calc(12px + env(safe-area-inset-bottom));
-    z-index: 120;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: center;
-    gap: 12px;
-    padding: 12px;
-    border: 1px solid rgba(23, 54, 39, 0.14);
-    border-radius: 20px;
-    background: rgba(234, 246, 240, 0.96);
-    box-shadow: 0 14px 40px rgba(23, 54, 39, 0.20);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-  }
-
-  .mobile-sticky-cta p {
-    color: #173627;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1.35;
-  }
-
-  .mobile-sticky-cta a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 44px;
-    padding: 0 16px;
-    border-radius: 999px;
-    background: #173627;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 800;
-    white-space: nowrap;
-  }
-
-  .mobile-sticky-cta a:hover {
-    opacity: 1;
-    background: #1f4a33;
-  }
-
   .hero-content h1 { font-size: 26px; }
   .section-title { font-size: 24px; }
   .article-hero h1 { font-size: 32px; }
