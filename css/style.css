@@ -215,34 +215,6 @@ ul { list-style: none; }
   box-shadow: 0 20px 40px rgba(23, 54, 39, 0.15);
 }
 
-/* --- READING BAND --- */
-.reading-band {
-  margin-top: -40px;
-  padding: 0 0 48px;
-}
-
-.reading-band .container {
-  display: flex;
-  justify-content: center;
-}
-
-.reading-band p {
-  max-width: 760px;
-  padding: 18px 24px;
-  border: 1px solid rgba(23, 54, 39, 0.12);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.45);
-  color: #2a5a43;
-  font-size: 15px;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.reading-band a {
-  font-weight: 700;
-  border-bottom: 1px solid rgba(23, 54, 39, 0.35);
-}
-
 /* --- SECTION BASE --- */
 .section {
   padding: 80px 0;
@@ -1389,6 +1361,11 @@ ul { list-style: none; }
 
 .footer-col a:hover { color: #eaf6f0; opacity: 1; }
 
+/* --- MOBILE STICKY CTA --- */
+.mobile-sticky-cta {
+  display: none;
+}
+
 /* --- RESPONSIVE --- */
 @media (max-width: 900px) {
   .hero-actions{justify-content:center}
@@ -1473,6 +1450,55 @@ ul { list-style: none; }
 }
 
 @media (max-width: 600px) {
+  body {
+    padding-bottom: calc(98px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-sticky-cta {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    z-index: 120;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid rgba(23, 54, 39, 0.14);
+    border-radius: 20px;
+    background: rgba(234, 246, 240, 0.96);
+    box-shadow: 0 14px 40px rgba(23, 54, 39, 0.20);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .mobile-sticky-cta p {
+    color: #173627;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .mobile-sticky-cta a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border-radius: 999px;
+    background: #173627;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .mobile-sticky-cta a:hover {
+    opacity: 1;
+    background: #1f4a33;
+  }
+
   .hero-content h1 { font-size: 26px; }
   .section-title { font-size: 24px; }
   .article-hero h1 { font-size: 32px; }
@@ -1587,17 +1613,5 @@ ul { list-style: none; }
 
   .hero {
     padding: 30px 0 64px;
-  }
-}
-
-@media(max-width:900px){
-  .reading-band {
-    margin-top: 0;
-    padding: 28px 0 40px;
-  }
-
-  .reading-band p {
-    font-size: 14px;
-    text-align: left;
   }
 }
