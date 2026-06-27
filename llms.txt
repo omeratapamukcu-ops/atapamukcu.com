@@ -123,3 +123,11 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 ## Özet cümle
 
 Ata Pamukçu, Antalya merkezli ve online çalışan bir psikologdur; site, psikolojik sorunları etiketlemekten çok kaygı, kaçınma, düşünce döngüleri ve davranış örüntülerinin günlük yaşamda nasıl sürdüğünü anlamaya odaklanan Türkçe bilgilendirme sayfaları içerir.
+
+## Local Entity Signals
+- Name: Psikolog Ata Pamukçu
+- Location: Antalya, Türkiye
+- Service model: Antalya merkezli ve online psikolojik destek
+- Core topics: kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, depresif belirtiler, özgül fobi
+- Social profiles: Instagram https://instagram.com/atapamukcu; Psychology 3.0/Substack https://atapamukcu.substack.com
+- Contact: atapamukcu@gmail.com; +90 532 762 4060

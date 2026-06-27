@@ -261,5 +261,33 @@
         "https://www.atapamukcu.com/araclar/panik-atak-ani-plani"
       ]
     }
-  ]
+  ],
+  "entity": {
+    "name": "Psikolog Ata Pamukçu",
+    "location": "Antalya, Türkiye",
+    "email": "atapamukcu@gmail.com",
+    "telephone": "+90 532 762 4060",
+    "sameAs": [
+      "https://instagram.com/atapamukcu",
+      "https://atapamukcu.substack.com"
+    ],
+    "service_model": [
+      "Antalya merkezli psikolojik destek",
+      "Online psikolojik destek"
+    ]
+  },
+  "core_topics": [
+    "kaygı",
+    "panik atak",
+    "OKB",
+    "sosyal kaygı",
+    "travma sonrası tepkiler",
+    "depresif belirtiler",
+    "özgül fobi",
+    "psikolojik esneklik"
+  ],
+  "local_seo_notes": {
+    "nap": "Psikolog Ata Pamukçu, Antalya, Türkiye, +90 532 762 4060, atapamukcu@gmail.com",
+    "citation_status": "GBP, DoktorTakvimi ve benzeri dış profiller kullanıcı onayı ve profil URL doğrulaması sonrası sameAs alanına eklenmelidir."
+  }
 }
