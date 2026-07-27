@@ -1618,3 +1618,83 @@ ul { list-style: none; }
     padding: 30px 0 64px;
   }
 }
+
+/* Editorial trust layer — author, dates, sources and approach comparison */
+.article-meta {
+  margin: 18px auto 0;
+  color: #466353;
+  font-size: 0.93rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.article-meta a {
+  color: #1f5b3d;
+  font-weight: 700;
+}
+
+.contextual-service-link {
+  margin: 28px 0;
+  padding: 18px 20px;
+  border-left: 4px solid #2a6f4e;
+  border-radius: 0 12px 12px 0;
+  background: rgba(217, 237, 227, 0.72);
+}
+
+.article-sources {
+  width: min(880px, calc(100% - 40px));
+  margin: 36px auto 44px;
+  padding: 28px;
+  border: 1px solid rgba(23, 54, 39, 0.1);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 12px 28px rgba(23, 54, 39, 0.05);
+}
+
+.article-sources h2 { margin-top: 0; }
+.article-sources li + li { margin-top: 12px; }
+
+.source-note {
+  margin: 18px 0 0;
+  color: #5a6d62;
+  font-size: 0.9rem;
+}
+
+.comparison-table {
+  width: 100%;
+  margin: 22px 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 14px;
+  border: 1px solid rgba(23, 54, 39, 0.14);
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table th {
+  background: #d9ede3;
+  color: #173627;
+}
+
+.verified-profiles a[rel~="me"] { font-weight: 700; }
+
+@media (max-width: 640px) {
+  .article-meta span { display: none; }
+  .article-meta time,
+  .article-meta a { display: block; }
+
+  .article-sources {
+    width: min(100% - 28px, 880px);
+    padding: 22px 20px;
+  }
+
+  .comparison-table {
+    display: block;
+    overflow-x: auto;
+    white-space: normal;
+  }
+}
