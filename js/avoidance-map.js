@@ -15,6 +15,7 @@
   var output = document.getElementById('avoidOutput');
   var result = document.getElementById('avoidResult');
   var status = document.getElementById('avoidStatus');
+  var clear = document.getElementById('avoidClear');
 
   function buildText() {
     var lines = ['KAÇINMA HARİTAM', ''];
@@ -32,7 +33,10 @@
     output.textContent = buildText();
     result.hidden = false;
     status.textContent = 'Harita oluşturuldu. Bu sayfa girdilerinizi sunucuya göndermez veya kalıcı kaydetmez.';
-    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    result.setAttribute('tabindex', '-1');
+    result.focus({ preventScroll: true });
+    var motion = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+    result.scrollIntoView({ behavior: motion, block: 'start' });
   });
 
   document.getElementById('avoidCopy').addEventListener('click', function () {
@@ -55,6 +59,21 @@
       status.textContent = 'Yazdırmadan önce haritayı oluşturun.';
       return;
     }
+    document.body.classList.add('print-avoidance');
     window.print();
+    document.body.classList.remove('print-avoidance');
+  });
+
+  window.addEventListener('afterprint', function () {
+    document.body.classList.remove('print-avoidance');
+  });
+
+  clear.addEventListener('click', function () {
+    form.reset();
+    output.textContent = '';
+    result.hidden = true;
+    result.removeAttribute('tabindex');
+    status.textContent = 'Form ve oluşturulan harita temizlendi.';
+    document.getElementById('aSituation').focus();
   });
 })();

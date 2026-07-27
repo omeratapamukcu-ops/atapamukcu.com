@@ -22,6 +22,19 @@ EXPECTED_URLS = {
     "https://www.atapamukcu.com/araclar/islevsel-takip",
     "https://www.atapamukcu.com/ogrenme-yollari/kaygi",
 }
+EXPECTED_CANONICALS = {
+    ROOT / "kaygi-dongusu.html": "https://www.atapamukcu.com/kaygi-dongusu",
+    ROOT / "uygulamalar/kacinma-haritasi.html": "https://www.atapamukcu.com/uygulamalar/kacinma-haritasi",
+    ROOT / "araclar/islevsel-takip.html": "https://www.atapamukcu.com/araclar/islevsel-takip",
+    ROOT / "ogrenme-yollari/kaygi.html": "https://www.atapamukcu.com/ogrenme-yollari/kaygi",
+    ROOT / "site-haritasi.html": "https://www.atapamukcu.com/site-haritasi",
+}
+SENSITIVE_TOOL_PAGES = {
+    ROOT / "uygulamalar/kacinma-haritasi.html",
+    ROOT / "araclar/islevsel-takip.html",
+    ROOT / "araclar/kaygi-dongusu-haritasi.html",
+    ROOT / "araclar/panik-atak-ani-plani.html",
+}
 
 class AuditParser(HTMLParser):
     def __init__(self):
@@ -73,6 +86,8 @@ for page in PAGES:
     if duplicates: errors.append(f"duplicate ids {page.name}: {sorted(duplicates)}")
     if len(parser.canonicals) != 1: errors.append(f"canonical count {page.name}: {len(parser.canonicals)}")
     else:
+        if parser.canonicals[0] != EXPECTED_CANONICALS[page]:
+            errors.append(f"wrong self-canonical {page.name}: {parser.canonicals[0]}")
         if parser.canonicals[0] in canonicals: errors.append(f"duplicate canonical: {parser.canonicals[0]}")
         canonicals.add(parser.canonicals[0])
     title = "".join(parser.titles).strip()
@@ -98,17 +113,29 @@ for page in PAGES:
             continue
         objects = data if isinstance(data, list) else [data]
         for obj in objects:
-            if isinstance(obj, dict) and obj.get("@type") == "Article" and obj.get("citation"):
+            if isinstance(obj, dict) and obj.get("citation"):
                 schema_urls = set(obj["citation"])
                 source_match = re.search(r'<section class="article-sources".*?</section>', text, re.S)
                 visible_urls = set(re.findall(r'href="(https://(?:www\.)?(?:nimh\.nih\.gov|nice\.org\.uk|doi\.org)/?[^"]*)"', source_match.group(0) if source_match else ""))
                 if schema_urls != visible_urls:
                     errors.append(f"citation mismatch {page.name}: schema={schema_urls} visible={visible_urls}")
+    if page in SENSITIVE_TOOL_PAGES:
+        if "googletagmanager.com" in text or "gtag(" in text:
+            errors.append(f"analytics present on sensitive tool page: {page.relative_to(ROOT)}")
+        if "girdiler sunucuya gönderilmez" not in text and "Kayıtlar yalnızca bu sekme" not in text:
+            errors.append(f"missing scoped local-data disclosure: {page.relative_to(ROOT)}")
+
+for page in SENSITIVE_TOOL_PAGES - set(PAGES):
+    text = page.read_text(encoding="utf-8")
+    if "googletagmanager.com" in text or "gtag(" in text:
+        errors.append(f"analytics present on sensitive tool page: {page.relative_to(ROOT)}")
+    if "sunucuya gönderilmez" not in text:
+        errors.append(f"missing scoped local-data disclosure: {page.relative_to(ROOT)}")
 
 # Page-specific functional and safety checks.
 REQUIRED_TEXT = {
     "kaygi-dongusu.html": ["Bu rehber tanı değildir", "ciddi nefes darlığı", "kısa vadeli rahatlama", "uzun vadeli sonuçlarını"],
-    "uygulamalar/kacinma-haritasi.html": ["Ne değildir?", "Kimin için uygun olmayabilir?", "Durma ölçütü", "Acil destek"],
+    "uygulamalar/kacinma-haritasi.html": ["Ne değildir?", "Kimin için uygun olmayabilir?", "Durma ölçütü", "Acil destek", 'id="avoidClear"'],
     "araclar/islevsel-takip.html": ['id="trackerForm"', 'id="downloadCsv"', "sunucuya gönderilmez", "tarayıcı depolamasına yazılmaz"],
     "ogrenme-yollari/kaygi.html": ["Kaygının genel çerçevesini okuyun", "Döngünün nasıl sürdüğünü öğrenin", "Tek bir kaçınma örneğini haritalayın", "Örüntünün tekrarını gözlemleyin", "Profesyonel ve acil destek"],
 }
@@ -125,13 +152,36 @@ try:
     urls = {node.text for node in root.findall("s:url/s:loc", ns)}
     missing_urls = EXPECTED_URLS - urls
     if missing_urls: errors.append(f"sitemap missing: {sorted(missing_urls)}")
+    expected_lastmod = {
+        "https://www.atapamukcu.com/genel-kaygi": "2026-07-27",
+        "https://www.atapamukcu.com/okb-belirtileri": "2026-07-27",
+        "https://www.atapamukcu.com/panik-atak-belirtileri": "2026-07-27",
+        "https://www.atapamukcu.com/psikolojik-esneklik": "2026-07-27",
+        "https://www.atapamukcu.com/sosyal-kaygi-belirtileri": "2026-07-27",
+    }
+    for url_node in root.findall("s:url", ns):
+        loc = url_node.findtext("s:loc", namespaces=ns)
+        if loc in expected_lastmod:
+            lastmod = url_node.findtext("s:lastmod", namespaces=ns)
+            if lastmod != expected_lastmod[loc]:
+                errors.append(f"stale sitemap lastmod {loc}: {lastmod}")
 except Exception as exc:
     errors.append(f"invalid sitemap: {exc}")
 
 # Cross-page discovery points.
 index = (ROOT / "araclar.html").read_text(encoding="utf-8")
+if "Bu dizin sayfası anonim sayfa görüntüleme analitiği kullanır" not in index:
+    errors.append("tools index missing scoped analytics disclosure")
 for href in ["/uygulamalar/kacinma-haritasi", "/araclar/islevsel-takip", "/araclar/kaygi-dongusu-haritasi"]:
     if f'href="{href}"' not in index: errors.append(f"tools index missing {href}")
+
+# Known-source metadata and generated contact-link regressions.
+tracker_text = (ROOT / "araclar/islevsel-takip.html").read_text(encoding="utf-8")
+if "A process-based approach to psychological diagnosis and treatment" not in tracker_text:
+    errors.append("incorrect or missing title for DOI 10.1016/j.cpr.2020.101908")
+for page in PAGES:
+    if "tel:+905****4060" in page.read_text(encoding="utf-8"):
+        errors.append(f"malformed telephone URI: {page.relative_to(ROOT)}")
 
 if errors:
     print("FAILED")

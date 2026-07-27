@@ -42,7 +42,7 @@
   function csvCell(value) {
     var text = String(value || '');
     // Prevent spreadsheet applications from interpreting a user-entered value as a formula.
-    if (/^[=+\-@]/.test(text)) text = "'" + text;
+    if (/^[\t\r\n ]*[=+\-@]/.test(text)) text = "'" + text;
     return '"' + text.replace(/"/g, '""') + '"';
   }
 
@@ -75,13 +75,19 @@
     document.body.appendChild(link);
     link.click();
     link.remove();
-    URL.revokeObjectURL(url);
+    window.setTimeout(function () { URL.revokeObjectURL(url); }, 0);
     status.textContent = 'CSV dosyası indirildi.';
   });
 
   document.getElementById('printTracker').addEventListener('click', function () {
     if (!records.length) { status.textContent = 'Yazdırmak için önce en az bir kayıt ekleyin.'; return; }
+    document.body.classList.add('print-tracker');
     window.print();
+    document.body.classList.remove('print-tracker');
+  });
+
+  window.addEventListener('afterprint', function () {
+    document.body.classList.remove('print-tracker');
   });
 
   document.getElementById('clearTracker').addEventListener('click', function () {

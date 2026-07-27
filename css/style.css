@@ -1874,6 +1874,19 @@ ul { list-style: none; }
 .tracker-table th { background: #d9ede3; }
 .empty-state { color: #5a6d62; font-style: italic; }
 
+@media print {
+  body.print-avoidance * { visibility: hidden !important; }
+  body.print-avoidance #avoidResult,
+  body.print-avoidance #avoidResult * { visibility: visible !important; }
+  body.print-avoidance #avoidResult { position: absolute; inset: 0; margin: 0; box-shadow: none; }
+
+  body.print-tracker * { visibility: hidden !important; }
+  body.print-tracker .tracker-table-wrap,
+  body.print-tracker .tracker-table-wrap * { visibility: visible !important; }
+  body.print-tracker .tracker-table-wrap { position: absolute; inset: 0; margin: 0; overflow: visible; }
+  body.print-tracker .tracker-table { min-width: 0; }
+}
+
 .reading-time {
   margin: 16px 0 0;
   color: #466353;
