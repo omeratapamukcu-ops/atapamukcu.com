@@ -138,6 +138,7 @@ REQUIRED_TEXT = {
     "uygulamalar/kacinma-haritasi.html": ["Ne değildir?", "Kimin için uygun olmayabilir?", "Durma ölçütü", "Acil destek", 'id="avoidClear"'],
     "araclar/islevsel-takip.html": ['id="trackerForm"', 'id="downloadCsv"', "sunucuya gönderilmez", "tarayıcı depolamasına yazılmaz"],
     "ogrenme-yollari/kaygi.html": ["Kaygının genel çerçevesini okuyun", "Döngünün nasıl sürdüğünü öğrenin", "Tek bir kaçınma örneğini haritalayın", "Örüntünün tekrarını gözlemleyin", "Profesyonel ve acil destek"],
+    "site-haritasi.html": ['href="#psikolojik-sorunlar"', 'id="psikolojik-sorunlar"', 'href="/sosyal-kaygi"', 'href="/depresyon"', 'href="/travma"', 'href="/okb"', 'href="/yukseklik-korkusu"', 'href="/panik-atak"', 'href="/genel-kaygi"', 'href="/ozgul-fobi"'],
 }
 for rel, needles in REQUIRED_TEXT.items():
     page = ROOT / rel
