@@ -308,7 +308,7 @@
   </url>
   <url>
     <loc>https://www.atapamukcu.com/site-haritasi</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -428,13 +428,13 @@
   </url>
   <url>
     <loc>https://www.atapamukcu.com/araclar</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -455,5 +455,29 @@
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/kaygi-dongusu</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/uygulamalar/kacinma-haritasi</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/araclar/islevsel-takip</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atapamukcu.com/ogrenme-yollari/kaygi</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
