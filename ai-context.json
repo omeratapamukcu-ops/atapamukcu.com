@@ -4,7 +4,7 @@
   "name": "AI context for Psikolog Ata Pamukçu",
   "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
   "url": "https://www.atapamukcu.com/ai-context.json",
-  "dateModified": "2026-06-19",
+  "dateModified": "2026-08-03",
   "inLanguage": "tr-TR",
   "mainEntity": {
     "@type": "Person",
@@ -37,7 +37,8 @@
     "sameAs": [
       "https://instagram.com/atapamukcu",
       "https://atapamukcu.substack.com",
-      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg"
+      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg",
+      "https://www.google.com/maps?cid=4424804506606398801"
     ],
     "knowsAbout": [
       "Kaygı",
@@ -156,6 +157,22 @@
     {
       "name": "Psikoloji 3.0",
       "url": "https://www.atapamukcu.com/psikoloji-3"
+    },
+    {
+      "name": "Kaygı Döngüsü Rehberi",
+      "url": "https://www.atapamukcu.com/kaygi-dongusu"
+    },
+    {
+      "name": "Kaygının Öğrenme Yolları",
+      "url": "https://www.atapamukcu.com/ogrenme-yollari/kaygi"
+    },
+    {
+      "name": "Kaçınma Haritası",
+      "url": "https://www.atapamukcu.com/uygulamalar/kacinma-haritasi"
+    },
+    {
+      "name": "İşlevsel Takip Aracı",
+      "url": "https://www.atapamukcu.com/araclar/islevsel-takip"
     }
   ],
   "safetyNote": "The website provides general psychological information and appointment/contact information. It is not a crisis, emergency, diagnosis, or medical advice service.",
@@ -173,7 +190,11 @@
         "https://www.atapamukcu.com/yaygin-anksiyete-bozuklugu",
         "https://www.atapamukcu.com/surekli-endise",
         "https://www.atapamukcu.com/sinav-kaygisi",
-        "https://www.atapamukcu.com/antalya-kaygi-psikolog"
+        "https://www.atapamukcu.com/antalya-kaygi-psikolog",
+        "https://www.atapamukcu.com/kaygi-dongusu",
+        "https://www.atapamukcu.com/ogrenme-yollari/kaygi",
+        "https://www.atapamukcu.com/uygulamalar/kacinma-haritasi",
+        "https://www.atapamukcu.com/araclar/islevsel-takip"
       ]
     },
     {
@@ -258,6 +279,10 @@
       "name": "Mini psikolojik araçlar",
       "pillar": "https://www.atapamukcu.com/araclar",
       "pages": [
+        "https://www.atapamukcu.com/kaygi-dongusu",
+        "https://www.atapamukcu.com/ogrenme-yollari/kaygi",
+        "https://www.atapamukcu.com/uygulamalar/kacinma-haritasi",
+        "https://www.atapamukcu.com/araclar/islevsel-takip",
         "https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi",
         "https://www.atapamukcu.com/araclar/panik-atak-ani-plani"
       ]
@@ -271,7 +296,8 @@
     "sameAs": [
       "https://instagram.com/atapamukcu",
       "https://atapamukcu.substack.com",
-      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg"
+      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg",
+      "https://www.google.com/maps?cid=4424804506606398801"
     ],
     "service_model": [
       "Antalya merkezli psikolojik destek",
@@ -290,6 +316,7 @@
   ],
   "local_seo_notes": {
     "nap": "Psikolog Ata Pamukçu, Antalya, Türkiye, +90 532 762 4060, atapamukcu@gmail.com",
-    "citation_status": "GBP, DoktorTakvimi ve benzeri dış profiller kullanıcı onayı ve profil URL doğrulaması sonrası sameAs alanına eklenmelidir."
+    "google_business_profile": "https://www.google.com/maps?cid=4424804506606398801",
+    "citation_status": "Doğrulanmış Google Business Profile URL'si sameAs alanına eklenmiştir; diğer dış profiller yalnızca sahiplik ve profil URL'si doğrulandıktan sonra eklenmelidir."
   }
 }

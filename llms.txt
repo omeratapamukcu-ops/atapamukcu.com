@@ -48,6 +48,10 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 - Yaygın anksiyete: https://www.atapamukcu.com/yaygin-anksiyete-bozuklugu
 - Sürekli endişe: https://www.atapamukcu.com/surekli-endise
 - Sınav kaygısı: https://www.atapamukcu.com/sinav-kaygisi
+- Kaygı döngüsü rehberi: https://www.atapamukcu.com/kaygi-dongusu
+- Kaygının öğrenme yolları: https://www.atapamukcu.com/ogrenme-yollari/kaygi
+- Kaçınma haritası: https://www.atapamukcu.com/uygulamalar/kacinma-haritasi
+- İşlevsel takip aracı: https://www.atapamukcu.com/araclar/islevsel-takip
 
 ### Panik atak ve panik bozukluk
 - Panik atak: https://www.atapamukcu.com/panik-atak
@@ -117,6 +121,11 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 - Karar verememe: https://www.atapamukcu.com/karar-verememe
 
 ### Mini araçlar
+- Kaygı öğrenme zinciri: rehber → öğrenme yolları → kaçınma haritası → işlevsel takip
+- Kaygı döngüsü rehberi: https://www.atapamukcu.com/kaygi-dongusu
+- Kaygının öğrenme yolları: https://www.atapamukcu.com/ogrenme-yollari/kaygi
+- Kaçınma haritası: https://www.atapamukcu.com/uygulamalar/kacinma-haritasi
+- İşlevsel takip aracı: https://www.atapamukcu.com/araclar/islevsel-takip
 - Kaygı döngüsü haritası: https://www.atapamukcu.com/araclar/kaygi-dongusu-haritasi
 - Panik atak anı planı: https://www.atapamukcu.com/araclar/panik-atak-ani-plani
 
@@ -129,5 +138,5 @@ Ata Pamukçu, Antalya merkezli ve online çalışan bir psikologdur; site, psiko
 - Location: Antalya, Türkiye
 - Service model: Antalya merkezli ve online psikolojik destek
 - Core topics: kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, depresif belirtiler, özgül fobi
-- Social profiles: Instagram https://instagram.com/atapamukcu; Psychology 3.0/Substack https://atapamukcu.substack.com
+- Social and entity profiles: Instagram https://instagram.com/atapamukcu; Psychology 3.0/Substack https://atapamukcu.substack.com; YouTube https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg; Google Business Profile https://www.google.com/maps?cid=4424804506606398801
 - Contact: atapamukcu@gmail.com; +90 532 762 4060
