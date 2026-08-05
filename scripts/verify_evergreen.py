@@ -154,7 +154,7 @@ try:
     missing_urls = EXPECTED_URLS - urls
     if missing_urls: errors.append(f"sitemap missing: {sorted(missing_urls)}")
     expected_lastmod = {
-        "https://www.atapamukcu.com/genel-kaygi": "2026-07-27",
+        "https://www.atapamukcu.com/genel-kaygi": "2026-08-05",
         "https://www.atapamukcu.com/okb-belirtileri": "2026-07-27",
         "https://www.atapamukcu.com/panik-atak-belirtileri": "2026-07-27",
         "https://www.atapamukcu.com/psikolojik-esneklik": "2026-07-27",

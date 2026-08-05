@@ -72,4 +72,72 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  // --- PRIVACY-SAFE CTA MEASUREMENT ---
+  // Only generic interaction metadata is sent. Link URLs, phone numbers,
+  // email addresses, WhatsApp message text and form/health content are excluded.
+  function sendAnalyticsEvent(eventName, parameters) {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () {
+      window.dataLayer.push(arguments);
+    };
+    if (!window.__ctaAnalyticsConfigured) {
+      window.gtag('config', 'G-M1K0Q69Q2Z');
+      window.__ctaAnalyticsConfigured = true;
+    }
+    window.gtag('event', eventName, parameters);
+  }
+
+  function getEventSurface(element) {
+    if (element.closest('header')) return 'header';
+    if (element.closest('footer')) return 'footer';
+    if (element.closest('.article-cta')) return 'article_cta';
+    if (element.closest('.article-hero')) return 'hero';
+    return 'content';
+  }
+
+  document.addEventListener('click', function (event) {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+
+    const href = link.getAttribute('href') || '';
+    const normalizedHref = href.toLowerCase();
+    const eventParameters = {
+      event_surface: getEventSurface(link),
+      transport_type: 'beacon'
+    };
+
+    if (normalizedHref.startsWith('tel:')) {
+      sendAnalyticsEvent('phone_click', eventParameters);
+      return;
+    }
+
+    if (normalizedHref.startsWith('mailto:')) {
+      sendAnalyticsEvent('email_click', eventParameters);
+      return;
+    }
+
+    if (normalizedHref.includes('wa.me/') || normalizedHref.includes('whatsapp.com/')) {
+      sendAnalyticsEvent('whatsapp_click', eventParameters);
+
+      const visibleLabel = (link.textContent || '').toLocaleLowerCase('tr-TR');
+      const startsAppointment = link.classList.contains('btn-primary') ||
+        visibleLabel.includes('randevu') ||
+        visibleLabel.includes('değerlendirme');
+
+      if (startsAppointment) {
+        sendAnalyticsEvent('appointment_start', eventParameters);
+      }
+    }
+  });
+
+  // A booking/form integration may dispatch this only after it has confirmed
+  // success: document.dispatchEvent(new CustomEvent('appointment:complete')).
+  // No completion is inferred from a click.
+  document.addEventListener('appointment:complete', function () {
+    sendAnalyticsEvent('appointment_complete', {
+      completion_source: 'verified_success',
+      transport_type: 'beacon'
+    });
+  });
+
 });
