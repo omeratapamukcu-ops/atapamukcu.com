@@ -9,7 +9,7 @@ DATE = "2026-07-27"
 IMG = f"{BASE}/images/hero-photo.jpg"
 
 NAV = '''<header class="site-header" id="header"><div class="container"><div class="nav-inner">
-<a href="/" class="logo">ATA PAMUKÇU</a><nav class="nav-right"><a href="/">ANA SAYFA</a><a href="/baslangic">BAŞLANGIÇ</a><a href="/hakkimda">HAKKIMDA</a><a href="/site-haritasi">REHBER</a><a href="/araclar">ARAÇLAR</a><a href="/psikoloji-3">PSİKOLOJİ 3.0</a><a href="/#iletisim">İLETİŞİM</a><a href="https://instagram.com/atapamukcu" target="_blank" rel="noopener" class="instagram-icon" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></nav>
+<a href="/" class="logo">ATA PAMUKÇU</a><nav class="nav-right"><a href="/">ANA SAYFA</a><a href="/baslangic">BAŞLANGIÇ</a><a href="/hakkimda">HAKKIMDA</a><a href="/site-haritasi">REHBER</a><a href="/araclar">ARAÇLAR</a><a href="/psikoloji-3">PSİKOLOJİ 3.0</a><a href="/#iletisim">İLETİŞİM</a></nav>
 </div></div></header>'''
 
 FOOTER = '''<footer class="site-footer" id="iletisim"><div class="container"><div class="footer-grid"><div class="footer-col"><h3>ATA PAMUKÇU</h3><p><a href="/hakkimda">Hakkımda</a></p><p><a href="/site-haritasi">Rehber kütüphanesi</a></p><p><a href="/araclar">Araçlar</a></p></div><div class="footer-col"><h3>YER</h3><p>ANTALYA</p></div><div class="footer-col"><h3>İLETİŞİM</h3><p><a href="mailto:atapamukcu@gmail.com">ATAPAMUKCU@GMAIL.COM</a></p><p><a href="tel:+905327624060">(532) 762-4060</a></p></div></div></div></footer>'''

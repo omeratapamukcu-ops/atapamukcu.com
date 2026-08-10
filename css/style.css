@@ -99,12 +99,6 @@ ul { list-style: none; }
   color: #173627;
 }
 
-.instagram-icon svg {
-  display: block;
-  width: 20px;
-  height: 20px;
-}
-
 /* --- HERO SECTION --- */
 .hero {
   padding: 120px 0 80px;
@@ -1603,15 +1597,6 @@ ul { list-style: none; }
     font-size: 10px;
     line-height: 1;
     letter-spacing: 0.7px;
-  }
-
-  .instagram-icon {
-    padding-right: 0;
-  }
-
-  .instagram-icon svg {
-    width: 17px;
-    height: 17px;
   }
 
   .hero {
