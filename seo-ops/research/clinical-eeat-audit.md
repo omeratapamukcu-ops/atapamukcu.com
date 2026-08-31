@@ -50,3 +50,15 @@ Uygulanan düzeltmeler:
 4. `/sosyal-kaygi`
 
 Her sayfada önce iddia envanteri çıkarılmalı; ardından kaynak, yazar, tarih ve güvenlik sınırı aynı değişiklik paketinde ele alınmalıdır. Kaynak eklemeden yalnızca tarih güncellenmemelidir.
+
+## Sayfa bazlı iddia envanteri: `/depresyon`
+
+Gözden geçirme tarihi: 2026-08-31
+
+- **Belirti iddiaları:** çökkün duygu durumu, ilgi veya haz azalması, enerji düşüklüğü, değersizlik/suçluluk ve işlev kaybı. WHO depresyon bilgi notu ve NIMH depresyon yayınıyla sınırlandı; listedeki belirtiler tanı testi olarak sunulmadı.
+- **Sürdürücü mekanizma iddiası:** davranış ve sosyal temas azaldıkça ödüllendirici deneyimlerin azalabileceği, bunun çökkünlüğün sürmesine katkı sağlayabileceği. Nedensellik veya herkes için geçerlilik iddiası kurulmadı.
+- **Müdahale iddiası:** davranışsal aktivasyonun küçük, gerçekçi ve takip edilebilir adımlarla yaşamla teması artırmayı hedefleyebileceği. Sonuç garantisi verilmedi; WHO'nun etkili psikolojik tedaviler arasında davranışsal aktivasyonu sayması kaynaklandı.
+- **Tanı ve tıbbi sınır:** her duygu çökkünlüğünün depresyon olmadığı, sayfanın kendi kendine tanı, tıbbi ayırıcı değerlendirme veya kişisel tedavi planı yerine geçmediği görünür metinde açıklandı.
+- **Acil güvenlik sınırı:** kendine zarar verme veya yaşamına son verme düşüncesi, niyeti ya da planı; güvenliği sürdürememe veya yakın tehlike halinde online danışmanlık/WhatsApp yerine 112 veya en yakın acil servis belirtildi.
+- **Editoryal sorumluluk ve güncellik:** görünür yazar bağlantısı, editoryal sorumluluk, WHO/NIMH kaynakçası, Article `citation`, gerçek `dateModified` ve sitemap `lastmod` birlikte güncellendi.
+- **CTA ölçümü:** iki WhatsApp CTA'sı mevcut consent-gated `seans_degerlendirme_cta_click` olayına bağlandı; payload yalnızca genel `event_surface` ve `transport_type` alanlarını kullanır.
