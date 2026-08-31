@@ -4,11 +4,11 @@
   "name": "AI context for Psikolog Ata Pamukçu",
   "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
   "url": "https://www.atapamukcu.com/ai-context.json",
-  "dateModified": "2026-08-05",
+  "dateModified": "2026-08-31",
   "inLanguage": "tr-TR",
   "mainEntity": {
     "@type": "Person",
-    "@id": "https://www.atapamukcu.com/#ata-pamukcu",
+    "@id": "https://www.atapamukcu.com/#person",
     "name": "Ata Pamukçu",
     "alternateName": "Psikolog Ata Pamukçu",
     "jobTitle": "Psikolog",
@@ -90,7 +90,10 @@
         "name": "Mindfulness temelli terapi eğitimi"
       }
     ],
-    "description": "Antalya merkezli ve online çalışan psikolog. Kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, fobiler ve duygu çökkünlüğü alanlarında davranış analizi ve bilimsel temelli psikolojik destek çerçevesiyle çalışır."
+    "description": "Antalya merkezli ve online çalışan psikolog. Kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, fobiler ve duygu çökkünlüğü alanlarında davranış analizi ve bilimsel temelli psikolojik destek çerçevesiyle çalışır.",
+    "worksFor": {
+      "@id": "https://www.atapamukcu.com/#localbusiness"
+    }
   },
   "importantPages": [
     {
@@ -300,7 +303,15 @@
     "service_model": [
       "Antalya merkezli psikolojik destek",
       "Online psikolojik destek"
-    ]
+    ],
+    "@type": [
+      "LocalBusiness",
+      "ProfessionalService"
+    ],
+    "@id": "https://www.atapamukcu.com/#localbusiness",
+    "founder": {
+      "@id": "https://www.atapamukcu.com/#person"
+    }
   },
   "core_topics": [
     "kaygı",
