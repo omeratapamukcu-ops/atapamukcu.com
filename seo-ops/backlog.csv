@@ -1,7 +1,7 @@
 id,item,impact,confidence,effort,measurability,priority,status,approval_required,next_measure
-B001,GSC son 28 gün ve önceki 28 gün sorgu+URL+ülke+cihaz baseline,5,5,2,5,P0,blocked_data,false,GSC erişimi sağlandığında
+B001,GSC son 28 gün ve önceki 28 gün sorgu+URL+ülke+cihaz baseline,5,5,2,5,P0,done,false,"2026-08-31 API erişimi ve iki ardışık 28 günlük kırılım doğrulandı"
 B002,Online psikolog sayfasında exact intent title H1 meta ve online-only tutarlılığı,5,5,2,5,P0,done,false,2026-09-01
-B003,Kritik 15 sorgu için gl=tr hl=tr pws=0 uyumlu rank tracker veya Search Console ölçümü,5,4,3,5,P0,ready,false,2026-09-01
+B003,Kritik 15 sorgu için gl=tr hl=tr pws=0 uyumlu rank tracker veya Search Console ölçümü,5,4,3,5,P0,blocked_data,false,"GSC erişimi çalışıyor; 15 exact sorgunun iki dönem ve iki cihazda raporlanan satırı yok, coverage UNKNOWN; günlük yeniden ölç"
 B004,Online psikolog sayfasında görünür FAQ ile FAQPage birebir eşleşme denetimi,4,5,1,5,P1,done,false,2026-09-01
 B005,Klinik cornerstone sayfalarında kaynak ve E-E-A-T boşluk envanteri,4,4,3,4,P1,done,false,2026-09-01
 B006,Online psikolog sayfasında CTR ve CTA olay ölçümünü doğrulama,5,4,3,5,P1,done,false,2026-09-01

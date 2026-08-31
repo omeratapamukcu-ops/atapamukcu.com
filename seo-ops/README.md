@@ -11,6 +11,10 @@ Görüşmeler yalnızca online yapılır. Sabit ofis ve yüz yüze hizmet yoktur
 - `query-portfolio.csv`: Sorgu portföyü ve sorgu, canonical URL eşlemesi.
 - `measurements.csv`: Tarihli GSC ve kişiselleştirilmemiş SERP gözlemleri.
 - `baseline.md`: Başlangıç ölçüm durumu ve KPI tanımları.
+- `rank-measurement-spec.md`: GSC ölçüm sözleşmesi, SERP güven kapıları ve veri sınırları.
+- `rank-baseline.csv`: Kritik 15 sorgunun iki dönem ve iki cihaz baseline çıktısı.
+- `rank-baseline-summary.json`: Top 3 coverage durumu ve ölçüm özeti.
+- `scripts/measure_gsc_rank.py`: Credential değerlerini kaydetmeden GSC ölçümünü tekrar üretir.
 - `competitors.md`: Sorgu bazlı ilk sonuç ve rakip öğrenimleri.
 - `backlog.csv`: Etki, güven, efor ve ölçülebilirlik önceliği.
 - `changelog.md`: Uygulanan SEO değişiklikleri ve doğrulama kanıtı.
@@ -24,3 +28,11 @@ Görüşmeler yalnızca online yapılır. Sabit ofis ve yüz yüze hizmet yoktur
 4. Organik sonuçlar ile Maps/local pack ayrılır.
 5. `position` bilinmiyorsa boş bırakılır; tahmin yazılmaz.
 6. Kritik sorgular günlük, geniş portföy haftalık rotasyonla ölçülür.
+
+## Kritik sorgu ölçümünü çalıştırma
+
+```bash
+python3 seo-ops/scripts/measure_gsc_rank.py --write
+```
+
+GSC satırı bulunmayan exact sorgular `UNKNOWN` kalır. Bunlar sıfır gösterim, sıralama dışı veya Top 3 dışında kabul edilmez.

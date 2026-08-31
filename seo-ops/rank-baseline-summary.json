@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-31T19:27:23+03:00",
+  "site": "https://www.atapamukcu.com/",
+  "measurement_type": "GSC first-party web performance, not a live universal rank",
+  "critical_query_count": 15,
+  "periods": [
+    {
+      "label": "previous_28d",
+      "start": "2026-07-04",
+      "end": "2026-07-31"
+    },
+    {
+      "label": "current_28d",
+      "start": "2026-08-01",
+      "end": "2026-08-28"
+    }
+  ],
+  "raw_api_row_counts": {
+    "previous_28d": 55,
+    "current_28d": 196
+  },
+  "coverage_by_period_device": {
+    "previous_28d": {
+      "mobile": {
+        "portfolio_queries": 15,
+        "observed_queries": 0,
+        "unknown_queries": 15,
+        "top3_queries": 0,
+        "top3_coverage_observed": null,
+        "top3_coverage_status": "UNKNOWN"
+      },
+      "desktop": {
+        "portfolio_queries": 15,
+        "observed_queries": 0,
+        "unknown_queries": 15,
+        "top3_queries": 0,
+        "top3_coverage_observed": null,
+        "top3_coverage_status": "UNKNOWN"
+      }
+    },
+    "current_28d": {
+      "mobile": {
+        "portfolio_queries": 15,
+        "observed_queries": 0,
+        "unknown_queries": 15,
+        "top3_queries": 0,
+        "top3_coverage_observed": null,
+        "top3_coverage_status": "UNKNOWN"
+      },
+      "desktop": {
+        "portfolio_queries": 15,
+        "observed_queries": 0,
+        "unknown_queries": 15,
+        "top3_queries": 0,
+        "top3_coverage_observed": null,
+        "top3_coverage_status": "UNKNOWN"
+      }
+    }
+  },
+  "primary_kpi": {
+    "portfolio_queries": 15,
+    "observed_queries": 0,
+    "unknown_queries": 15,
+    "top3_queries": 0,
+    "top3_coverage_observed": null,
+    "top3_coverage_status": "UNKNOWN"
+  },
+  "limitations": [
+    "GSC average position is an impression-weighted historical metric, not a personalized or live rank.",
+    "Low-volume/anonymized queries may be omitted by GSC; absent rows remain UNKNOWN, not zero.",
+    "The primary KPI uses the portfolio-assigned mobile device; desktop is retained as an auxiliary split.",
+    "A single period does not establish a durable gain; use consecutive measurements and period trends."
+  ]
+}
