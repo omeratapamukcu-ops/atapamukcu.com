@@ -25,3 +25,17 @@ Online psikolog, online terapi, psikolojik destek, uzman psikolog, görüntülü
 ### Bugünkü karar
 
 `/online-psikolog` title ve H1'i sorgu diliyle eşleştirildi. Site genelindeki açık yüz yüze hizmet iddiaları online-only işletme gerçeğine uyarlandı. Rakip metni veya tasarımı kopyalanmadı.
+
+## 31 Ağustos 2026, travma sonrası belirtiler sorgu kümesi
+
+Web search snapshot'ında ilk sonuç örnekleri `nesnedergisi.com`, `books.akademisyen.net` ve JCBPR gibi akademik yayın yüzeyleriydi. Bu kayıt Google'da gl=tr, hl=tr, pws=0 ile doğrulanmış kalıcı ilk 3 sıralaması değildir; anlık ve sınırlı rakip keşif örneklemidir.
+
+### Öğrenimler
+
+- Akademik sonuçlar TSSB, akut stres, kaçınma, aşırı uyarılma ve dissosiyasyon terimlerini açık tanımlarla bağlıyor.
+- Kaynak ve yayın künyesi güçlü, ancak genel kullanıcı için tanı sınırı, acil güvenlik yönlendirmesi ve uygulanabilir destek yolu çoğunlukla parçalı kalıyor.
+- `/travma` için özgün fırsat, travma yaşantısını TSSB tanısıyla eşitlemeden sade açıklama, görünür kurumsal ve hakemli kaynaklar, dissosiyasyon sınırı, 112/acil servis kapısı ve online değerlendirme CTA'sını aynı sayfada etik biçimde birleştirmekti.
+
+### Bugünkü karar
+
+`/travma` canonical URL'si korunarak bu güven ve intent boşlukları kapatıldı. Rakip metni, iddiası veya tasarımı kopyalanmadı.
