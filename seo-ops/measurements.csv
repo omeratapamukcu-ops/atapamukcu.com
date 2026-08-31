@@ -1,0 +1,8 @@
+measured_at,source,query,target_url,country,device,scope,observed_position,google_selected_url,clicks,impressions,ctr,notes
+2026-08-31T12:14:36+03:00,web_search,online psikolog,https://www.atapamukcu.com/online-psikolog,TUR,unspecified,top5_snapshot,,,,,,atapamukcu.com ilk 5 sonuçta gözlenmedi; kişiselleştirilmemiş Google sıra ölçümü değildir
+2026-08-31T12:14:36+03:00,web_search,online terapi psikolog,https://www.atapamukcu.com/online-psikolog,TUR,unspecified,top5_snapshot,,,,,,atapamukcu.com ilk 5 sonuçta gözlenmedi; kişiselleştirilmemiş Google sıra ölçümü değildir
+2026-08-31T12:14:36+03:00,web_search,online psikolog kaygı,https://www.atapamukcu.com/genel-kaygi,TUR,unspecified,top5_snapshot,,,,,,atapamukcu.com ilk 5 sonuçta gözlenmedi; kişiselleştirilmemiş Google sıra ölçümü değildir
+2026-08-31T12:14:36+03:00,web_search,online psikolog OKB,https://www.atapamukcu.com/okb,TUR,unspecified,top5_snapshot,,,,,,atapamukcu.com ilk 5 sonuçta gözlenmedi; kişiselleştirilmemiş Google sıra ölçümü değildir
+2026-08-31T12:14:36+03:00,web_search,online psikolog sosyal kaygı,https://www.atapamukcu.com/sosyal-kaygi,TUR,unspecified,top5_snapshot,,,,,,atapamukcu.com ilk 5 sonuçta gözlenmedi; kişiselleştirilmemiş Google sıra ölçümü değildir
+2026-08-31T12:14:36+03:00,web_search,Antalya online psikolog,https://www.atapamukcu.com/antalya-psikolog,TUR,unspecified,top5_snapshot,,,,,,atapamukcu.com ilk 5 sonuçta gözlenmedi; Maps sonuçları dahil edilmedi
+2026-08-31T12:14:36+03:00,web_search,Ata Pamukçu psikolog,https://www.atapamukcu.com/,TUR,unspecified,top5_snapshot,,,,,,Marka sonucu arama backend'inde doğrulanamadı; veri yetersiz

@@ -1,0 +1,26 @@
+query,category,intent,business_value,target_canonical,country,device,priority,frequency,status
+online psikolog,ana ticari,commercial_transactional,5,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
+online terapi,ana ticari,commercial_transactional,5,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
+online psikolojik destek,ana ticari,commercial_transactional,5,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
+online psikolog fiyatları,ana ticari,commercial,5,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
+online psikolog nasıl seçilir,soru,commercial,4,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P1,weekly,active
+online psikolog görüşmesi nasıl yapılır,soru,informational_commercial,4,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
+Antalya online psikolog,lokasyon,commercial_transactional,4,https://www.atapamukcu.com/antalya-psikolog,TUR,mobile,P0,daily,active
+Antalya psikolog online,lokasyon,commercial_transactional,4,https://www.atapamukcu.com/antalya-psikolog,TUR,mobile,P1,weekly,active
+kaygı için online psikolog,sorun_semptom,commercial_transactional,5,https://www.atapamukcu.com/genel-kaygi,TUR,mobile,P0,daily,active
+panik atak online psikolog,sorun_semptom,commercial_transactional,5,https://www.atapamukcu.com/panik-atak,TUR,mobile,P0,daily,active
+OKB online psikolog,sorun_semptom,commercial_transactional,5,https://www.atapamukcu.com/okb,TUR,mobile,P0,daily,active
+sosyal kaygı online psikolog,sorun_semptom,commercial_transactional,5,https://www.atapamukcu.com/sosyal-kaygi,TUR,mobile,P0,daily,active
+genel kaygı online psikolog,sorun_semptom,commercial_transactional,5,https://www.atapamukcu.com/genel-kaygi,TUR,mobile,P0,daily,active
+travma online psikolog,sorun_semptom,commercial_transactional,4,https://www.atapamukcu.com/travma,TUR,mobile,P1,weekly,active
+depresyon online psikolog,sorun_semptom,commercial_transactional,4,https://www.atapamukcu.com/depresyon,TUR,mobile,P1,weekly,active
+ACT terapisti online,yaklasim,commercial_transactional,4,https://www.atapamukcu.com/act-nedir,TUR,mobile,P0,daily,active
+kabul ve kararlılık terapisi online,yaklasim,commercial,4,https://www.atapamukcu.com/act-nedir,TUR,mobile,P1,weekly,active
+süreç temelli terapi online,yaklasim,commercial,4,https://www.atapamukcu.com/pbt-nedir,TUR,mobile,P1,weekly,active
+BDT online terapi,yaklasim,commercial,4,https://www.atapamukcu.com/bdt-nedir,TUR,mobile,P1,weekly,active
+anksiyete nedir,bilgilendirici,informational,2,https://www.atapamukcu.com/anksiyete-nedir,TUR,mobile,P1,weekly,active
+kaygı döngüsü nasıl kırılır,bilgilendirici,informational,3,https://www.atapamukcu.com/kaygi-dongusu,TUR,mobile,P1,weekly,active
+panik atak anında ne yapılır,bilgilendirici,informational,3,https://www.atapamukcu.com/panik-atak-aninda-ne-yapmali,TUR,mobile,P1,weekly,active
+terapiye ne zaman gidilmeli,soru,informational_commercial,4,https://www.atapamukcu.com/baslangic,TUR,mobile,P1,weekly,active
+online terapi güvenli mi,soru,informational_commercial,4,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P1,weekly,active
+Ata Pamukçu psikolog,marka_entity,navigational,5,https://www.atapamukcu.com/,TUR,mobile,P0,daily,active
