@@ -119,6 +119,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (normalizedHref.includes('wa.me/') || normalizedHref.includes('whatsapp.com/')) {
       sendAnalyticsEvent('whatsapp_click', eventParameters);
 
+      const explicitEvent = link.dataset.analyticsEvent;
+      if (explicitEvent === 'seans_degerlendirme_cta_click') {
+        sendAnalyticsEvent(explicitEvent, eventParameters);
+      }
+
       const visibleLabel = (link.textContent || '').toLocaleLowerCase('tr-TR');
       const startsAppointment = link.classList.contains('btn-primary') ||
         visibleLabel.includes('randevu') ||
