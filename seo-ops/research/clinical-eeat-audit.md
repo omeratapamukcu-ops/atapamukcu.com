@@ -27,7 +27,7 @@ Bu sayfalarda görünür kaynakça ile yazar/editoryal sorumluluk sinyali bulunu
 | `/anksiyete-nedir` | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | P1 tamamlandı |
 | `/depresyon` | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | P1 tamamlandı |
 | `/travma` | Başlangıçta yoktu; giderildi | Başlangıçta vardı; güçlendirildi | Başlangıçta yoktu; giderildi | P1 tamamlandı |
-| `/sosyal-kaygi` | Yok | Var | Yok | P1 |
+| `/sosyal-kaygi` | Başlangıçta yoktu; giderildi | Başlangıçta vardı; güçlendirildi | Başlangıçta yoktu; giderildi | P1 tamamlandı |
 
 ## En yüksek riskli bulgu ve uygulama
 
@@ -44,9 +44,7 @@ Uygulanan düzeltmeler:
 
 ## Sıradaki güvenli sıra
 
-1. `/sosyal-kaygi`
-
-Her sayfada önce iddia envanteri çıkarılmalı; ardından kaynak, yazar, tarih ve güvenlik sınırı aynı değişiklik paketinde ele alınmalıdır. Kaynak eklemeden yalnızca tarih güncellenmemelidir.
+B010 kapsamındaki dört sayfanın kaynak, yazar, güncellik ve güvenlik paketleri tamamlandı. Yeni bir klinik sayfa ele alınırken önce iddia envanteri çıkarılmalı; ardından kaynak, yazar, tarih ve güvenlik sınırı aynı değişiklik paketinde ele alınmalıdır. Kaynak eklemeden yalnızca tarih güncellenmemelidir.
 
 ## Sayfa bazlı iddia envanteri: `/depresyon`
 
@@ -70,4 +68,15 @@ Gözden geçirme tarihi: 2026-08-31
 - **Müdahale ve güvenlik sınırı:** travmatik anılara maruz kalma içeren uygulamaların güvenlik değerlendirmesi olmadan kendi başına uygulanmaması belirtildi; sonuç garantisi kaldırıldı.
 - **Tanı ve acil yardım sınırı:** kişisel tanı, tıbbi veya psikiyatrik ayırıcı değerlendirme ve tedavi planı sınırı görünür hale getirildi. Kendine zarar, intihar düşüncesi/niyeti/planı, güvenliği sürdürememe veya yakın tehlike halinde WhatsApp yerine 112 ya da en yakın acil servis belirtildi.
 - **Editoryal sorumluluk ve güncellik:** görünür yazar bağlantısı, WHO, NIMH, VA National Center for PTSD ve hakemli PMC kaynakçası, Article `citation`, gerçek `dateModified` ve sitemap `lastmod` birlikte güncellendi.
+- **CTA ölçümü:** iki WhatsApp CTA'sı consent-gated `seans_degerlendirme_cta_click` olayına bağlandı; payload yalnızca genel `event_surface` ve `transport_type` alanlarını kullanır.
+
+## Sayfa bazlı iddia envanteri: `/sosyal-kaygi`
+
+Gözden geçirme tarihi: 2026-08-31
+
+- **Belirti ve tanı sınırı:** olumsuz değerlendirilme korkusu, bedensel belirtiler, kaçınma ve yoğun öz-izleme olası yaşantılar olarak sunuldu; bunların tek başına sosyal kaygı bozukluğu tanısı olmadığı açıklandı.
+- **Sürdürücü süreçler:** kaçınma, güvenlik davranışları, öz-odaklı dikkat ve olay sonrası tekrar değerlendirme iddiaları ihtiyatlı dille sınırlandı; NHS, NICE ve hakemli Hofmann derlemesiyle kaynaklandırıldı.
+- **Müdahale ve exposure güvenliği:** küçük davranış deneyleri veya kademeli yüzleşmenin hedef, hazır oluş, tıbbi ve psikiyatrik durum ve güncel güvenlik değerlendirmesinden sonra birlikte planlanacağı; sayfanın kendi başına exposure talimatı olmadığı belirtildi.
+- **Tanı ve acil yardım sınırı:** kişisel tanı, tıbbi veya psikiyatrik ayırıcı değerlendirme ve tedavi planı sınırı görünür hale getirildi. Kendine zarar, intihar düşüncesi/niyeti/planı, güvenliği sürdürememe veya yakın tehlike halinde WhatsApp yerine 112 ya da en yakın acil servis belirtildi.
+- **Editoryal sorumluluk ve güncellik:** görünür yazar bağlantısı ve tarih, güçlendirilmiş editoryal sorumluluk, görünür kaynakça, Article `citation`, `speakable`, gerçek `dateModified` ve sitemap `lastmod` birlikte güncellendi.
 - **CTA ölçümü:** iki WhatsApp CTA'sı consent-gated `seans_degerlendirme_cta_click` olayına bağlandı; payload yalnızca genel `event_surface` ve `transport_type` alanlarını kullanır.
