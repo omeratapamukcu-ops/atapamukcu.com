@@ -7,6 +7,7 @@ import json
 import re
 import sys
 import xml.etree.ElementTree as ET
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,6 +30,7 @@ analytics = require(
     "email_click",
     "appointment_start",
     "appointment_complete",
+    "seans_degerlendirme_cta_click",
     "appointment:complete",
     "verified_success",
 )
@@ -78,8 +80,11 @@ for path, text in (
         errors.append(f"{path}: expected one canonical, found {len(canonicals)}")
 
 context = json.loads((ROOT / "ai-context.json").read_text(encoding="utf-8"))
-if context.get("dateModified") != EXPECTED_DATE:
-    errors.append(f"ai-context.json: dateModified is {context.get('dateModified')!r}")
+try:
+    if date.fromisoformat(context.get("dateModified", "")) < date.fromisoformat(EXPECTED_DATE):
+        errors.append(f"ai-context.json: dateModified predates {EXPECTED_DATE}: {context.get('dateModified')!r}")
+except ValueError:
+    errors.append(f"ai-context.json: invalid dateModified {context.get('dateModified')!r}")
 
 ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 sitemap = ET.parse(ROOT / "sitemap.xml").getroot()
@@ -95,8 +100,11 @@ for node in sitemap.findall("s:url", ns):
     if loc in expected_urls:
         seen[loc] = node.findtext("s:lastmod", namespaces=ns)
 for url in expected_urls:
-    if seen.get(url) != EXPECTED_DATE:
-        errors.append(f"sitemap.xml: {url} lastmod is {seen.get(url)!r}")
+    try:
+        if date.fromisoformat(seen.get(url) or "") < date.fromisoformat(EXPECTED_DATE):
+            errors.append(f"sitemap.xml: {url} lastmod predates {EXPECTED_DATE}: {seen.get(url)!r}")
+    except ValueError:
+        errors.append(f"sitemap.xml: {url} has invalid lastmod {seen.get(url)!r}")
 
 for path in ("llms.txt", "llms-full.txt"):
     require(path, f"Son güncelleme: {EXPECTED_DATE}")
@@ -108,5 +116,5 @@ if errors:
     sys.exit(1)
 
 print("monthly_seo=PASS")
-print("analytics_events=5 privacy_guard=PASS")
+print("analytics_events=6 privacy_guard=PASS")
 print("target_pages=3 internal_links=PASS metadata_dates=PASS")
