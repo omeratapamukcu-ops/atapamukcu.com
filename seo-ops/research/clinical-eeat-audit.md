@@ -24,8 +24,8 @@ Bu sayfalarda görünür kaynakça ile yazar/editoryal sorumluluk sinyali bulunu
 | Sayfa | Görünür kaynakça | Görünür yazar/editoryal sorumluluk | `dateModified` | Öncelik |
 |---|---:|---:|---:|---|
 | `/panik-atak-aninda-ne-yapmali` | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | P0 tamamlandı |
-| `/anksiyete-nedir` | Yok | Yok | Yok | P1 |
-| `/depresyon` | Yok | Yok | Yok | P1 |
+| `/anksiyete-nedir` | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | P1 tamamlandı |
+| `/depresyon` | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | Başlangıçta yoktu; giderildi | P1 tamamlandı |
 | `/travma` | Yok | Var | Yok | P1 |
 | `/sosyal-kaygi` | Yok | Var | Yok | P1 |
 
@@ -44,10 +44,8 @@ Uygulanan düzeltmeler:
 
 ## Sıradaki güvenli sıra
 
-1. `/anksiyete-nedir`
-2. `/depresyon`
-3. `/travma`
-4. `/sosyal-kaygi`
+1. `/travma`
+2. `/sosyal-kaygi`
 
 Her sayfada önce iddia envanteri çıkarılmalı; ardından kaynak, yazar, tarih ve güvenlik sınırı aynı değişiklik paketinde ele alınmalıdır. Kaynak eklemeden yalnızca tarih güncellenmemelidir.
 
