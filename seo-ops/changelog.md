@@ -21,3 +21,9 @@
 - `/online-psikolog` sayfasına APA 2024 Telepsikoloji Uygulama Rehberi ile Thomas ve arkadaşlarının 2021 hakemli videokonferans psikoterapi derlemesini içeren görünür kaynakça eklendi; sonuç garantisi vermeyen uygunluk sınırı açıklandı.
 - Eski aylık regresyon betiğinin daha yeni `dateModified/lastmod` değerlerini hata sayması düzeltildi; tarihler artık 2026-08-05 tabanının gerisine düşmediği sürece kabul ediliyor ve yeni CTA KPI olayı test ediliyor.
 - `monthly_seo=PASS`, `analytics_events=6 privacy_guard=PASS`, `verify_evergreen=PASS`, kaynak bölümü, duplicate ID, JavaScript/Python sözdizimi ve `git diff --check` doğrulamaları geçti.
+- Rakip yapı karşılaştırmasında bulunan hızlı karar özeti boşluğu, `/online-psikolog` hero alanına yalnızca doğrulanmış dört bilgi eklenerek kapatıldı: yalnızca online, ücretsiz değerlendirme, özel alan/internet ve acil yardım sınırı.
+- GA4 için analitik depolama varsayılan `denied` yapıldı; kabul/ret paneli, kalıcı tarayıcı tercihi, ayarları yeniden açma, reklam sinyallerini kapatma ve ret durumunda erişilebilir `_ga` çerezlerini silme eklendi.
+- CTA olayları onay yokken gönderilmeyecek biçimde sınırlandı. Yerel tarayıcı testinde onaysız tıklama 0 olay, izin sonrası üç beklenen olay, ret sonrası `analytics_storage: denied` ve test `_ga` çerezinin silinmesi doğrulandı.
+- `/gizlilik` sayfası ve sitemap kaydı oluşturuldu; ölçülen olaylar, gönderilmeyen hassas alanlar, çerezler, Google hizmet sağlayıcısı ve tercih geri çekme yolu görünür biçimde açıklandı.
+- Klinik E‑E‑A‑T envanteri `seo-ops/research/clinical-eeat-audit.md` altında kaydedildi. En yüksek riskli `/panik-atak-aninda-ne-yapmali` sayfasındaki sonuç garantileri ve kendi kendine tıbbi ayırıcı tanı çağrışımları ihtiyatlı dille değiştirildi.
+- Panik anı sayfasına görünür yazar, güncelleme tarihi, editoryal sorumluluk, NIMH/NHS kaynakçası, 112/acil servis sınırı ve onaya bağlı CTA ölçümü eklendi; sitemap `lastmod` güncellendi.

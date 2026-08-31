@@ -2,6 +2,73 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  // --- ANALYTICS CONSENT ---
+  const analyticsConsentKey = 'atap_analytics_consent';
+
+  function readAnalyticsConsent() {
+    try { return window.localStorage.getItem(analyticsConsentKey); }
+    catch (error) { return null; }
+  }
+
+  function hasAnalyticsConsent() {
+    return readAnalyticsConsent() === 'granted';
+  }
+
+  function setGoogleConsent(command, value) {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', command, {
+      analytics_storage: value,
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+  }
+
+  function clearAnalyticsCookies() {
+    document.cookie.split(';').forEach(function (cookie) {
+      const name = cookie.split('=')[0].trim();
+      if (name === '_ga' || name.indexOf('_ga_') === 0) {
+        document.cookie = name + '=; Max-Age=0; path=/; SameSite=Lax';
+        document.cookie = name + '=; Max-Age=0; path=/; domain=.atapamukcu.com; SameSite=Lax';
+      }
+    });
+  }
+
+  const savedAnalyticsConsent = readAnalyticsConsent();
+  setGoogleConsent('default', savedAnalyticsConsent === 'granted' ? 'granted' : 'denied');
+
+  function showAnalyticsConsent() {
+    let panel = document.getElementById('analytics-consent');
+    if (!panel) {
+      panel = document.createElement('section');
+      panel.id = 'analytics-consent';
+      panel.className = 'analytics-consent';
+      panel.setAttribute('aria-label', 'İstatistik ve gizlilik tercihi');
+      panel.innerHTML = '<div><strong>Gizlilik tercihiniz</strong><p>Siteyi geliştirmek ve değerlendirme seansı bağlantılarının kullanımını ölçmek için Google Analytics kullanılabilir. Onay vermediğiniz sürece analitik depolama kapalı kalır. Sağlık içeriği, WhatsApp mesajı, telefon veya e-posta analitiğe gönderilmez.</p><a href="/gizlilik">Ayrıntıları okuyun</a></div><div class="analytics-consent-actions"><button type="button" data-consent="denied">Reddet</button><button type="button" class="consent-accept" data-consent="granted">İzin ver</button></div>';
+      document.body.appendChild(panel);
+      panel.addEventListener('click', function (event) {
+        const button = event.target.closest('button[data-consent]');
+        if (!button) return;
+        const value = button.dataset.consent;
+        try { window.localStorage.setItem(analyticsConsentKey, value); } catch (error) {}
+        setGoogleConsent('update', value);
+        if (value === 'denied') clearAnalyticsCookies();
+        panel.hidden = true;
+      });
+    }
+    panel.hidden = false;
+  }
+
+  const settingsButton = document.createElement('button');
+  settingsButton.type = 'button';
+  settingsButton.className = 'analytics-settings';
+  settingsButton.textContent = 'Gizlilik ayarları';
+  settingsButton.addEventListener('click', showAnalyticsConsent);
+  document.body.appendChild(settingsButton);
+
+  if (!savedAnalyticsConsent) showAnalyticsConsent();
+
   // --- FAQ ACCORDION ---
   const faqItems = document.querySelectorAll('.faq-item');
 
@@ -76,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Only generic interaction metadata is sent. Link URLs, phone numbers,
   // email addresses, WhatsApp message text and form/health content are excluded.
   function sendAnalyticsEvent(eventName, parameters) {
+    if (!hasAnalyticsConsent()) return;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () {
       window.dataLayer.push(arguments);
