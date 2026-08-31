@@ -4,7 +4,7 @@ online terapi,ana ticari,commercial_transactional,5,https://www.atapamukcu.com/o
 online psikolojik destek,ana ticari,commercial_transactional,5,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
 online psikolog fiyatları,ana ticari,commercial,5,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
 online psikolog nasıl seçilir,soru,commercial,4,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P1,weekly,active
-online psikolog görüşmesi nasıl yapılır,soru,informational_commercial,4,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P0,daily,active
+online psikolog görüşmesi nasıl yapılır,soru,informational_commercial,4,https://www.atapamukcu.com/online-terapi-nasil-isler,TUR,mobile,P0,daily,active
 Antalya online psikolog,lokasyon,commercial_transactional,4,https://www.atapamukcu.com/antalya-psikolog,TUR,mobile,P0,daily,active
 Antalya psikolog online,lokasyon,commercial_transactional,4,https://www.atapamukcu.com/antalya-psikolog,TUR,mobile,P1,weekly,active
 kaygı için online psikolog,sorun_semptom,commercial_transactional,5,https://www.atapamukcu.com/genel-kaygi,TUR,mobile,P0,daily,active
@@ -22,8 +22,9 @@ anksiyete nedir,bilgilendirici,informational,2,https://www.atapamukcu.com/anksiy
 kaygı döngüsü nasıl kırılır,bilgilendirici,informational,3,https://www.atapamukcu.com/kaygi-dongusu,TUR,mobile,P1,weekly,active
 panik atak anında ne yapılır,bilgilendirici,informational,3,https://www.atapamukcu.com/panik-atak-aninda-ne-yapmali,TUR,mobile,P1,weekly,active
 terapiye ne zaman gidilmeli,soru,informational_commercial,4,https://www.atapamukcu.com/baslangic,TUR,mobile,P1,weekly,active
-online terapi güvenli mi,soru,informational_commercial,4,https://www.atapamukcu.com/online-psikolog,TUR,mobile,P1,weekly,active
+online terapi güvenli mi,soru,informational_commercial,4,https://www.atapamukcu.com/online-terapi-nasil-isler,TUR,mobile,P1,weekly,active
 Ata Pamukçu psikolog,marka_entity,navigational,5,https://www.atapamukcu.com/,TUR,mobile,P0,daily,active
 travma sonrası belirtiler,bilgilendirici,informational,3,https://www.atapamukcu.com/travma,TUR,mobile,P1,weekly,active
 travma tetiklenmesi nedir,soru,informational,3,https://www.atapamukcu.com/travma,TUR,mobile,P1,weekly,active
 dissosiyasyon travma ilişkisi,bilgilendirici,informational,2,https://www.atapamukcu.com/travma,TUR,mobile,P1,weekly,active
+Antalya'dan online psikolojik desteğe nasıl başlanır,soru,informational_commercial,3,https://www.atapamukcu.com/antalya-online-psikolog,TUR,mobile,P1,weekly,active
