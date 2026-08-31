@@ -11,6 +11,6 @@
 - Değişen URL'lerin sitemap `lastmod` değerleri 2026-08-31 olarak güncellendi.
 - `git diff --check` geçti; 196 JSON-LD bloğu, sitemap XML, `ai-context.json`, local links, duplicate IDs, canonical, title/meta uzunluğu, FAQ görünür/schema eşleşmesi ve 25 sorgunun hedef URL'leri odaklı betikle doğrulandı.
 - `ad_hoc_changed_behavior=PASS`, `canonical_suite=NOT_AVAILABLE`.
-- Headless Chrome yerel `/online-psikolog.html` sayfasında yeni H1 ve FAQ marker'larını render etti; sayfa kaynakları 200 döndü. Chrome logundaki kayıtlar macOS headless display/task-policy ortamına aitti, sayfa JavaScript hatası gözlenmedi.
-
-Commit, push ve canlı custom-domain marker kanıtları yayın sonrasında eklenecektir.
+- Headless Chrome yerel ve canlı `/online-psikolog` sayfasında yeni H1, canonical ve FAQ marker'larını render etti. Sayfa kaynakları 200 döndü; sayfa kaynaklı JavaScript hatası gözlenmedi.
+- Uygulama commit'i `82e08ee` olarak `origin/main` dalına gönderildi. Vercel production deployment `Ready` oldu; provider deployment ve public custom domain aynı yeni marker'ları gösterdi.
+- Public domain üzerinde dokuz değişen route/surface için HTTP 200 ve içerik marker kontrolü geçti.
