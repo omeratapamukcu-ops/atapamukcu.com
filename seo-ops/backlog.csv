@@ -13,3 +13,4 @@ B011,P0/P1 canonical hedefler için bağlamsal internal link otoritesi denetimi 
 B012,Online ve Antalya hizmet sayfalarında keyword cannibalization ve intent ayrıştırma denetimi,5,5,2,5,P0,done,false,"4 URL audit edildi; title H1 meta schema ve internal link ayrıştırması 2026-08-31"
 B013,Gerçek GSC fırsatı olan kompülsiyon sorgu kümesinde CTR intent ve güven iyileştirmesi,5,5,2,5,P0,in_progress,false,"2026-09-15 erken CTR/konum kontrolü; 2026-09-29 tam 28 günlük değerlendirme"
 B014,GSC'de ilk sayfada görünen kabul sorgu kümesinde CTR intent kaynak ve iç bağlantı iyileştirmesi,4,5,2,5,P0,in_progress,false,"2026-09-15 erken CTR/konum kontrolü; 2026-09-29 tam 28 günlük değerlendirme"
+B015,GSC'de ilk sayfada görünen değerler çalışması sorgusunda intent uygulama E-E-A-T ve iç bağlantı iyileştirmesi,4,5,2,5,P0,in_progress,false,"2026-09-15 erken CTR/konum kontrolü; 2026-09-29 tam 28 günlük değerlendirme"
