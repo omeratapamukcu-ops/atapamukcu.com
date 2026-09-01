@@ -37,6 +37,14 @@ previous_28d,2026-07-05,2026-08-01,düşük enerji neden olur,https://www.atapam
 previous_28d,2026-07-05,2026-08-01,düşük enerji neden olur,https://www.atapamukcu.com/enerji-dusuklugu,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 previous_28d,2026-07-05,2026-08-01,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 previous_28d,2026-07-05,2026-08-01,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,desktop,OBSERVED,11.00,https://www.atapamukcu.com/erteleme,true,0,1,0.000000,true,false,false
+previous_28d,2026-07-05,2026-08-01,kompülsiyon nedir,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,kompülsiyon nedir,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,kompulsiyon,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,kompulsiyon,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,davranış analizi,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,davranış analizi,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,davranış analizi nedir,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,davranış analizi nedir,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 current_28d,2026-08-02,2026-08-29,online psikolog,https://www.atapamukcu.com/online-psikolog,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 current_28d,2026-08-02,2026-08-29,online psikolog,https://www.atapamukcu.com/online-psikolog,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 current_28d,2026-08-02,2026-08-29,online terapi,https://www.atapamukcu.com/online-psikolog,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
@@ -75,3 +83,11 @@ current_28d,2026-08-02,2026-08-29,düşük enerji neden olur,https://www.atapamu
 current_28d,2026-08-02,2026-08-29,düşük enerji neden olur,https://www.atapamukcu.com/enerji-dusuklugu,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 current_28d,2026-08-02,2026-08-29,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,mobile,OBSERVED,7.00,https://www.atapamukcu.com/erteleme,true,0,2,0.000000,true,true,false
 current_28d,2026-08-02,2026-08-29,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,desktop,OBSERVED,10.71,https://www.atapamukcu.com/erteleme,true,0,17,0.000000,true,false,false
+current_28d,2026-08-02,2026-08-29,kompülsiyon nedir,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,mobile,OBSERVED,8.90,https://www.atapamukcu.com/kompulsiyon-nedir,true,0,62,0.000000,true,true,false
+current_28d,2026-08-02,2026-08-29,kompülsiyon nedir,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,desktop,OBSERVED,11.00,https://www.atapamukcu.com/kompulsiyon-nedir,true,0,4,0.000000,true,false,false
+current_28d,2026-08-02,2026-08-29,kompulsiyon,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,mobile,OBSERVED,10.62,https://www.atapamukcu.com/kompulsiyon-nedir,true,0,39,0.000000,true,false,false
+current_28d,2026-08-02,2026-08-29,kompulsiyon,https://www.atapamukcu.com/kompulsiyon-nedir,TUR,desktop,OBSERVED,9.36,https://www.atapamukcu.com/kompulsiyon-nedir,true,0,11,0.000000,true,true,false
+current_28d,2026-08-02,2026-08-29,davranış analizi,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,mobile,OBSERVED,9.50,https://www.atapamukcu.com/davranis-analizi-nedir,true,0,10,0.000000,true,true,false
+current_28d,2026-08-02,2026-08-29,davranış analizi,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,desktop,OBSERVED,15.44,https://www.atapamukcu.com/davranis-analizi-nedir,true,0,9,0.000000,true,false,false
+current_28d,2026-08-02,2026-08-29,davranış analizi nedir,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+current_28d,2026-08-02,2026-08-29,davranış analizi nedir,https://www.atapamukcu.com/davranis-analizi-nedir,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN

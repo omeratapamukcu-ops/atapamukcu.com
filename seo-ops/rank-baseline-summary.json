@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T14:17:46+03:00",
+  "generated_at": "2026-09-01T19:41:18+03:00",
   "site": "https://www.atapamukcu.com/",
   "measurement_type": "GSC first-party web performance, not a live universal rank",
-  "critical_query_count": 19,
+  "critical_query_count": 23,
   "periods": [
     {
       "label": "previous_28d",
@@ -22,17 +22,17 @@
   "coverage_by_period_device": {
     "previous_28d": {
       "mobile": {
-        "portfolio_queries": 19,
+        "portfolio_queries": 23,
         "observed_queries": 0,
-        "unknown_queries": 19,
+        "unknown_queries": 23,
         "top3_queries": 0,
         "top3_coverage_observed": null,
         "top3_coverage_status": "UNKNOWN"
       },
       "desktop": {
-        "portfolio_queries": 19,
+        "portfolio_queries": 23,
         "observed_queries": 1,
-        "unknown_queries": 18,
+        "unknown_queries": 22,
         "top3_queries": 0,
         "top3_coverage_observed": 0.0,
         "top3_coverage_status": "CALCULATED"
@@ -40,17 +40,17 @@
     },
     "current_28d": {
       "mobile": {
-        "portfolio_queries": 19,
-        "observed_queries": 6,
-        "unknown_queries": 13,
+        "portfolio_queries": 23,
+        "observed_queries": 9,
+        "unknown_queries": 14,
         "top3_queries": 0,
         "top3_coverage_observed": 0.0,
         "top3_coverage_status": "CALCULATED"
       },
       "desktop": {
-        "portfolio_queries": 19,
-        "observed_queries": 4,
-        "unknown_queries": 15,
+        "portfolio_queries": 23,
+        "observed_queries": 7,
+        "unknown_queries": 16,
         "top3_queries": 0,
         "top3_coverage_observed": 0.0,
         "top3_coverage_status": "CALCULATED"
@@ -58,9 +58,9 @@
     }
   },
   "primary_kpi": {
-    "portfolio_queries": 19,
-    "observed_queries": 6,
-    "unknown_queries": 13,
+    "portfolio_queries": 23,
+    "observed_queries": 9,
+    "unknown_queries": 14,
     "top3_queries": 0,
     "top3_coverage_observed": 0.0,
     "top3_coverage_status": "CALCULATED"
