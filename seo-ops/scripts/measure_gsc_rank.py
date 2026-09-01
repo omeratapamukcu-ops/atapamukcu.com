@@ -20,7 +20,6 @@ from pathlib import Path
 SITE = "https://www.atapamukcu.com/"
 COUNTRY = "tur"
 DEVICES = ("MOBILE", "DESKTOP")
-CRITICAL_COUNT = 27
 ROOT = Path(__file__).resolve().parents[2]
 OPS = ROOT / "seo-ops"
 TOKEN_PATH = Path(os.environ.get("HERMES_GOOGLE_TOKEN", Path.home() / ".hermes/google_token.json"))
@@ -73,13 +72,15 @@ def access_token() -> str:
 def critical_queries() -> list[dict[str, str]]:
     with (OPS / "query-portfolio.csv").open(newline="") as handle:
         rows = list(csv.DictReader(handle))
-    active = [(index, row) for index, row in enumerate(rows) if row["status"] == "active"]
+    active = [(index, row) for index, row in enumerate(rows) if row["status"] == "active" and row["priority"] == "P0"]
     active.sort(key=lambda item: (
         0 if item[1]["priority"] == "P0" else 1 if item[1]["priority"] == "P1" else 2,
         -int(item[1]["business_value"]),
         item[0],
     ))
-    return [row for _, row in active[:CRITICAL_COUNT]]
+    # The complete active P0 cohort defines the daily monitor. A hard row cap can
+    # silently exclude equal-priority queries merely because they appear later.
+    return [row for _, row in active]
 
 
 def periods(as_of: dt.date) -> list[dict[str, str]]:
