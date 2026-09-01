@@ -1,5 +1,15 @@
 # Değişiklik Günlüğü
 
+## 2026-09-01
+
+- GSC'nin 2–29 Ağustos 2026 Türkiye web verisi sorgu ve sayfa düzeyinde yeniden ölçüldü. `/kompulsiyon-nedir` 217 gösterim, 0 tıklama ve 9,48 ortalama konumla en yüksek doğrulanmış markasız fırsat olarak belirlendi.
+- `kompülsiyon nedir` ve `kompulsiyon` exact sorguları günlük P0 portföyüne, mevcut canonical `/kompulsiyon-nedir` korunarak eklendi.
+- Yenilenen kritik baseline'da mobile cihazda iki sorgu gözlendi: `kompülsiyon nedir` 62 gösterim, 8,90 konum; `kompulsiyon` 39 gösterim, 10,62 konum. İkisinde de canonical eşleşmesi doğru, tıklama ve Top 3 durumu sıfır; kalan 13 sorgu `UNKNOWN`.
+- CSV üreticisi LF satır sonu kullanacak biçimde düzeltildi; böylece sürümlenen ölçüm artefaktları `git diff --check` ile uyumlu hale getirildi.
+- Sınırlı SERP örnekleminde doğrudan tanım, zorlantı eşanlamı, obsesyon ayrımı, somut örnek ve kurumsal kaynak örüntüleri çıkarıldı; rakip metni veya tasarımı kopyalanmadı.
+- `/kompulsiyon-nedir` title, meta, H1, Article şeması ve ilk ekran yanıtı gerçek sorgu diliyle eşleştirildi. Kısa tanım, yazım varyantları, obsesyon ayrımı, görünür/zihinsel örnekler, işlev sınırı, profesyonel değerlendirme eşiği, TPD/IOCDF kaynakları, yazar/güncellik ve onaya bağlı CTA ölçümü eklendi.
+- Sitemap, AI context ve LLM keşif yüzeyleri 1 Eylül güncelliğiyle eşleştirildi. Erken sinyal 14 gün, tam etki 28 gün sonra GSC ile değerlendirilecek.
+
 ## 2026-08-31
 
 - İlk SEO operasyon çalışma alanı ve 25 sorguluk portföy oluşturuldu.

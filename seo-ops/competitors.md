@@ -1,5 +1,21 @@
 # Rakip Bulguları
 
+## 1 Eylül 2026, kompülsiyon nedir sorgu kümesi
+
+GSC'nin 2–29 Ağustos Türkiye web verisinde `/kompulsiyon-nedir` toplam 217 gösterim, 0 tıklama ve 9,48 ortalama konum aldı. En görünür exact sorgular `kompülsiyon nedir` (66 gösterim, 9,03), `kompulsiyon` (50 gösterim, 10,34), `kompülsiyon` (41 gösterim, 9,44) ve `kompülsiyon ne demek` (32 gösterim, 10,16) oldu. Bunlar tarih aralığına bağlı, gösterim ağırlıklı GSC ortalamalarıdır; evrensel canlı sıra değildir.
+
+### Sınırlı SERP örneklemindeki ortak örüntüler
+
+- Sonuç başlığında sorgu sözcüğünü ve “nedir/ne demek” yanıtını doğrudan kullanma.
+- İlk paragrafta `zorlantı`, obsesyon, tekrarlayan davranış veya zihinsel eylem tanımı.
+- Kontrol, yıkama, sayma ve zihinsel ritüel gibi somut örnekler.
+- Obsesyon–kompülsiyon ayrımı ve geçici rahatlama döngüsü.
+- Kurumsal veya mesleki kaynak otoritesi.
+
+### Özgün fırsat ve karar
+
+Rakiplerin kapsamını kopyalamadan `/kompulsiyon-nedir` başlığı ve snippet metni gerçek GSC sorgu diliyle eşleştirildi. Doğrudan kısa tanım, `kompülsiyon/kompulsiyon/zorlantı` eşlemesi, obsesyondan fark, görünür ve zihinsel örnekler, “her tekrar kompülsiyon değildir” sınırı, işlev odaklı döngü açıklaması, TPD ve IOCDF kaynakları ve görünür yazar/güncellik bilgisi aynı canonical üzerinde birleştirildi.
+
 ## 31 Ağustos 2026, online psikolog sorgu kümesi
 
 Sınırlı web search snapshot'ında sık görünen domain örnekleri: `psikolojiturkiye.com`, `onlinepsikolog.com`, `psikologmerkezi.com`. Bu liste gl=tr, hl=tr, pws=0 garantili Google ilk 3 sıralama kaydı değildir; rakip keşif örneklemidir.

@@ -1,6 +1,6 @@
 # Psikolog Ata Pamukçu
 
-Son güncelleme: 2026-08-05
+Son güncelleme: 2026-09-01
 
 > Antalya merkezli psikolog Ata Pamukçu'nun kişisel ve klinik bilgilendirme sitesi. Site; kaygı, panik atak, sosyal kaygı, OKB, travma sonrası tepkiler, depresif belirtiler, fobiler, öfke, ilişki sorunları ve online psikolojik destek konularında Türkçe, klinik açıdan ölçülü ve anlaşılır bilgi sunar.
 
@@ -70,7 +70,7 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 ### OKB ve takıntılar
 - OKB: https://www.atapamukcu.com/okb
 - OKB belirtileri: https://www.atapamukcu.com/okb-belirtileri
-- Kompulsiyon nedir: https://www.atapamukcu.com/kompulsiyon-nedir
+- Kompülsiyon (zorlantı) nedir: https://www.atapamukcu.com/kompulsiyon-nedir
 - Takıntı hastalığı: https://www.atapamukcu.com/takinti-hastaligi
 
 ### Travma ve stres tepkileri

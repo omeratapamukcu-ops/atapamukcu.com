@@ -107,7 +107,13 @@ for url in expected_urls:
         errors.append(f"sitemap.xml: {url} has invalid lastmod {seen.get(url)!r}")
 
 for path in ("llms.txt", "llms-full.txt"):
-    require(path, f"Son güncelleme: {EXPECTED_DATE}")
+    text = require(path, "Son güncelleme:")
+    match = re.search(r"Son güncelleme:\s*(\d{4}-\d{2}-\d{2})", text)
+    try:
+        if not match or date.fromisoformat(match.group(1)) < date.fromisoformat(EXPECTED_DATE):
+            errors.append(f"{path}: update date predates {EXPECTED_DATE}: {match.group(1) if match else None!r}")
+    except ValueError:
+        errors.append(f"{path}: invalid update date {match.group(1) if match else None!r}")
 
 if errors:
     print("FAILED")

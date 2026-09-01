@@ -48,14 +48,16 @@ Payda sıfırsa KPI `UNKNOWN` olur. Bilinmeyen sorgular paydaya sıfır konum gi
 
 Sağlayıcı 403 döndürürse, proxy/kaynak konumu bilinmiyorsa, kişiselleştirme kapatılamıyorsa veya sonuç türü ayrıştırılamıyorsa position ve Top 3 `UNKNOWN` kaydedilir. Captcha/WAF bypass, kontrolsüz Google scraping, sahte SERP verisi ve satın alınmış/istenmiş API anahtarı kullanılmaz.
 
-## 31 Ağustos 2026 sonucu
+## 1 Eylül 2026 sonucu
 
-- Önceki dönem: 4 Temmuz 2026 ile 31 Temmuz 2026
-- Güncel dönem: 1 Ağustos 2026 ile 28 Ağustos 2026
-- API erişimi başarılı, ülke filtresi sonrası ham satır sayısı sırasıyla 55 ve 196
-- Kritik 15 sorgunun mobile ve desktop exact satır sayısı iki dönemde de 0
-- Top 3 kapsama oranı: `UNKNOWN`
-- Erişim engeli yoktur. Veri engeli, hedef exact sorguların GSC tarafından raporlanmaması veya anonimleştirilmesidir. Kullanıcıdan yeni credential gerekmez; sonraki güvenilir adım günlük yeniden ölçüm ve sorgu satırı oluşmasını beklemektir
+- Önceki dönem: 5 Temmuz 2026 ile 1 Ağustos 2026
+- Güncel dönem: 2 Ağustos 2026 ile 29 Ağustos 2026
+- API erişimi başarılı, ülke filtresi sonrası ham satır sayısı sırasıyla 54 ve 195
+- GSC fırsat envanterinden `kompülsiyon nedir` ve `kompulsiyon` sorguları kritik portföye eklendi; her ikisinin mobile ve desktop exact satırı gözlendi
+- Mobile: 2 observed, 13 `UNKNOWN`, Top 3 sorgu 0, observed coverage yüzde 0
+- `kompülsiyon nedir`: mobile 62 gösterim, 8,90 konum; desktop 4 gösterim, 11,00 konum; canonical eşleşmesi doğru
+- `kompulsiyon`: mobile 39 gösterim, 10,62 konum; desktop 11 gösterim, 9,36 konum; canonical eşleşmesi doğru
+- Erişim engeli yoktur. Kalan 13 exact sorgu GSC tarafından raporlanmadığı veya anonimleştirildiği için `UNKNOWN` kalır; kullanıcıdan yeni credential gerekmez
 
 ## Artefaktlar
 

@@ -4,7 +4,7 @@
   "name": "AI context for Psikolog Ata Pamukçu",
   "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
   "url": "https://www.atapamukcu.com/ai-context.json",
-  "dateModified": "2026-08-31",
+  "dateModified": "2026-09-01",
   "inLanguage": "tr-TR",
   "mainEntity": {
     "@type": "Person",
@@ -44,6 +44,8 @@
       "Panik atak",
       "Sosyal kaygı",
       "Obsesif kompulsif bozukluk",
+      "Kompülsiyon",
+      "Zorlantı",
       "Travma sonrası tepkiler",
       "Depresif belirtiler",
       "Davranış analizi",

@@ -1,7 +1,7 @@
 id,item,impact,confidence,effort,measurability,priority,status,approval_required,next_measure
 B001,GSC son 28 gün ve önceki 28 gün sorgu+URL+ülke+cihaz baseline,5,5,2,5,P0,done,false,"2026-08-31 API erişimi ve iki ardışık 28 günlük kırılım doğrulandı"
 B002,Online psikolog sayfasında exact intent title H1 meta ve online-only tutarlılığı,5,5,2,5,P0,done,false,2026-09-01
-B003,Kritik 15 sorgu için gl=tr hl=tr pws=0 uyumlu rank tracker veya Search Console ölçümü,5,4,3,5,P0,blocked_data,false,"GSC erişimi çalışıyor; 15 exact sorgunun iki dönem ve iki cihazda raporlanan satırı yok, coverage UNKNOWN; günlük yeniden ölç"
+B003,Kritik 15 sorgu için gl=tr hl=tr pws=0 uyumlu rank tracker veya Search Console ölçümü,5,4,3,5,P0,in_progress,false,"GSC erişimi çalışıyor; 2 exact sorgu mobile ve desktop gözlendi, 13 sorgu UNKNOWN; günlük yeniden ölç"
 B004,Online psikolog sayfasında görünür FAQ ile FAQPage birebir eşleşme denetimi,4,5,1,5,P1,done,false,2026-09-01
 B005,Klinik cornerstone sayfalarında kaynak ve E-E-A-T boşluk envanteri,4,4,3,4,P1,done,false,2026-09-01
 B006,Online psikolog sayfasında CTR ve CTA olay ölçümünü doğrulama,5,4,3,5,P1,done,false,2026-09-01
@@ -11,3 +11,4 @@ B009,GA4 analitik onayı ret ve tercih geri çekme mekanizması,5,5,2,5,P0,done,
 B010,Anksiyete depresyon travma ve sosyal kaygı sayfalarında kaynak+yazar+güncellik paketi,4,4,4,4,P1,done,false,"/depresyon, /anksiyete-nedir, /travma ve /sosyal-kaygi 2026-08-31 tamamlandı"
 B011,P0/P1 canonical hedefler için bağlamsal internal link otoritesi denetimi ve güvenli link paketi,5,5,2,5,P0,done,false,"/travma için 3 ilgili kaynak ve /antalya-psikolog için 1 ilgili kaynak eklendi; canlı doğrulama 2026-08-31"
 B012,Online ve Antalya hizmet sayfalarında keyword cannibalization ve intent ayrıştırma denetimi,5,5,2,5,P0,done,false,"4 URL audit edildi; title H1 meta schema ve internal link ayrıştırması 2026-08-31"
+B013,Gerçek GSC fırsatı olan kompülsiyon sorgu kümesinde CTR intent ve güven iyileştirmesi,5,5,2,5,P0,in_progress,false,"2026-09-15 erken CTR/konum kontrolü; 2026-09-29 tam 28 günlük değerlendirme"
