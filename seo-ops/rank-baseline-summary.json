@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T12:09:23+03:00",
+  "generated_at": "2026-09-01T14:17:46+03:00",
   "site": "https://www.atapamukcu.com/",
   "measurement_type": "GSC first-party web performance, not a live universal rank",
-  "critical_query_count": 18,
+  "critical_query_count": 19,
   "periods": [
     {
       "label": "previous_28d",
@@ -22,34 +22,34 @@
   "coverage_by_period_device": {
     "previous_28d": {
       "mobile": {
-        "portfolio_queries": 18,
+        "portfolio_queries": 19,
         "observed_queries": 0,
-        "unknown_queries": 18,
+        "unknown_queries": 19,
         "top3_queries": 0,
         "top3_coverage_observed": null,
         "top3_coverage_status": "UNKNOWN"
       },
       "desktop": {
-        "portfolio_queries": 18,
-        "observed_queries": 0,
+        "portfolio_queries": 19,
+        "observed_queries": 1,
         "unknown_queries": 18,
         "top3_queries": 0,
-        "top3_coverage_observed": null,
-        "top3_coverage_status": "UNKNOWN"
+        "top3_coverage_observed": 0.0,
+        "top3_coverage_status": "CALCULATED"
       }
     },
     "current_28d": {
       "mobile": {
-        "portfolio_queries": 18,
-        "observed_queries": 5,
+        "portfolio_queries": 19,
+        "observed_queries": 6,
         "unknown_queries": 13,
         "top3_queries": 0,
         "top3_coverage_observed": 0.0,
         "top3_coverage_status": "CALCULATED"
       },
       "desktop": {
-        "portfolio_queries": 18,
-        "observed_queries": 3,
+        "portfolio_queries": 19,
+        "observed_queries": 4,
         "unknown_queries": 15,
         "top3_queries": 0,
         "top3_coverage_observed": 0.0,
@@ -58,8 +58,8 @@
     }
   },
   "primary_kpi": {
-    "portfolio_queries": 18,
-    "observed_queries": 5,
+    "portfolio_queries": 19,
+    "observed_queries": 6,
     "unknown_queries": 13,
     "top3_queries": 0,
     "top3_coverage_observed": 0.0,

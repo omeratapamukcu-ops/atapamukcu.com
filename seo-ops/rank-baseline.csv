@@ -35,6 +35,8 @@ previous_28d,2026-07-05,2026-08-01,ruhsal enerji düşüklüğü,https://www.ata
 previous_28d,2026-07-05,2026-08-01,ruhsal enerji düşüklüğü,https://www.atapamukcu.com/enerji-dusuklugu,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 previous_28d,2026-07-05,2026-08-01,düşük enerji neden olur,https://www.atapamukcu.com/enerji-dusuklugu,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 previous_28d,2026-07-05,2026-08-01,düşük enerji neden olur,https://www.atapamukcu.com/enerji-dusuklugu,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+previous_28d,2026-07-05,2026-08-01,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,desktop,OBSERVED,11.00,https://www.atapamukcu.com/erteleme,true,0,1,0.000000,true,false,false
 current_28d,2026-08-02,2026-08-29,online psikolog,https://www.atapamukcu.com/online-psikolog,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 current_28d,2026-08-02,2026-08-29,online psikolog,https://www.atapamukcu.com/online-psikolog,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
 current_28d,2026-08-02,2026-08-29,online terapi,https://www.atapamukcu.com/online-psikolog,TUR,mobile,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
@@ -71,3 +73,5 @@ current_28d,2026-08-02,2026-08-29,ruhsal enerji düşüklüğü,https://www.atap
 current_28d,2026-08-02,2026-08-29,ruhsal enerji düşüklüğü,https://www.atapamukcu.com/enerji-dusuklugu,TUR,desktop,OBSERVED,11.00,https://www.atapamukcu.com/enerji-dusuklugu,true,0,1,0.000000,true,false,false
 current_28d,2026-08-02,2026-08-29,düşük enerji neden olur,https://www.atapamukcu.com/enerji-dusuklugu,TUR,mobile,OBSERVED,10.43,https://www.atapamukcu.com/enerji-dusuklugu,true,0,7,0.000000,true,false,false
 current_28d,2026-08-02,2026-08-29,düşük enerji neden olur,https://www.atapamukcu.com/enerji-dusuklugu,TUR,desktop,UNKNOWN,,,UNKNOWN,,,,UNKNOWN,UNKNOWN,UNKNOWN
+current_28d,2026-08-02,2026-08-29,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,mobile,OBSERVED,7.00,https://www.atapamukcu.com/erteleme,true,0,2,0.000000,true,true,false
+current_28d,2026-08-02,2026-08-29,erteleme döngüsü,https://www.atapamukcu.com/erteleme,TUR,desktop,OBSERVED,10.71,https://www.atapamukcu.com/erteleme,true,0,17,0.000000,true,false,false
