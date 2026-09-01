@@ -1,5 +1,22 @@
 # Rakip Bulguları
 
+## 1 Eylül 2026, PBT nedir sorgu kümesi
+
+GSC'nin 2–29 Ağustos Türkiye web verisinde exact `pbt nedir` sorgusu 42 gösterim, 0 tıklama ve 9,40 ortalama konum aldı. Mobil kırılım 37 gösterim ve 9,76; masaüstü kırılım 5 gösterim ve 6,80 konumdur. `pbt ne demek` sorgusu da 7 gösterimle 11,14 civarında gözlendi. Bunlar gösterim ağırlıklı GSC ortalamalarıdır; kişiselleştirilmemiş sabit sıra değildir.
+
+### Sınırlı SERP örneklemindeki ortak örüntüler
+
+- İlk cümlede `Process-Based Therapy` açılımını ve Türkçe karşılığını verme.
+- Tanı/protokol yerine kişiye özgü değişim süreçlerini açıklama.
+- Kaçınma, kontrol, dikkat ve değerlerden kopma gibi somut süreç örnekleri.
+- PBT'nin tek başına yeni bir teknik paketi olmadığını ayırma.
+- ACT/BDT ilişkisini ve değerlendirme–müdahale–izlem döngüsünü açıklama.
+- Klinisyen sayfalarının yanında hakemli akademik yayın ve kitap yüzeylerinin görünmesi.
+
+### Özgün fırsat ve karar
+
+Rakip metni veya tasarımı kopyalanmadı. `/pbt-nedir` ilk ekranında açılım, Türkçe karşılık ve kısa tanım birleştirildi; `pbt nedir` ve `pbt ne demek` dili title, meta, H1 ve FAQ ile eşleştirildi. Aynı belirtiyi sürdüren farklı süreçleri gösteren özgün örnek, dört aşamalı uygulama özeti, PBT–ACT–BDT ayrımı, hakemli kaynaklar, yazar ve güncellik sinyali güçlendirildi. `/surec-temelli-terapi` geniş klinik anlatım sayfası olarak korunarak iki sayfanın görevi ayrıştırıldı.
+
 ## 1 Eylül 2026, kompülsiyon nedir sorgu kümesi
 
 GSC'nin 2–29 Ağustos Türkiye web verisinde `/kompulsiyon-nedir` toplam 217 gösterim, 0 tıklama ve 9,48 ortalama konum aldı. En görünür exact sorgular `kompülsiyon nedir` (66 gösterim, 9,03), `kompulsiyon` (50 gösterim, 10,34), `kompülsiyon` (41 gösterim, 9,44) ve `kompülsiyon ne demek` (32 gösterim, 10,16) oldu. Bunlar tarih aralığına bağlı, gösterim ağırlıklı GSC ortalamalarıdır; evrensel canlı sıra değildir.

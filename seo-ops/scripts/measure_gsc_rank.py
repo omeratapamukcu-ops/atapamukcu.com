@@ -20,7 +20,7 @@ from pathlib import Path
 SITE = "https://www.atapamukcu.com/"
 COUNTRY = "tur"
 DEVICES = ("MOBILE", "DESKTOP")
-CRITICAL_COUNT = 15
+CRITICAL_COUNT = 17
 ROOT = Path(__file__).resolve().parents[2]
 OPS = ROOT / "seo-ops"
 TOKEN_PATH = Path(os.environ.get("HERMES_GOOGLE_TOKEN", Path.home() / ".hermes/google_token.json"))

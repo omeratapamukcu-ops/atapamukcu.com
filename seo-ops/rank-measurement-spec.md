@@ -62,5 +62,5 @@ Sağlayıcı 403 döndürürse, proxy/kaynak konumu bilinmiyorsa, kişiselleşti
 ## Artefaktlar
 
 - `scripts/measure_gsc_rank.py`: tekrar üretilebilir ölçüm
-- `rank-baseline.csv`: 15 sorgu, iki dönem, iki cihaz, canonical hedef ve durum
+- `rank-baseline.csv`: 17 P0 sorgu, iki dönem, iki cihaz, canonical hedef ve durum
 - `rank-baseline-summary.json`: dönem, ham satır sayısı, coverage ve sınırlar

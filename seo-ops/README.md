@@ -12,7 +12,7 @@ Görüşmeler yalnızca online yapılır. Sabit ofis ve yüz yüze hizmet yoktur
 - `measurements.csv`: Tarihli GSC ve kişiselleştirilmemiş SERP gözlemleri.
 - `baseline.md`: Başlangıç ölçüm durumu ve KPI tanımları.
 - `rank-measurement-spec.md`: GSC ölçüm sözleşmesi, SERP güven kapıları ve veri sınırları.
-- `rank-baseline.csv`: Kritik 15 sorgunun iki dönem ve iki cihaz baseline çıktısı.
+- `rank-baseline.csv`: Kritik 17 P0 sorgunun iki dönem ve iki cihaz baseline çıktısı.
 - `rank-baseline-summary.json`: Top 3 coverage durumu ve ölçüm özeti.
 - `scripts/measure_gsc_rank.py`: Credential değerlerini kaydetmeden GSC ölçümünü tekrar üretir.
 - `competitors.md`: Sorgu bazlı ilk sonuç ve rakip öğrenimleri.

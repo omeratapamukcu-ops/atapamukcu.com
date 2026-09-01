@@ -2,6 +2,10 @@
 
 ## 2026-09-01
 
+- İkinci sorgu cephesi olarak exact `pbt nedir` seçildi: 2–29 Ağustos GSC verisinde 42 gösterim, 0 tıklama, 9,40 ortalama konum; mobilde 37 gösterim/9,76, masaüstünde 5 gösterim/6,80. `pbt ne demek` 7 gösterim ve yaklaşık 11,14 konumla aynı canonical kümeye bağlandı.
+- Sınırlı SERP örnekleminde açılımı ilk cümlede verme, süreç örnekleri, tanı/protokol ayrımı, ACT–BDT ilişkisi ve akademik kaynak örüntüleri çıkarıldı; rakip metni veya tasarımı kopyalanmadı.
+- `/pbt-nedir` title, meta, H1, Article ve FAQ şeması gerçek sorgu diliyle eşleştirildi. İlk ekran kısa yanıtı, dört aşamalı uygulama özeti, aynı belirti/farklı süreç örneği, PBT–ACT–BDT ayrımı, görünür 1 Eylül güncelliği ve onaya bağlı CTA ölçüm işaretleyicisi eklendi.
+- `pbt nedir` ve `pbt ne demek` günlük P0 portföyüne eklendi; kritik ölçüm kapsamı, önceki kompülsiyon sorgularını dışarıda bırakmamak için 15'ten 17 P0 sorguya çıkarıldı. Sitemap `lastmod` güncellendi. Erken sinyal 15 Eylül, tam 28 günlük değerlendirme 29 Eylül 2026'da yapılacak.
 - GSC'nin 2–29 Ağustos 2026 Türkiye web verisi sorgu ve sayfa düzeyinde yeniden ölçüldü. `/kompulsiyon-nedir` 217 gösterim, 0 tıklama ve 9,48 ortalama konumla en yüksek doğrulanmış markasız fırsat olarak belirlendi.
 - `kompülsiyon nedir` ve `kompulsiyon` exact sorguları günlük P0 portföyüne, mevcut canonical `/kompulsiyon-nedir` korunarak eklendi.
 - Yenilenen kritik baseline'da mobile cihazda iki sorgu gözlendi: `kompülsiyon nedir` 62 gösterim, 8,90 konum; `kompulsiyon` 39 gösterim, 10,62 konum. İkisinde de canonical eşleşmesi doğru, tıklama ve Top 3 durumu sıfır; kalan 13 sorgu `UNKNOWN`.
