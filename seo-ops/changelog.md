@@ -2,6 +2,9 @@
 
 ## 2026-09-01
 
+- Üçüncü sorgu cephesi olarak exact `aktivasyon nedir` seçildi: 2–29 Ağustos GSC verisinde 20 gösterim, 0 tıklama ve 10,30 ortalama konum; Google-selected URL mevcut `/davranissal-aktivasyon` canonical'ıdır.
+- `/davranissal-aktivasyon` title, meta, H1, Article ve FAQ şeması gerçek sorgu diliyle eşleştirildi. Doğrudan kısa yanıt, beş aşamalı uygulama özeti, kapasiteye göre küçültülen örnek, motivasyon ayrımı, güvenlik sınırı, NICE/Cochrane kaynakları, görünür yazar/güncellik ve iki onaya bağlı CTA marker'ı eklendi.
+- `aktivasyon nedir` günlük P0 portföyüne eklendi; kritik ölçüm kapsamı 17'den 18 sorguya çıkarıldı ve sitemap `lastmod` güncellendi. Erken sinyal 15 Eylül, tam 28 günlük değerlendirme 29 Eylül 2026'da yapılacak.
 - İkinci sorgu cephesi olarak exact `pbt nedir` seçildi: 2–29 Ağustos GSC verisinde 42 gösterim, 0 tıklama, 9,40 ortalama konum; mobilde 37 gösterim/9,76, masaüstünde 5 gösterim/6,80. `pbt ne demek` 7 gösterim ve yaklaşık 11,14 konumla aynı canonical kümeye bağlandı.
 - Sınırlı SERP örnekleminde açılımı ilk cümlede verme, süreç örnekleri, tanı/protokol ayrımı, ACT–BDT ilişkisi ve akademik kaynak örüntüleri çıkarıldı; rakip metni veya tasarımı kopyalanmadı.
 - `/pbt-nedir` title, meta, H1, Article ve FAQ şeması gerçek sorgu diliyle eşleştirildi. İlk ekran kısa yanıtı, dört aşamalı uygulama özeti, aynı belirti/farklı süreç örneği, PBT–ACT–BDT ayrımı, görünür 1 Eylül güncelliği ve onaya bağlı CTA ölçüm işaretleyicisi eklendi.

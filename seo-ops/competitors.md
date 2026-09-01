@@ -1,5 +1,20 @@
 # Rakip Bulguları
 
+## 1 Eylül 2026, aktivasyon nedir sorgu kümesi
+
+GSC'nin 2–29 Ağustos Türkiye web verisinde exact `aktivasyon nedir` sorgusu 20 gösterim, 0 tıklama ve 10,30 ortalama konum aldı. GSC'nin sorgu–sayfa kırılımı hedefin mevcut `/davranissal-aktivasyon` canonical sayfası olduğunu doğruladı. Bunlar tarih aralığına bağlı ortalamalardır; kişiselleştirilmemiş sabit sıra değildir.
+
+### Sınırlı SERP örneklemindeki ortak örüntüler
+
+- İlk paragrafta davranışsal aktivasyonu depresif geri çekilme döngüsüyle ilişkilendiren doğrudan tanım.
+- Etkinlik izleme, planlama, kaçınma analizi ve küçük adımlar gibi yapılandırılmış uygulama bileşenleri.
+- Pozitif düşünme veya rastgele meşguliyet önerisinden ayrım.
+- Depresyonla ilişkili klinik kullanım, profesyonel uygunluk sınırı ve akademik/kurumsal kaynaklar.
+
+### Özgün fırsat ve karar
+
+Rakip metni veya tasarımı kopyalanmadı. `/davranissal-aktivasyon` URL'si ve canonical'ı korundu; `aktivasyon nedir` dili title, meta, H1, kısa yanıt ve FAQ ile eşleştirildi. Beş aşamalı uygulama akışı, kapasiteye göre küçültülen özgün örnek, motivasyon ayrımı, güvenlik sınırı, NICE ve Cochrane kaynakları, görünür yazar/güncellik ve onaya bağlı CTA ölçümü eklendi.
+
 ## 1 Eylül 2026, PBT nedir sorgu kümesi
 
 GSC'nin 2–29 Ağustos Türkiye web verisinde exact `pbt nedir` sorgusu 42 gösterim, 0 tıklama ve 9,40 ortalama konum aldı. Mobil kırılım 37 gösterim ve 9,76; masaüstü kırılım 5 gösterim ve 6,80 konumdur. `pbt ne demek` sorgusu da 7 gösterimle 11,14 civarında gözlendi. Bunlar gösterim ağırlıklı GSC ortalamalarıdır; kişiselleştirilmemiş sabit sıra değildir.

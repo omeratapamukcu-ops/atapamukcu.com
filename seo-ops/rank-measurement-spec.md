@@ -2,7 +2,7 @@
 
 ## Amaç ve kapsam
 
-Bu düzenek `query-portfolio.csv` içindeki öncelik, iş değeri ve dosya sırasına göre seçilen 15 kritik sorguyu canonical hedefleriyle izler. Birincil cihaz portföyde tanımlandığı gibi mobile, yardımcı kırılım desktop, ülke Türkiye'dir. Maps/local pack işletmenin online-only modeli nedeniyle KPI değildir.
+Bu düzenek `query-portfolio.csv` içindeki öncelik, iş değeri ve dosya sırasına göre seçilen 18 kritik sorguyu canonical hedefleriyle izler. Birincil cihaz portföyde tanımlandığı gibi mobile, yardımcı kırılım desktop, ülke Türkiye'dir. Maps/local pack işletmenin online-only modeli nedeniyle KPI değildir.
 
 ## Birincil kaynak: Google Search Console
 
@@ -62,5 +62,5 @@ Sağlayıcı 403 döndürürse, proxy/kaynak konumu bilinmiyorsa, kişiselleşti
 ## Artefaktlar
 
 - `scripts/measure_gsc_rank.py`: tekrar üretilebilir ölçüm
-- `rank-baseline.csv`: 17 P0 sorgu, iki dönem, iki cihaz, canonical hedef ve durum
+- `rank-baseline.csv`: 18 P0 sorgu, iki dönem, iki cihaz, canonical hedef ve durum
 - `rank-baseline-summary.json`: dönem, ham satır sayısı, coverage ve sınırlar
