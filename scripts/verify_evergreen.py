@@ -159,6 +159,7 @@ try:
         "https://www.atapamukcu.com/panik-atak-belirtileri": "2026-07-27",
         "https://www.atapamukcu.com/psikolojik-esneklik": "2026-09-02",
         "https://www.atapamukcu.com/sosyal-kaygi-belirtileri": "2026-07-27",
+        "https://www.atapamukcu.com/yasantisal-kacinma": "2026-09-02",
     }
     for url_node in root.findall("s:url", ns):
         loc = url_node.findtext("s:loc", namespaces=ns)

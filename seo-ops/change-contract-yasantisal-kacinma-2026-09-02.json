@@ -1,0 +1,98 @@
+{
+  "experiment_id": "B020",
+  "release_date": "2026-09-02",
+  "target_query": "yaşantısal kaçınma",
+  "target_canonical": "https://www.atapamukcu.com/yasantisal-kacinma",
+  "selection_rationale": "Higher-impression first-page-boundary candidates were materially optimized on 2026-09-01 and remain inside their measurement windows. This was the highest-position independent unworked candidate in the raw current 28-day GSC extraction.",
+  "baseline": {
+    "source": "Google Search Console Search Analytics API",
+    "search_type": "web",
+    "data_state": "final",
+    "dimensions": [
+      "query",
+      "page",
+      "country",
+      "device"
+    ],
+    "country": "tur",
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-30",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0.0,
+    "average_position": 7.0,
+    "google_selected_url": "https://www.atapamukcu.com/yasantisal-kacinma",
+    "device_rows": [
+      {
+        "device": "DESKTOP",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 7.0
+      },
+      {
+        "device": "MOBILE",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 7.0
+      },
+      {
+        "device": "TABLET",
+        "clicks": 0,
+        "impressions": 1,
+        "average_position": 7.0
+      }
+    ]
+  },
+  "query_subset_page_baseline": {
+    "method": "Rows from the same query-page-country-device extraction whose selected page is the target canonical; not a pure page-dimension total.",
+    "clicks": 0,
+    "impressions": 4,
+    "average_position": 7.0,
+    "queries": [
+      "yaşantısal kaçınma",
+      "kaçınma nedir"
+    ]
+  },
+  "experiment_isolation": {
+    "last_page_change": "2026-09-01",
+    "last_page_change_scope": "One contextual outbound link to /kabul-ne-demek only",
+    "content_experiment_overlap": false,
+    "excluded_recent_candidates": [
+      "/erteleme",
+      "/enerji-dusuklugu",
+      "/pbt-nedir",
+      "/davranissal-aktivasyon"
+    ]
+  },
+  "serp_observation": {
+    "method": "Limited web-search snapshot, not a personalized Google rank measurement",
+    "dominant_intent": "Informational definition with ACT context, everyday examples and short-term-relief/long-term-cost explanation",
+    "observed_gap": "The existing page lacked visible authorship and recency, verified sources, a precise answer-first definition, varied everyday examples and a bounded self-observation procedure."
+  },
+  "acceptance_contract": [
+    "Keep the existing URL and exact canonical",
+    "Lead with a concise definition covering unwanted private experiences and rigid control or avoidance efforts",
+    "Distinguish protective avoidance from inflexible experiential avoidance by context and function",
+    "Add everyday examples without treating them as diagnostic signs",
+    "Provide a four-step observation procedure with explicit safety and professional-assessment boundaries",
+    "Explain the ACT and psychological-flexibility relationship without guaranteed outcomes",
+    "Show author, publication date, update date, editorial boundary and verified sources",
+    "Align Article citation, dateModified and speakable with visible content",
+    "Keep visible FAQ answers identical to FAQPage JSON-LD",
+    "Track both CTA surfaces through consent-gated generic analytics markers",
+    "Add one contextual inbound link from the stable ACT overview",
+    "Update sitemap lastmod and complete-tier daily P0 query monitoring"
+  ],
+  "evaluation": {
+    "early_signal_date": "2026-09-16",
+    "full_window_date": "2026-09-30",
+    "dimensions": [
+      "query",
+      "page",
+      "country",
+      "device"
+    ],
+    "low_volume_caution": "A single new impression or isolated rank observation is insufficient to declare a win.",
+    "success_is_not_claimed_at_deployment": true
+  }
+}

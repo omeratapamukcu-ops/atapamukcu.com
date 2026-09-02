@@ -2,6 +2,10 @@
 
 ## 2026-09-02
 
+- Sıradaki bağımsız sorgu cephesi olarak exact `yaşantısal kaçınma` seçildi: 3–30 Ağustos 2026 GSC Türkiye web verisinde masaüstü, mobil ve tablette birer gösterim, toplam 3 gösterim, 0 tıklama ve 7,00 ortalama konum; Google-selected URL mevcut `/yasantisal-kacinma` canonical'ıdır. Daha yüksek gösterimli adaylar 1 Eylül'de içerik deneyine alındığı için ölçüm pencereleri bozulmadı; bu sayfanın son değişikliği yalnızca `/kabul-ne-demek` bağlantısıydı.
+- `/yasantisal-kacinma` URL ve canonical korunarak title, doğrudan tanım, günlük örnekler, bağlam-işlev ayrımı, dört adımlık güvenli gözlem, ACT ve psikolojik esneklik ilişkisi, görünür yazar/güncellik ve kaynakça geliştirildi. Article `citation`, `dateModified` ve `speakable`; görünür içerikle eşleşen FAQPage, iki consent-gated CTA marker'ı, `/act-nedir` sayfasından tek bağlamsal inbound link ve sitemap `lastmod` güncellendi.
+- Exact sorgu günlük P0 ölçüm portföyüne eklendi. Erken sinyal 16 Eylül, tam 28 günlük değerlendirme 30 Eylül 2026'da sorgu+URL+ülke+cihaz kırılımıyla yapılacak; düşük hacim nedeniyle tekil gösterim veya deployment sıralama kazanımı sayılmayacak.
+
 - Yeni sorgu cephesi olarak `esnek davranmak ne demek` seçildi: 3–30 Ağustos 2026 GSC Türkiye mobil verisinde 11 gösterim, 0 tıklama ve 9,73 ortalama konum; Google-selected URL mevcut `/psikolojik-esneklik` canonical'ıdır. Sayfanın son değişikliği yalnızca `/kabul-ne-demek` bağlantısı olduğu için önceki sayfa deneyiyle çakışan içerik optimizasyonu bulunmadı.
 - `/psikolojik-esneklik` URL ve canonical korunarak title, meta, doğrudan yanıt, dört adımlık uygulama, görünür yazar/güncellik ve kaynakça geliştirildi. Article `citation`, `dateModified` ve `speakable`; iki onaya bağlı CTA marker'ı ve sitemap `lastmod` eşleştirildi.
 - 390 px mobil QA'da ana navigasyonun son bağlantıları kırptığı görüldü. Ortak responsive navigasyon iki satıra sarılacak biçimde düzeltildi; sayfa yatay taşma üretmeden tüm bağlantıları görünür tutuyor.
