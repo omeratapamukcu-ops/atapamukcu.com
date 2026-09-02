@@ -2,7 +2,7 @@
 
 ## Amaç ve kapsam
 
-Bu düzenek `query-portfolio.csv` içindeki öncelik, iş değeri ve dosya sırasına göre seçilen 18 kritik sorguyu canonical hedefleriyle izler. Birincil cihaz portföyde tanımlandığı gibi mobile, yardımcı kırılım desktop, ülke Türkiye'dir. Maps/local pack işletmenin online-only modeli nedeniyle KPI değildir.
+Bu düzenek `query-portfolio.csv` içindeki aktif P0 kohortunun tamamını canonical hedefleriyle izler; 2 Eylül 2026 itibarıyla kapsam 32 sorgudur. Birincil cihaz portföyde tanımlandığı gibi mobile, yardımcı kırılım desktop, ülke Türkiye'dir. Maps/local pack işletmenin online-only modeli nedeniyle KPI değildir. Sabit satır sınırı kullanılmaz; böylece eşit öncelikli sorgular yalnızca dosya sırası nedeniyle dışarıda kalmaz.
 
 ## Birincil kaynak: Google Search Console
 

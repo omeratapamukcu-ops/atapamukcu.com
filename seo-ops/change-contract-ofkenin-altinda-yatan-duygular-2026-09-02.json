@@ -1,0 +1,57 @@
+{
+  "experiment_id": "B021",
+  "release_date": "2026-09-02",
+  "target_query": "öfkenin altında yatan duygular",
+  "target_canonical": "https://www.atapamukcu.com/ofke-kontrolu",
+  "selection_rationale": "Higher-impression candidates in the same 5–20 position band were materially optimized on 2026-09-01 or 2026-09-02 and remain in active measurement windows. The target page's 2026-08-31 change only linked shared entity IDs in Article schema and did not alter its content, metadata or search intent.",
+  "baseline": {
+    "source": "Google Search Console Search Analytics API",
+    "search_type": "web",
+    "data_state": "final",
+    "dimensions": ["query", "page", "country", "device"],
+    "country": "tur",
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-30",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0.0,
+    "average_position": 11.0,
+    "google_selected_url": "https://www.atapamukcu.com/ofke-kontrolu",
+    "device_rows": [
+      {"device": "MOBILE", "clicks": 0, "impressions": 2, "average_position": 11.0}
+    ],
+    "unobserved_devices": ["DESKTOP", "TABLET"]
+  },
+  "experiment_isolation": {
+    "last_page_change": "2026-08-31",
+    "last_page_change_scope": "Article author and publisher changed from duplicate inline entities to shared @id references only",
+    "content_experiment_overlap": false,
+    "excluded_active_candidates": ["/kompulsiyon-nedir", "/pbt-nedir", "/davranissal-aktivasyon", "/erteleme", "/enerji-dusuklugu", "/davranis-analizi-nedir", "/kabul-ne-demek", "/psikolojik-esneklik", "/bilissel-ayrisma", "/maruz-birakma-terapisi", "/yasantisal-kacinma"]
+  },
+  "serp_observation": {
+    "method": "Limited Turkish web-search snapshot, not a personalized Google rank measurement",
+    "dominant_intent": "Informational explanation of emotions that may accompany anger, why anger appears, and practical ways to notice the pattern",
+    "observed_gap": "The existing page asserted that anger is generally secondary, lacked a nuanced answer-first distinction, a bounded observation procedure, visible authorship/recency, verified sources and FAQ schema."
+  },
+  "acceptance_contract": [
+    "Keep the existing URL and exact canonical",
+    "Answer the target query directly without claiming anger always hides another emotion",
+    "Explain that anger can be primary, secondary or co-occurring depending on context and function",
+    "Name common accompanying experiences without turning a list into self-diagnosis",
+    "Provide a four-step functional observation procedure that does not excuse harmful behavior",
+    "Add an explicit safety boundary for violence, threats, loss of control and urgent risk",
+    "Show author, publication date, update date, editorial boundary and verified peer-reviewed/NHS sources",
+    "Align Article citation, dateModified and speakable with visible content",
+    "Keep visible FAQ answers identical to FAQPage JSON-LD",
+    "Track hero and body CTA surfaces through consent-gated generic analytics markers",
+    "Add one contextual inbound link from the stable relationship-problems page",
+    "Update sitemap lastmod and complete-tier daily P0 query monitoring"
+  ],
+  "evaluation": {
+    "early_signal_date": "2026-09-16",
+    "full_window_date": "2026-09-30",
+    "dimensions": ["query", "page", "country", "device"],
+    "low_volume_caution": "The baseline contains only two impressions. A single new impression or isolated average-position movement is insufficient to declare a win.",
+    "success_is_not_claimed_at_deployment": true
+  }
+}
