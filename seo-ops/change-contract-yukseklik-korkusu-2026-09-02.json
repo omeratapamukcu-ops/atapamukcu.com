@@ -1,0 +1,39 @@
+{
+  "target_url": "https://www.atapamukcu.com/yukseklik-korkusu",
+  "baseline_period": {
+    "start": "2026-08-03",
+    "end": "2026-08-30",
+    "source": "Google Search Console final web data"
+  },
+  "baseline": {
+    "page_impressions": 40,
+    "page_clicks": 0,
+    "priority_queries": [
+      {"query": "acrophobia nedir", "impressions": 4, "position": 7.75},
+      {"query": "yükseklik korkusu", "impressions": 10, "position": 48.9},
+      {"query": "yükseklik korkusu nasıl yenilir", "impressions": 6, "position": 35.83},
+      {"query": "yükseklik korkusu neden olur", "impressions": 3, "position": 31.0},
+      {"query": "akrofobi nedir", "impressions": 6, "position": 33.5}
+    ]
+  },
+  "search_intent": "Yükseklik korkusunun ne olduğunu, neden sürdüğünü ve güvenli biçimde nasıl çalışıldığını öğrenmek",
+  "observed_serp_pattern": "Üst sonuçlar tanım, belirtiler, nedenler ve tedavi başlıklarını birlikte karşılıyor; güçlü alan adları çoğunlukla hastane ve sağlık platformları.",
+  "changes": [
+    "Başlık ve açıklamayı nasıl yenilir, akrofobi, neden olur niyetleriyle uyumlu hale getir",
+    "Normal temkin ile işlev kaybı yaratan korkuyu ayır",
+    "Baş dönmesi ve denge yakınmalarına tıbbi güvenlik sınırı ekle",
+    "Kaçınma ve güvenlik davranışlarının sürdürme döngüsünü açıkla",
+    "Kademeli maruz bırakmayı zorlama veya tehlikeli kendi kendine uygulama gibi sunmadan açıkla",
+    "FAQPage, Article ve Breadcrumb yapılandırılmış verilerini hizala",
+    "Özgül fobi, maruz bırakma, kaçınma haritası ve online destek sayfalarına bağla",
+    "Sitemap lastmod değerini güncelle"
+  ],
+  "guardrails": [
+    "Tanı veya kişisel tedavi vaadi verme",
+    "Baş dönmesini yalnızca kaygıya bağlama",
+    "Korkunun kesin olarak geçeceğini söyleme",
+    "Korumasız yüksekliklerde pratik önerme",
+    "Yüz yüze Antalya hizmeti izlenimi verme"
+  ],
+  "review_window": "Yayından 10-14 gün sonra; kalıcı sonuç için ardışık 28 günlük dönemleri karşılaştır"
+}
