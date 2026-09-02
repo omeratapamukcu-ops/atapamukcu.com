@@ -1,5 +1,13 @@
 # Değişiklik Günlüğü
 
+## 2026-09-02
+
+- GSC 3–30 Ağustos 2026 verisinde `/yukseklik-korkusu` 40 gösterim ve 0 tıklama aldı. Beş sorguluk hedef kümede 29 gösterim vardı; `acrophobia nedir` 7,75 konumla ilk sayfada, Türkçe çekirdek sorgular 31,00 ile 48,90 aralığındaydı.
+- Sınırlı SERP örnekleminde tanım, belirtiler, nedenler, kaçınma, kademeli exposure ve tedavi kapsamı ortak theme word alanı olarak görüldü. Farklılaşma alanı, normal temkin ile işlev kaybını ayırmak, baş dönmesini yalnızca kaygıya bağlamamak ve korumasız yüksekte pratik önermemek olarak belirlendi.
+- `/yukseklik-korkusu` URL ve canonical korunarak title, meta, H1, doğrudan yanıt, nedenler, belirtiler, sürdürme döngüsü, güvenlik kapılı kademeli çalışma, online-only süreç açıklaması, görünür yazar/güncellik ve kaynakça yenilendi.
+- Article, FAQPage ve BreadcrumbList görünür içerikle eşleştirildi; Article citation ve speakable alanları, consent-gated CTA ölçüm marker'ı, dört bağlamsal internal link ve sitemap `lastmod` güncellendi.
+- Erken sinyal 16 Eylül, tam 28 günlük değerlendirme 30 Eylül 2026'da GSC sorgu+URL+cihaz kırılımıyla yapılacak. Tek SERP görüntüsü kalıcı kazanım sayılmayacak.
+
 ## 2026-09-01
 
 - Üçüncü sorgu cephesi olarak exact `aktivasyon nedir` seçildi: 2–29 Ağustos GSC verisinde 20 gösterim, 0 tıklama ve 10,30 ortalama konum; Google-selected URL mevcut `/davranissal-aktivasyon` canonical'ıdır.

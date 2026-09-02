@@ -23,6 +23,15 @@ def require(path: str, *needles: str) -> str:
     return text
 
 
+def require_schema_date_not_before(path: str, text: str, minimum: str) -> None:
+    match = re.search(r'"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})"', text)
+    try:
+        if not match or date.fromisoformat(match.group(1)) < date.fromisoformat(minimum):
+            errors.append(f"{path}: dateModified predates {minimum}: {match.group(1) if match else None!r}")
+    except ValueError:
+        errors.append(f"{path}: invalid dateModified {match.group(1) if match else None!r}")
+
+
 analytics = require(
     "js/script.js",
     "whatsapp_click",
@@ -42,7 +51,6 @@ general = require(
     "genel-kaygi.html",
     "Genel Kaygı Nedir? Sürekli Endişe Döngüsü",
     "Genel kaygı; tek bir konuya bağlı kalmadan",
-    '"dateModified": "2026-08-05"',
     "tanı koyma veya kişisel tedavi planı yerine geçmez",
     'href="/kaygi-dongusu"',
     'href="/antalya-kaygi-psikolog"',
@@ -52,16 +60,14 @@ exposure = require(
     "Maruz Bırakma Terapisi Nedir?",
     "diğer adıyla maruz kalma terapisi",
     "Maruz kalma terapisi nasıl işler?",
-    '"dateModified": "2026-08-05"',
     "kendi başına yoğun maruz bırakma uygulama talimatı değildir",
-    "https://doi.org/10.1016/j.brat.2014.10.006",
+    "https://doi.org/10.1016/j.brat.2014.04.006",
     'href="/okb"',
     'href="/sosyal-kaygi"',
 )
 local = require(
     "antalya-okb-psikolog.html",
     "Antalya’da OKB Döngüsüyle Çalışma",
-    '"dateModified": "2026-08-05"',
 )
 about = require(
     "hakkimda.html",
@@ -75,6 +81,7 @@ for path, text in (
     ("maruz-birakma-terapisi.html", exposure),
     ("antalya-okb-psikolog.html", local),
 ):
+    require_schema_date_not_before(path, text, EXPECTED_DATE)
     canonicals = re.findall(r'<link rel="canonical" href="([^"]+)"', text)
     if len(canonicals) != 1:
         errors.append(f"{path}: expected one canonical, found {len(canonicals)}")
