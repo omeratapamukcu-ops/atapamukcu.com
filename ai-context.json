@@ -4,7 +4,7 @@
   "name": "AI context for Psikolog Ata Pamukçu",
   "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
   "url": "https://www.atapamukcu.com/ai-context.json",
-  "dateModified": "2026-09-01",
+  "dateModified": "2026-09-02",
   "inLanguage": "tr-TR",
   "mainEntity": {
     "@type": "Person",
@@ -16,19 +16,10 @@
     "image": "https://www.atapamukcu.com/images/hero-photo.jpg",
     "email": "atapamukcu@gmail.com",
     "telephone": "+905327624060",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Antalya",
-      "addressCountry": "TR"
-    },
     "areaServed": [
       {
         "@type": "Country",
         "name": "Türkiye"
-      },
-      {
-        "@type": "City",
-        "name": "Antalya"
       }
     ],
     "knowsLanguage": [
@@ -36,8 +27,7 @@
     ],
     "sameAs": [
       "https://atapamukcu.substack.com",
-      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg",
-      "https://www.google.com/maps?cid=4424804506606398801"
+      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg"
     ],
     "knowsAbout": [
       "Kaygı",
@@ -92,9 +82,9 @@
         "name": "Mindfulness temelli terapi eğitimi"
       }
     ],
-    "description": "Antalya merkezli ve online çalışan psikolog. Kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, fobiler ve duygu çökkünlüğü alanlarında davranış analizi ve bilimsel temelli psikolojik destek çerçevesiyle çalışır.",
+    "description": "Antalya’da bulunan ve Türkiye geneline yalnızca online çalışan psikolog. Kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, fobiler ve duygu çökkünlüğü alanlarında davranış analizi ve bilimsel temelli psikolojik destek çerçevesiyle çalışır.",
     "worksFor": {
-      "@id": "https://www.atapamukcu.com/#localbusiness"
+      "@id": "https://www.atapamukcu.com/#organization"
     }
   },
   "importantPages": [
@@ -294,23 +284,17 @@
   ],
   "entity": {
     "name": "Psikolog Ata Pamukçu",
-    "location": "Antalya, Türkiye",
     "email": "atapamukcu@gmail.com",
     "telephone": "+90 532 762 4060",
     "sameAs": [
       "https://atapamukcu.substack.com",
-      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg",
-      "https://www.google.com/maps?cid=4424804506606398801"
+      "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg"
     ],
     "service_model": [
-      "Antalya merkezli psikolojik destek",
-      "Online psikolojik destek"
+      "Türkiye geneline yalnızca online psikolojik destek"
     ],
-    "@type": [
-      "LocalBusiness",
-      "ProfessionalService"
-    ],
-    "@id": "https://www.atapamukcu.com/#localbusiness",
+    "@type": "Organization",
+    "@id": "https://www.atapamukcu.com/#organization",
     "founder": {
       "@id": "https://www.atapamukcu.com/#person"
     }
@@ -324,10 +308,5 @@
     "depresif belirtiler",
     "özgül fobi",
     "psikolojik esneklik"
-  ],
-  "local_seo_notes": {
-    "nap": "Psikolog Ata Pamukçu, Antalya, Türkiye, +90 532 762 4060, atapamukcu@gmail.com",
-    "google_business_profile": "https://www.google.com/maps?cid=4424804506606398801",
-    "citation_status": "Doğrulanmış Google Business Profile URL'si sameAs alanına eklenmiştir; diğer dış profiller yalnızca sahiplik ve profil URL'si doğrulandıktan sonra eklenmelidir."
-  }
+  ]
 }

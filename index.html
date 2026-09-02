@@ -44,7 +44,7 @@
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
-  <!-- JSON-LD Schema: LocalBusiness + Person -->
+  <!-- JSON-LD Schema: Person + online professional service organization -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -77,11 +77,6 @@
         "Davranış Analizi"
       ],
       "@id": "https://www.atapamukcu.com/#person",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
       "alumniOf": [
         {
           "@type": "CollegeOrUniversity",
@@ -93,44 +88,28 @@
         }
       ],
       "worksFor": {
-        "@id": "https://www.atapamukcu.com/#localbusiness"
+        "@id": "https://www.atapamukcu.com/#organization"
       },
       "sameAs": [
         "https://atapamukcu.substack.com",
-        "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg",
-        "https://www.google.com/maps?cid=4424804506606398801"
+        "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg"
       ]
     },
     {
-      "@type": [
-        "LocalBusiness",
-        "ProfessionalService"
-      ],
+      "@type": "Organization",
       "name": "Psikolog Ata Pamukçu",
-      "description": "Antalya merkezli ve online psikolojik destek. Kaygı, panik, OKB, sosyal kaygı, travma sonrası tepkiler ve duygu çökkünlüğü alanlarında bilimsel temelli çalışma.",
+      "description": "Türkiye genelinde yalnızca online sunulan psikolojik destek. Kaygı, panik, OKB, sosyal kaygı, travma sonrası tepkiler ve duygu çökkünlüğü alanlarında bilimsel temelli çalışma.",
       "url": "https://www.atapamukcu.com",
       "telephone": "+905327624060",
       "email": "atapamukcu@gmail.com",
       "image": "https://www.atapamukcu.com/images/hero-photo.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+      "areaServed": {
+        "@type": "Country",
+        "name": "Türkiye"
       },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Antalya"
-        },
-        {
-          "@type": "Country",
-          "name": "Türkiye"
-        }
-      ],
       "sameAs": [
         "https://atapamukcu.substack.com",
-        "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg",
-        "https://www.google.com/maps?cid=4424804506606398801"
+        "https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -150,7 +129,7 @@
           }
         ]
       },
-      "@id": "https://www.atapamukcu.com/#localbusiness",
+      "@id": "https://www.atapamukcu.com/#organization",
       "founder": {
         "@id": "https://www.atapamukcu.com/#person"
       },
@@ -159,11 +138,6 @@
           "@type": "Service",
           "name": "Online Psikolojik Destek",
           "areaServed": "Türkiye"
-        },
-        {
-          "@type": "Service",
-          "name": "Antalya Psikolojik Danışmanlık",
-          "areaServed": "Antalya"
         },
         {
           "@type": "Service",
@@ -212,7 +186,7 @@
     <div class="container">
       <div class="hero-content">
         <h1>Kaygı, kaçınma ve tekrar eden döngüler için bilimsel psikolojik destek</h1>
-        <p><em>İlk görüşmede yaşadığınız sorunu, bu sorunun günlük hayatınızda nasıl sürdüğünü ve size uygun bir çalışma planı kurulup kurulamayacağını birlikte değerlendiririz.</em></p>
+        <p><em>Ücretsiz değerlendirme seansı 50 dakika sürer ve Google Meet üzerinden yapılır. Yaşadığınız sorunu, temel ihtiyacınızı ve psikolojik destek sürecinin size uygun olup olmadığını birlikte değerlendiririz.</em></p>
         <div class="hero-actions"><a href="https://wa.me/905327624060?text=Merhaba%2C%20%C3%BCcretsiz%20de%C4%9Ferlendirme%20seans%C4%B1%20i%C3%A7in%20randevu%20almak%20istiyorum." target="_blank" rel="noopener" class="btn-primary">Ücretsiz değerlendirme seansı için yazın</a></div>
       </div>
       <div class="hero-image">
@@ -485,12 +459,12 @@
   <section class="section assessment-section" id="degerlendirme">
     <div class="container">
       <p class="section-eyebrow">Karara yaklaştığınızda</p>
-      <h2 class="section-title">İLK GÖRÜŞME NASIL İLERLER?</h2>
+      <h2 class="section-title">ÜCRETSİZ DEĞERLENDİRME SEANSI NASIL İLERLER?</h2>
       <div class="steps-grid">
         <div class="step-card">
           <span class="step-number">01</span>
-          <h3>Kısa tanışma</h3>
-          <p>Yaşadığınız sorunu, beklentinizi ve şu anda sizi en çok zorlayan alanları sakin bir şekilde konuşuruz.</p>
+          <h3>Tanışma ve ihtiyacı anlama</h3>
+          <p>Yaşadığınız sorunu, beklentinizi ve şu anda sizi en çok zorlayan alanları konuşur; temel ihtiyacınızı birlikte netleştiririz.</p>
         </div>
         <div class="step-card">
           <span class="step-number">02</span>
@@ -500,13 +474,13 @@
         <div class="step-card">
           <span class="step-number">03</span>
           <h3>Yol haritası</h3>
-          <p>Devam etmek isterseniz seans sıklığı, çalışma hedefleri ve sürecin nasıl ilerleyeceği hakkında anlaşılır bir çerçeve oluştururuz.</p>
+          <p>Sürecin nasıl ilerleyebileceğini, çalışma hedeflerini, seans sıklığını ve ücret bilgisini konuşuruz. Devam edip etmeme kararını görüşmeden sonra verebilirsiniz.</p>
         </div>
       </div>
       <div class="process-details">
-        <div><strong>Seans süresi</strong><span>Ortalama 50 dakika.</span></div>
-        <div><strong>Görüşme biçimi</strong><span>Görüşmeler yalnızca online yapılır. Sabit ofis veya yüz yüze görüşme hizmeti bulunmaz.</span></div>
-        <div><strong>Ücret bilgisi</strong><span>Ücret ve devam çerçevesi, kısa değerlendirme sonrasında açık biçimde paylaşılır.</span></div>
+        <div><strong>Değerlendirme süresi</strong><span>Ücretsiz değerlendirme seansı 50 dakikadır.</span></div>
+        <div><strong>Görüşme biçimi</strong><span>Görüşmeler Google Meet üzerinden ve yalnızca online yapılır. Sabit ofis veya yüz yüze görüşme hizmeti bulunmaz.</span></div>
+        <div><strong>Ücret bilgisi</strong><span>Ücret bilgisi istediğiniz zaman açık biçimde paylaşılır.</span></div>
         <div><strong>İptal/değişiklik</strong><span>Randevu değişikliği için mümkün olduğunca önceden haber vermeniz beklenir.</span></div>
       </div>
     </div>
@@ -517,10 +491,10 @@
     <div class="container">
       <h2 class="section-title">SIK SORULAN SORULAR</h2>
       <div class="faq-list">
-        <div class="faq-item"><button class="faq-question">İlk görüşmede ne konuşacağız?</button><div class="faq-answer"><p>İlk görüşmede yaşadığınız sorunu, bunun hayatınızı nasıl etkilediğini ve psikolojik destekten ne beklediğinizi konuşuruz. Amaç sizi zorlamak değil, birlikte anlaşılır bir başlangıç noktası oluşturmaktır.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Ücretsiz değerlendirme seansında ne konuşacağız?</button><div class="faq-answer"><p>50 dakikalık Google Meet görüşmesinde tanışır; yaşadığınız sorunu, temel ihtiyacınızı, bunun hayatınızı nasıl etkilediğini ve psikolojik destekten ne beklediğinizi konuşuruz. Sürecin size uygun olup olmadığını değerlendirir, devam seçeneklerini ve ücret bilgisini açıklarız.</p></div></div>
         <div class="faq-item"><button class="faq-question">Ücretsiz değerlendirme seansı bağlayıcı mı?</button><div class="faq-answer"><p>Hayır. Bu görüşme, sürecin sizin için uygun olup olmadığını anlamak içindir. Devam edip etmeme kararını görüşmeden sonra verebilirsiniz.</p></div></div>
-        <div class="faq-item"><button class="faq-question">Seanslar ne kadar sürüyor?</button><div class="faq-answer"><p>Seanslar ortalama 50 dakika sürer. Görüşme sıklığı ve toplam süreç, yaşadığınız soruna ve birlikte belirlediğimiz hedeflere göre planlanır.</p></div></div>
-        <div class="faq-item"><button class="faq-question">Ücretler nedir?</button><div class="faq-answer"><p>Ücret bilgisi, kısa değerlendirme sonrasında çalışma çerçevesiyle birlikte açıkça paylaşılır. Böylece devam edip etmeme kararını ücret, sıklık ve uygunluk bilgisini bilerek verebilirsiniz.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Seanslar ne kadar sürüyor?</button><div class="faq-answer"><p>Ücretsiz değerlendirme seansı ve devam görüşme seansları 50 dakika sürer. Görüşme sıklığı ve toplam süreç, yaşadığınız soruna ve birlikte belirlediğimiz hedeflere göre planlanır.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Ücretler nedir?</button><div class="faq-answer"><p>Ücret bilgisini istediğiniz zaman öğrenebilirsiniz. Devam edip etmeme kararını ücret, seans sıklığı ve uygunluk bilgisini bilerek verebilirsiniz.</p></div></div>
         <div class="faq-item"><button class="faq-question">İlaç tedavisi alıyorum, sürece dahil olabilir miyim?</button><div class="faq-answer"><p>Birçok durumda psikolojik destek, psikiyatri takibiyle birlikte yürüyebilir. İlaç düzenlemesi psikiyatri hekiminin alanıdır; görüşmelerde ise günlük yaşam döngüleri, kaçınmalar ve davranış adımları üzerine çalışılır.</p></div></div>
         <div class="faq-item"><button class="faq-question">Görüşmelerimiz kayıt altına alınır mı?</button><div class="faq-answer"><p>Görüşmeler izniniz olmadan ses veya görüntü kaydına alınmaz. Süreç, gizlilik ve etik ilkeler çerçevesinde yürütülür.</p></div></div>
         <div class="faq-item"><button class="faq-question">Online psikolojik destek etkili olur mu?</button><div class="faq-answer"><p>Uygun bir değerlendirme ve düzenli çalışma planıyla online görüşmeler birçok kişi için etkili bir seçenek olabilir. Önemli olan, seanslarda konuşulanları günlük hayatta uygulanabilir adımlara çevirmektir.</p></div></div>
@@ -580,8 +554,8 @@
           <p><a href="https://atapamukcu.substack.com" target="_blank" rel="noopener">Psikoloji 3.0 yazıları</a></p>
         </div>
         <div class="footer-col">
-          <h3>YER</h3>
-          <p>ANTALYA</p>
+          <h3>HİZMET BİÇİMİ</h3>
+          <p>ONLINE · TÜRKİYE GENELİ</p>
         </div>
         <div class="footer-col">
           <h3>İLETİŞİM</h3>
@@ -601,10 +575,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "İlk görüşmede ne konuşacağız?",
+        "name": "Ücretsiz değerlendirme seansında ne konuşacağız?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "İlk görüşmede yaşadığınız sorunu, bunun hayatınızı nasıl etkilediğini ve psikolojik destekten ne beklediğinizi konuşuruz. Amaç sizi zorlamak değil, birlikte anlaşılır bir başlangıç noktası oluşturmaktır."
+          "text": "50 dakikalık Google Meet görüşmesinde tanışır; yaşadığınız sorunu, temel ihtiyacınızı, bunun hayatınızı nasıl etkilediğini ve psikolojik destekten ne beklediğinizi konuşuruz. Sürecin size uygun olup olmadığını değerlendirir, devam seçeneklerini ve ücret bilgisini açıklarız."
         }
       },
       {
@@ -620,7 +594,7 @@
         "name": "Seanslar ne kadar sürüyor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Seanslar ortalama 50 dakika sürer. Görüşme sıklığı ve toplam süreç, yaşadığınız soruna ve birlikte belirlediğimiz hedeflere göre planlanır."
+          "text": "Ücretsiz değerlendirme seansı ve devam görüşme seansları 50 dakika sürer. Görüşme sıklığı ve toplam süreç, yaşadığınız soruna ve birlikte belirlediğimiz hedeflere göre planlanır."
         }
       },
       {
@@ -628,7 +602,7 @@
         "name": "Ücretler nedir?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ücret bilgisi, kısa değerlendirme sonrasında çalışma çerçevesiyle birlikte açıkça paylaşılır. Böylece devam edip etmeme kararını ücret, sıklık ve uygunluk bilgisini bilerek verebilirsiniz."
+          "text": "Ücret bilgisini istediğiniz zaman öğrenebilirsiniz. Devam edip etmeme kararını ücret, seans sıklığı ve uygunluk bilgisini bilerek verebilirsiniz."
         }
       },
       {

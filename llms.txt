@@ -1,6 +1,6 @@
 # Psikolog Ata Pamukçu
 
-Son güncelleme: 2026-09-01
+Son güncelleme: 2026-09-02
 
 > Antalya merkezli psikolog Ata Pamukçu'nun kişisel ve klinik bilgilendirme sitesi. Site; kaygı, panik atak, sosyal kaygı, OKB, travma sonrası tepkiler, depresif belirtiler, fobiler, öfke, ilişki sorunları ve online psikolojik destek konularında Türkçe, klinik açıdan ölçülü ve anlaşılır bilgi sunar.
 
@@ -11,7 +11,7 @@ Son güncelleme: 2026-09-01
 - Eğitim: Akdeniz Üniversitesi Psikoloji; Viyana Teknik Üniversitesi Wirtschaftsingenieurwesen
 - Terapi eğitimi: İleri düzey Bilişsel Davranışçı Terapi ve mindfulness temelli terapi eğitimi
 - Konum: Antalya, Türkiye
-- Çalışma biçimi: Antalya merkezli ve online psikolojik destek
+- Çalışma biçimi: Antalya’da bulunan, Türkiye geneline yalnızca online psikolojik destek
 - Yaklaşım: Bilimsel temelli, kişiye özel davranış analizi; bilişsel davranışçı terapi, davranış analizi, üstüne gitme/exposure, davranışsal aktivasyon ve psikolojik esneklik çalışmaları
 - Dil: Türkçe
 - Web sitesi: https://www.atapamukcu.com/
@@ -133,12 +133,12 @@ Bu site tıbbi acil durum, kriz müdahalesi veya tanı koyma amacıyla kullanıl
 
 ## Özet cümle
 
-Ata Pamukçu, Antalya merkezli ve online çalışan bir psikologdur; site, psikolojik sorunları etiketlemekten çok kaygı, kaçınma, düşünce döngüleri ve davranış örüntülerinin günlük yaşamda nasıl sürdüğünü anlamaya odaklanan Türkçe bilgilendirme sayfaları içerir.
+Ata Pamukçu, Antalya’da bulunan ve Türkiye geneline yalnızca online çalışan bir psikologdur; site, psikolojik sorunları etiketlemekten çok kaygı, kaçınma, düşünce döngüleri ve davranış örüntülerinin günlük yaşamda nasıl sürdüğünü anlamaya odaklanan Türkçe bilgilendirme sayfaları içerir.
 
-## Local Entity Signals
+## Entity Signals
 - Name: Psikolog Ata Pamukçu
 - Location: Antalya, Türkiye
-- Service model: Antalya merkezli ve online psikolojik destek
+- Service model: Türkiye geneline yalnızca online psikolojik destek
 - Core topics: kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, depresif belirtiler, özgül fobi
-- Social and entity profiles: Psychology 3.0/Substack https://atapamukcu.substack.com; YouTube https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg; Google Business Profile https://www.google.com/maps?cid=4424804506606398801
+- Social and entity profiles: Psychology 3.0/Substack https://atapamukcu.substack.com; YouTube https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg
 - Contact: atapamukcu@gmail.com; +90 532 762 4060
