@@ -2,6 +2,11 @@
 
 ## 2026-09-02
 
+- Yeni sorgu cephesi olarak `esnek davranmak ne demek` seçildi: 3–30 Ağustos 2026 GSC Türkiye mobil verisinde 11 gösterim, 0 tıklama ve 9,73 ortalama konum; Google-selected URL mevcut `/psikolojik-esneklik` canonical'ıdır. Sayfanın son değişikliği yalnızca `/kabul-ne-demek` bağlantısı olduğu için önceki sayfa deneyiyle çakışan içerik optimizasyonu bulunmadı.
+- `/psikolojik-esneklik` URL ve canonical korunarak title, meta, doğrudan yanıt, dört adımlık uygulama, görünür yazar/güncellik ve kaynakça geliştirildi. Article `citation`, `dateModified` ve `speakable`; iki onaya bağlı CTA marker'ı ve sitemap `lastmod` eşleştirildi.
+- 390 px mobil QA'da ana navigasyonun son bağlantıları kırptığı görüldü. Ortak responsive navigasyon iki satıra sarılacak biçimde düzeltildi; sayfa yatay taşma üretmeden tüm bağlantıları görünür tutuyor.
+- Exact sorgu günlük P0 ölçüm portföyüne eklendi. Erken sinyal 16 Eylül, tam 28 günlük değerlendirme 30 Eylül 2026'da sorgu+URL+cihaz kırılımıyla yapılacak; deployment sıralama kazanımı sayılmayacak.
+
 - GSC 3–30 Ağustos 2026 verisinde `/yukseklik-korkusu` 40 gösterim ve 0 tıklama aldı. Beş sorguluk hedef kümede 29 gösterim vardı; `acrophobia nedir` 7,75 konumla ilk sayfada, Türkçe çekirdek sorgular 31,00 ile 48,90 aralığındaydı.
 - Sınırlı SERP örnekleminde tanım, belirtiler, nedenler, kaçınma, kademeli exposure ve tedavi kapsamı ortak theme word alanı olarak görüldü. Farklılaşma alanı, normal temkin ile işlev kaybını ayırmak, baş dönmesini yalnızca kaygıya bağlamamak ve korumasız yüksekte pratik önermemek olarak belirlendi.
 - `/yukseklik-korkusu` URL ve canonical korunarak title, meta, H1, doğrudan yanıt, nedenler, belirtiler, sürdürme döngüsü, güvenlik kapılı kademeli çalışma, online-only süreç açıklaması, görünür yazar/güncellik ve kaynakça yenilendi.

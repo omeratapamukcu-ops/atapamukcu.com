@@ -1443,6 +1443,24 @@ ul { list-style: none; }
 
 /* --- RESPONSIVE --- */
 @media (max-width: 900px) {
+  .site-header .nav-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 0;
+  }
+
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+  }
+
+  .nav-right a {
+    font-size: 11px;
+    letter-spacing: 0.8px;
+  }
+
   .hero-actions{justify-content:center}
   .hero-trust{justify-content:center;margin-left:auto;margin-right:auto}
   .hero .container,
@@ -1594,13 +1612,10 @@ ul { list-style: none; }
   .nav-right {
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    gap: 0;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 0;
+    overflow: visible;
     padding: 2px 2px 0;
   }
 

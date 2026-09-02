@@ -1,0 +1,51 @@
+{
+  "experiment_id": "B019",
+  "release_date": "2026-09-02",
+  "target_query": "esnek davranmak ne demek",
+  "target_canonical": "https://www.atapamukcu.com/psikolojik-esneklik",
+  "baseline": {
+    "source": "Google Search Console Search Analytics API",
+    "search_type": "web",
+    "data_state": "final",
+    "country": "tur",
+    "device": "MOBILE",
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-30",
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0.0,
+    "average_position": 9.7272727273,
+    "google_selected_url": "https://www.atapamukcu.com/psikolojik-esneklik"
+  },
+  "page_baseline": {
+    "dimensions": ["query", "page", "country", "device"],
+    "country": "tur",
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-30",
+    "clicks": 0,
+    "impressions": 12,
+    "average_position": 13.08,
+    "note": "Page aggregate from the same query-dimension extraction; not a pure page-dimension total."
+  },
+  "experiment_isolation": {
+    "last_page_change": "2026-09-01",
+    "last_page_change_scope": "One contextual outbound link to /kabul-ne-demek only",
+    "content_experiment_overlap": false
+  },
+  "acceptance_contract": [
+    "Keep the existing URL and exact canonical",
+    "Place an answer-first definition under the exact-query H2",
+    "Distinguish flexible action from submission or forced calm",
+    "Provide a short observable four-step practice without outcome guarantees",
+    "Show author, update date, editorial boundary and verified sources",
+    "Align Article citation, dateModified and speakable with visible content",
+    "Track both CTA surfaces through consent-gated generic analytics markers",
+    "Update sitemap lastmod and daily P0 query monitoring"
+  ],
+  "evaluation": {
+    "early_signal_date": "2026-09-16",
+    "full_window_date": "2026-09-30",
+    "dimensions": ["query", "page", "country", "device"],
+    "success_is_not_claimed_at_deployment": true
+  }
+}
