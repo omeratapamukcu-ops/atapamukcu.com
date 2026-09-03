@@ -142,3 +142,5 @@ Ata Pamukçu, Antalya’da bulunan ve Türkiye geneline yalnızca online çalı�
 - Core topics: kaygı, panik atak, OKB, sosyal kaygı, travma sonrası tepkiler, depresif belirtiler, özgül fobi
 - Social and entity profiles: Psychology 3.0/Substack https://atapamukcu.substack.com; YouTube https://www.youtube.com/channel/UCgKIpa_JuBWGoU4EjWAEDPg
 - Contact: atapamukcu@gmail.com; +90 532 762 4060
+
+- [Editoryal İlkeler ve Kaynak Politikası](https://www.atapamukcu.com/editorial-ilkeler): Yazarlık, kaynak seçimi, güncelleme, güvenlik, düzeltme ve yapay zekâ desteği ilkeleri.

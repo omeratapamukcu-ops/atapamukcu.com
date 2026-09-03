@@ -2,6 +2,14 @@
 
 ## 2026-09-03
 
+- Site çapında kalite programı başlatıldı. 83 statik HTML sayfasını title, description, H1, canonical, schema, yazar, görünür tarih, `dateModified`, görünür kaynak, içerik derinliği, internal link ve inbound sayısı açısından tekrar üretilebilir biçimde denetleyen `scripts/audit_site_quality.py` ile CSV/Markdown envanteri eklendi.
+- `seo-ops/sitewide-quality-standard.md` altında 12 yayın kapısı, konu kümesi mimarisi, içerik rolleri, dönüşüm dalgaları ve ölçüm ilkeleri tanımlandı. Kelime doldurma, sahte tarih tazeleme ve aktif deneyleri karar penceresinden önce karıştırma yasaklandı.
+- Her sayfadan erişilen `/editorial-ilkeler` yayıma hazırlandı: yazarlık ve mesleki sorumluluk, kaynak hiyerarşisi, iddia sınırı, klinik güvenlik, gerçek güncelleme, düzeltme, gizlilik ve yapay zekâ desteği politikası görünür hale getirildi. Sitemap, `llms.txt` ve `ai-context.json` eşleştirildi.
+- Site haritasına daha önce orphan kalan `/travma-belirtileri`, `/travma-kacinma`, `/karar-verememe`, `/kendini-sabote-etmek` ve `/kisisellestirilmis-terapi` için açıklayıcı küme bağlantıları eklendi. İndekslenebilir orphan sayfa sayısı sıfıra indirildi; yalnız özel amaçlı `/404` inbound/canonical/schema kapılarının dışında kaldı.
+- İlk kalite dalgasında `/ozgul-fobi`, `/travma-belirtileri`, `/travma-kacinma`, `/karar-verememe`, `/kendini-sabote-etmek` ve `/kisisellestirilmis-terapi` kaynak, gerçek ilk yayın/güncelleme tarihi, yazar sorumluluğu, işlevsel açıklama, ayırt etme sınırı ve güvenlik kapılarıyla geliştirildi. Görünür kaynaklar Article `citation` alanlarıyla eşleştirildi.
+- Aktif sorgu deneylerinin title, description, H1 ve ana içerikleri değiştirilmedi; bu URL'lerdeki tek site çapı değişiklik footer'daki editoryal ilke/gizlilik bağlantısıdır ve ayrı altyapı katmanı olarak kaydedildi.
+- `verify_evergreen.py`, `verify_monthly_seo.py`, 83 HTML/208 JSON-LD/82 benzersiz title için özel kalite kapısı, XML/AI context kontrolleri ve `git diff --check` geçti. İlk testte bulunan hatalı `/erteleme-davranisi` bağlantısı `/erteleme` olarak düzeltilip test zinciri tekrar çalıştırıldı.
+
 - GSC'nin 4–31 Ağustos 2026 Türkiye web verisi yazıldı. Kritik 32 sorgunun mobil kırılımında 16'sı gözlendi, 16'sı `UNKNOWN`; gözlenenlerde Top 3 kapsama oranı yüzde 0 kaldı. `UNKNOWN` sorgular sıfır sayılmadı.
 - Yeni içerik deneylerinin ölçüm penceresini bozmamak için ikinci bir sayfa rewrite'ı yapılmadı. Bağımsız ilk sayfa sınırı fırsatı `bilişsel ayrışma` oldu: Google-selected URL doğru canonical `/bilissel-ayrisma`, mobilde 9 gösterim, 0 tıklama ve 7,33 ortalama konum.
 - Portföyde exact sorgunun cihazı, gerçek gösterim alınan mobile kırılımına düzeltildi. ACT cornerstone sayfasındaki mevcut açıklamadan `/bilissel-ayrisma` hedefine tek, doğal ve bağlamsal internal link eklendi; URL, canonical, title, meta, görünür klinik iddia ve schema değiştirilmedi.

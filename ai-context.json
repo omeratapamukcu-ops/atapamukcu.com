@@ -4,7 +4,7 @@
   "name": "AI context for Psikolog Ata Pamukçu",
   "description": "Machine-readable summary of atapamukcu.com for search engines and generative answer engines.",
   "url": "https://www.atapamukcu.com/ai-context.json",
-  "dateModified": "2026-09-02",
+  "dateModified": "2026-09-03",
   "inLanguage": "tr-TR",
   "mainEntity": {
     "@type": "Person",
@@ -167,13 +167,28 @@
     {
       "name": "İşlevsel Takip Aracı",
       "url": "https://www.atapamukcu.com/araclar/islevsel-takip"
+    },
+    {
+      "name": "Editoryal İlkeler ve Kaynak Politikası",
+      "url": "https://www.atapamukcu.com/editorial-ilkeler",
+      "role": "Public editorial and source policy"
     }
   ],
   "safetyNote": "The website provides general psychological information and appointment/contact information. It is not a crisis, emergency, diagnosis, or medical advice service.",
   "editorialPolicy": {
     "medicalDisclaimer": "İçerikler genel psikolojik bilgilendirme niteliğindedir; tanı, tedavi planı veya acil durum yönlendirmesi yerine geçmez.",
     "contentFrame": "Sayfalar belirtilerden çok kaygı, kaçınma, güvence arama, bedensel alarm ve davranış örüntülerinin günlük yaşamda nasıl sürdüğünü açıklamaya odaklanır.",
-    "visibleSeoPolicy": "Yerel arama sinyalleri korunur; kullanıcıya görünen bağlantı metinlerinde anahtar kelime yığması yerine doğal, süreç odaklı ifadeler kullanılır."
+    "visibleSeoPolicy": "Yerel arama sinyalleri korunur; kullanıcıya görünen bağlantı metinlerinde anahtar kelime yığması yerine doğal, süreç odaklı ifadeler kullanılır.",
+    "publicPolicyUrl": "https://www.atapamukcu.com/editorial-ilkeler",
+    "authorAccountability": "Psikolog Ata Pamukçu is the author and editorially accountable person.",
+    "sourcePriority": [
+      "clinical guidelines",
+      "public health institutions",
+      "systematic reviews and meta-analyses",
+      "peer-reviewed primary research"
+    ],
+    "correctionsEmail": "atapamukcu@gmail.com",
+    "aiAssistance": "Automation or AI may assist research, technical checks and drafting; outputs are reviewed for clinical accuracy, sources, safety and language before publication."
   },
   "topicClusters": [
     {

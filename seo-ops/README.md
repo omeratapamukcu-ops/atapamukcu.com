@@ -18,6 +18,9 @@ Görüşmeler yalnızca online yapılır. Sabit ofis ve yüz yüze hizmet yoktur
 - `competitors.md`: Sorgu bazlı ilk sonuç ve rakip öğrenimleri.
 - `backlog.csv`: Etki, güven, efor ve ölçülebilirlik önceliği.
 - `changelog.md`: Uygulanan SEO değişiklikleri ve doğrulama kanıtı.
+- `sitewide-quality-standard.md`: Her sayfa için 12 yayın kapısı, konu kümeleri ve dönüşüm sırası.
+- `research/sitewide-quality-inventory.csv`: Yeniden üretilebilir sayfa bazlı kalite envanteri.
+- `research/sitewide-quality-inventory.md`: Envanterin insan tarafından okunabilir özeti ve öncelik sırası.
 - `research/online-psikolog-brief.md`: İlk ticari cornerstone araştırma brief'i.
 
 ## Ölçüm kuralları
