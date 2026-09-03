@@ -1,5 +1,12 @@
 # Değişiklik Günlüğü
 
+## 2026-09-03
+
+- GSC'nin 4–31 Ağustos 2026 Türkiye web verisi yazıldı. Kritik 32 sorgunun mobil kırılımında 16'sı gözlendi, 16'sı `UNKNOWN`; gözlenenlerde Top 3 kapsama oranı yüzde 0 kaldı. `UNKNOWN` sorgular sıfır sayılmadı.
+- Yeni içerik deneylerinin ölçüm penceresini bozmamak için ikinci bir sayfa rewrite'ı yapılmadı. Bağımsız ilk sayfa sınırı fırsatı `bilişsel ayrışma` oldu: Google-selected URL doğru canonical `/bilissel-ayrisma`, mobilde 9 gösterim, 0 tıklama ve 7,33 ortalama konum.
+- Portföyde exact sorgunun cihazı, gerçek gösterim alınan mobile kırılımına düzeltildi. ACT cornerstone sayfasındaki mevcut açıklamadan `/bilissel-ayrisma` hedefine tek, doğal ve bağlamsal internal link eklendi; URL, canonical, title, meta, görünür klinik iddia ve schema değiştirilmedi.
+- Sınırlı SERP örnekleminde kavram tanımı, cognitive defusion karşılığı, düşünce içeriğini değiştirmekten ziyade düşünceyle ilişkiyi değiştirme ve ACT/psikolojik esneklik bağlantısı ortak örüntüydü. Mevcut hedef sayfa bunları kapsadığı için en düşük riskli açık authority akışında görüldü.
+
 ## 2026-09-02
 
 - B021 için exact `öfkenin altında yatan duygular` sorgusu seçildi: 3–30 Ağustos 2026 GSC Türkiye web verisinde 2 mobil gösterim, 0 tıklama ve 11,00 ortalama konum; Google-selected URL mevcut `/ofke-kontrolu` canonical'ıdır. Daha yüksek hacimli adaylar aktif ölçüm penceresindedir; hedef sayfanın 31 Ağustos değişikliği yalnızca ortak entity `@id` bağlantısıydı ve içerik deneyi değildi.

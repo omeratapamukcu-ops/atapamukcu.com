@@ -1,5 +1,20 @@
 # Rakip Bulguları
 
+## 3 Eylül 2026, bilişsel ayrışma sorgu kümesi
+
+GSC'nin 4–31 Ağustos 2026 Türkiye web verisinde exact `bilişsel ayrışma` sorgusu mobilde 9 gösterim, 0 tıklama ve 7,33 ortalama konum aldı. Google-selected URL mevcut `/bilissel-ayrisma` canonical sayfasıdır. Bunlar tarih aralığına bağlı ortalamalardır; kişiselleştirilmemiş sabit sıra değildir.
+
+### Sınırlı SERP örneklemindeki ortak örüntüler
+
+- Bilişsel ayrışmayı `cognitive defusion` karşılığıyla tanımlama.
+- Düşünce içeriğini değiştirmekten çok düşünceyle kurulan ilişkiyi değiştirme ayrımı.
+- Düşünceyi gerçek veya komut olarak alma, bilişsel kaynaşma ve psikolojik esneklik bağlantısı.
+- ACT bağlamı ve gündelik düşünce örnekleri.
+
+### Özgün fırsat ve karar
+
+Mevcut `/bilissel-ayrisma` sayfası doğrudan tanım, kaynaşma ayrımı, güvenli kısa uygulama, işlevsel ilerleme ölçütü, yazar ve kaynak sinyalleriyle bu kapsamı zaten taşıyor. Yeni içerik deneyi açmak yerine cihaz takibi gerçek GSC kırılımına düzeltildi ve konuya en yakın cornerstone olan `/act-nedir` içinden tek bağlamsal inbound link eklendi. Rakip metni veya tasarımı kopyalanmadı.
+
 ## 1 Eylül 2026, aktivasyon nedir sorgu kümesi
 
 GSC'nin 2–29 Ağustos Türkiye web verisinde exact `aktivasyon nedir` sorgusu 20 gösterim, 0 tıklama ve 10,30 ortalama konum aldı. GSC'nin sorgu–sayfa kırılımı hedefin mevcut `/davranissal-aktivasyon` canonical sayfası olduğunu doğruladı. Bunlar tarih aralığına bağlı ortalamalardır; kişiselleştirilmemiş sabit sıra değildir.
