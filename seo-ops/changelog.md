@@ -2,6 +2,11 @@
 
 ## 2026-09-03
 
+- B022 kalite dalgasında aynı depresif belirtiler/anhedoni kümesindeki `/depresyon-belirtileri` ve `/hayattan-zevk-alamama` geliştirildi. İki URL'de görünür yazar ve tarihler, Article `datePublished`/`dateModified`/`citation`/`speakable`, görünür içerikle eşleşen FAQPage ve BreadcrumbList tamamlandı.
+- Belirti/anhedoni ayrımları, işlevsel geri çekilme döngüsü, güvenli gözlem adımları, tıbbi değerlendirme eşiği ve 112/acil güvenlik kapısı klinik ihtiyatla açıklandı. WHO, NICE ve hakemli kaynaklar görünür kaynakçayla eşleştirildi; kaynak URL'leri 3 Eylül 2026'da HTTP 200 verdi.
+- Kardeş sayfalar ile `/depresyon`, `/enerji-dusuklugu` ve `/davranissal-aktivasyon` arasında bağlamsal iç bağlantılar kuruldu. İki sayfanın kalite skoru `67/100 → 100/100`; exact GSC başlangıç metrikleri gözlenmediği için `UNKNOWN` bırakıldı. Erken kontrol 17 Eylül, 28 günlük değerlendirme 1 Ekim 2026.
+- Aktif B013 ve B021 deneylerinin URL ve deney öğelerine dokunulmadı. Sitemap `lastmod`, backlog, query portfolio ve ölçüm kayıtları gerçek değişikliklerle eşleştirildi.
+
 - B022 kalite dalgasında aynı performans/değerlendirilme kümesindeki `/performans-kaygisi` ve `/sinav-kaygisi` geliştirildi. Her iki URL ve exact canonical korundu; aktif B013–B021 deney URL'leri ile bunların title, description, H1, ana metin, FAQ, schema ve iç link bağlamına dokunulmadı.
 - `/performans-kaygisi`, performans kaygısını tek başına tanı gibi sunmadan değerlendirilme tehdidi, öz-odaklı dikkat, güvenlik davranışları ve kısa/uzun vadeli sonuç döngüsüyle ayrıştırdı. NICE CG159, NHS ve hakemli deneysel çalışma; gerçek ilk yayın tarihi, 3 Eylül maddi güncellemesi, Article citation/date/speakable, görünür içerikle birebir FAQPage, iki consent-gated CTA marker'ı ve genel kaygı/sınav/sosyal kaygı/Kaçınma Haritası bağlantıları eklendi.
 - `/sinav-kaygisi` sayfasındaki kaygının öğrenilmiş bilgiye erişimi engellediği, BDT'nin en etkili olduğu ve standart nefes tekniğinin sinir sistemini sakinleştirdiği yönündeki bağlamsız kesin ifadeler kaldırıldı. Yerine sınav bağlamına özgü işlevsel döngü, tembellik ve performans kaygısından ayrım, güvenli dört adımlık gözlem, tıbbi ve acil güvenlik sınırı, üç sistematik derleme/meta-analiz, gerçek yayın/güncelleme tarihleri, Article citation/date/speakable, görünür içerikle birebir FAQPage ve iki consent-gated CTA marker'ı getirildi.
