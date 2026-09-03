@@ -1,0 +1,38 @@
+{
+  "experiment_id": "B024",
+  "release_date": "2026-09-03",
+  "target_query": "sınav kaygısı nedir",
+  "target_canonical": "https://www.atapamukcu.com/sinav-kaygisi",
+  "selection_rationale": "The page scored 67/100, lacked visible dates, dateModified, sources and the 700-word depth gate, and contained unqualified clinical claims about memory access, treatment superiority and a fixed breathing procedure. It was not covered by an active B013-B021 experiment and forms one cluster with performance anxiety.",
+  "baseline": {
+    "gsc_data_state": "UNKNOWN",
+    "country": "tur",
+    "device": "mobile",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "average_position": null,
+    "quality_score": 67,
+    "failed_quality_gates": ["visible_date", "date_modified", "sources", "depth"],
+    "unknown_policy": "Missing exact-query GSC data is not treated as zero or failure."
+  },
+  "acceptance_contract": [
+    "Keep the existing URL and exact canonical",
+    "Remove unqualified causal and treatment-superiority claims",
+    "Lead with a cautious answer-first definition and explicit non-diagnostic boundary",
+    "Explain trigger, private experience, behavior and short-term/long-term consequences",
+    "Distinguish test anxiety from laziness, broader performance anxiety and general anxiety",
+    "Provide a bounded four-step observation procedure without prescribing risky self-exposure",
+    "Show verified systematic reviews and meta-analyses",
+    "Align visible publication/update dates with Article datePublished/dateModified",
+    "Align visible sources with Article citation and answer blocks with FAQPage",
+    "Add speakable selectors and consent-gated generic CTA markers",
+    "Connect the general anxiety guide, performance anxiety, procrastination and avoidance map"
+  ],
+  "evaluation": {
+    "early_signal_date": "2026-09-17",
+    "full_window_date": "2026-10-01",
+    "dimensions": ["query", "page", "country", "device"],
+    "success_is_not_claimed_at_deployment": true
+  }
+}

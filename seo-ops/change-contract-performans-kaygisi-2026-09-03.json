@@ -1,0 +1,37 @@
+{
+  "experiment_id": "B023",
+  "release_date": "2026-09-03",
+  "target_query": "performans kaygısı nedir",
+  "target_canonical": "https://www.atapamukcu.com/performans-kaygisi",
+  "selection_rationale": "The page belonged to the same performance and evaluation cluster as the selected test-anxiety page, scored 67/100, and lacked visible dates, dateModified, sources and the 700-word depth gate. It was not covered by an active B013-B021 experiment.",
+  "baseline": {
+    "gsc_data_state": "UNKNOWN",
+    "country": "tur",
+    "device": "mobile",
+    "clicks": null,
+    "impressions": null,
+    "ctr": null,
+    "average_position": null,
+    "quality_score": 67,
+    "failed_quality_gates": ["visible_date", "date_modified", "sources", "depth"],
+    "unknown_policy": "Missing exact-query GSC data is not treated as zero or failure."
+  },
+  "acceptance_contract": [
+    "Keep the existing URL and exact canonical",
+    "Lead with a cautious answer-first definition without turning the pattern into a diagnosis",
+    "Explain trigger, private experience, behavior and short-term/long-term consequences",
+    "Distinguish performance anxiety from test anxiety and broader social anxiety",
+    "Provide a bounded four-step observation procedure and safe exposure boundary",
+    "Show verified NICE, NHS and peer-reviewed sources",
+    "Align visible publication/update dates with Article datePublished/dateModified",
+    "Align visible sources with Article citation and answer blocks with FAQPage",
+    "Add speakable selectors and consent-gated generic CTA markers",
+    "Connect the general anxiety guide, test anxiety, social anxiety and avoidance map"
+  ],
+  "evaluation": {
+    "early_signal_date": "2026-09-17",
+    "full_window_date": "2026-10-01",
+    "dimensions": ["query", "page", "country", "device"],
+    "success_is_not_claimed_at_deployment": true
+  }
+}

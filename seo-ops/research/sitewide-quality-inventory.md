@@ -9,10 +9,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6, utility=1
 
 ## Site çapında açıklar
-- `depth`: 47 sayfa
-- `sources`: 31 sayfa
-- `visible_date`: 29 sayfa
-- `date_modified`: 23 sayfa
+- `depth`: 45 sayfa
+- `sources`: 29 sayfa
+- `visible_date`: 27 sayfa
+- `date_modified`: 21 sayfa
 - `author`: 3 sayfa
 - `schema`: 2 sayfa
 - `canonical`: 1 sayfa
@@ -33,14 +33,12 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/surec-temelli-terapi` | clinical-guide | 377 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/basarisizlik-korkusu` | clinical-guide | 387 | 1 | 67 | visible_date;date_modified;sources;depth |
 | `/mukemmeliyetcilik` | clinical-guide | 396 | 4 | 67 | visible_date;date_modified;sources;depth |
-| `/performans-kaygisi` | clinical-guide | 408 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surekli-endise` | clinical-guide | 431 | 4 | 67 | visible_date;date_modified;sources;depth |
 | `/hayattan-zevk-alamama` | clinical-guide | 434 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/takinti-hastaligi` | clinical-guide | 436 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/depresyon-belirtileri` | clinical-guide | 447 | 1 | 67 | visible_date;date_modified;sources;depth |
 | `/tssb` | clinical-guide | 459 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/yaygin-anksiyete-bozuklugu` | clinical-guide | 474 | 4 | 67 | visible_date;date_modified;sources;depth |
-| `/sinav-kaygisi` | clinical-guide | 500 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/uyku-sorunlari` | clinical-guide | 508 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/sosyal-kaygi-neden-olur` | clinical-guide | 549 | 2 | 67 | visible_date;date_modified;sources;depth |
@@ -53,6 +51,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/tukenmislik` | clinical-guide | 505 | 2 | 75 | visible_date;date_modified;depth |
 | `/antalya-kaygi-psikolog` | clinical-guide | 635 | 5 | 75 | visible_date;sources;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
+| `/sosyal-fobi` | clinical-guide | 796 | 3 | 75 | visible_date;date_modified;sources |
+| `/act-bdt-farki` | clinical-guide | 390 | 3 | 83 | sources;depth |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.
