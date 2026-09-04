@@ -2,6 +2,11 @@
 
 ## 2026-09-04
 
+- B028–B029 kalite dalgasında aynı yaygın endişe kümesindeki `/yaygin-anksiyete-bozuklugu` ve `/surekli-endise` geliştirildi; aktif B013–B027 deney URL'leri ve öğeleri değiştirilmedi. İki URL ve canonical korundu.
+- YAB için çoklu yaşam alanına yayılan kontrolü güç endişe; sürekli endişe için kesinlik arama ve güvence davranışları doğrudan yanıtlandı. Sorun → mekanizma → kısa rahatlama/uzun vadeli sürdürme döngüsü, panik/OKB/ruminasyon/problem çözme ayrımları, güvenli gözlem adımı, tıbbi değerlendirme eşiği ve 112/acil güvenlik kapısı görünür hale getirildi.
+- NICE CG113 ve NHS kaynakları 4 Eylül 2026'da erişilebilir bulundu; görünür kaynakça Article `citation` ile eşleştirildi. Görünür yazar ve gerçek tarihler, Article `datePublished`/`dateModified`/`speakable`, görünür içerikle birebir dört soruluk FAQPage, BreadcrumbList, consent-gated CTA marker'ları ve bağlamsal iç bağlantılar tamamlandı.
+- İki sayfanın tekrarlanabilir kalite skoru `67/100 → 100/100` oldu. Exact GSC başlangıç konumu, gösterimi, tıklaması ve CTR'ı gözlenmediği için `UNKNOWN` bırakıldı; sıfır sayılmadı. Erken kontrol 18 Eylül, tam 28 günlük değerlendirme 2 Ekim 2026. Sitemap `lastmod`, backlog, query portfolio ve ölçüm kayıtları gerçek değişikliklerle eşleştirildi.
+
 - B022 kalite dalgasında `/tukenmislik` geliştirildi; aktif B013–B026 deney URL'lerine ve deney öğelerine dokunulmadı. Canonical ve URL korundu.
 - WHO ICD-11 çerçevesine göre tükenmişliğin iş bağlamına özgü mesleki olgu olduğu açıklandı. Dinlenmeyi erteleme döngüsü, iş koşullarındaki psikososyal riskler, depresyondan ayrım, psikolojik destek kapsamı ve 112/acil güvenlik sınırı eklendi.
 - Görünür yazar ve gerçek güncelleme tarihi, Article `dateModified`/`citation`, görünür içerikle birebir dört soruluk FAQPage, WHO kaynakçası, onaya bağlı CTA marker'ları ve bağlamsal iç bağlantılar tamamlandı. Sitemap `lastmod` 4 Eylül 2026 ile eşleştirildi.
