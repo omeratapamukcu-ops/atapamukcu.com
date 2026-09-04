@@ -1,5 +1,12 @@
 # Değişiklik Günlüğü
 
+## 2026-09-04
+
+- B022 kalite dalgasında `/tukenmislik` geliştirildi; aktif B013–B026 deney URL'lerine ve deney öğelerine dokunulmadı. Canonical ve URL korundu.
+- WHO ICD-11 çerçevesine göre tükenmişliğin iş bağlamına özgü mesleki olgu olduğu açıklandı. Dinlenmeyi erteleme döngüsü, iş koşullarındaki psikososyal riskler, depresyondan ayrım, psikolojik destek kapsamı ve 112/acil güvenlik sınırı eklendi.
+- Görünür yazar ve gerçek güncelleme tarihi, Article `dateModified`/`citation`, görünür içerikle birebir dört soruluk FAQPage, WHO kaynakçası, onaya bağlı CTA marker'ları ve bağlamsal iç bağlantılar tamamlandı. Sitemap `lastmod` 4 Eylül 2026 ile eşleştirildi.
+- Sayfanın tekrarlanabilir kalite skoru `75/100 → 100/100` oldu. Exact GSC başlangıç metrikleri gözlenmediği için `UNKNOWN` bırakıldı; sıfır sayılmadı. Erken kontrol 18 Eylül, tam 28 günlük değerlendirme 2 Ekim 2026.
+
 ## 2026-09-03
 
 - B022 kalite dalgasında aynı depresif belirtiler/anhedoni kümesindeki `/depresyon-belirtileri` ve `/hayattan-zevk-alamama` geliştirildi. İki URL'de görünür yazar ve tarihler, Article `datePublished`/`dateModified`/`citation`/`speakable`, görünür içerikle eşleşen FAQPage ve BreadcrumbList tamamlandı.

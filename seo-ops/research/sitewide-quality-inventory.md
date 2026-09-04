@@ -9,10 +9,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6, utility=1
 
 ## Site çapında açıklar
-- `depth`: 43 sayfa
+- `depth`: 42 sayfa
 - `sources`: 27 sayfa
-- `visible_date`: 25 sayfa
-- `date_modified`: 19 sayfa
+- `visible_date`: 24 sayfa
+- `date_modified`: 18 sayfa
 - `author`: 3 sayfa
 - `schema`: 2 sayfa
 - `canonical`: 1 sayfa
@@ -37,7 +37,7 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/takinti-hastaligi` | clinical-guide | 436 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/tssb` | clinical-guide | 459 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/yaygin-anksiyete-bozuklugu` | clinical-guide | 474 | 4 | 67 | visible_date;date_modified;sources;depth |
-| `/uyku-sorunlari` | clinical-guide | 508 | 2 | 67 | visible_date;date_modified;sources;depth |
+| `/uyku-sorunlari` | clinical-guide | 508 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/sosyal-kaygi-neden-olur` | clinical-guide | 549 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/ucak-korkusu` | clinical-guide | 613 | 2 | 67 | visible_date;date_modified;sources;depth |
@@ -46,13 +46,13 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/gizlilik` | trust-or-navigation | 222 | 82 | 75 | schema;breadcrumb;depth |
 | `/antalya-panik-atak-psikolog` | clinical-guide | 471 | 3 | 75 | visible_date;sources;depth |
 | `/antalya-sosyal-kaygi-psikolog` | clinical-guide | 473 | 5 | 75 | visible_date;sources;depth |
-| `/tukenmislik` | clinical-guide | 505 | 2 | 75 | visible_date;date_modified;depth |
 | `/antalya-kaygi-psikolog` | clinical-guide | 635 | 5 | 75 | visible_date;sources;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
 | `/sosyal-fobi` | clinical-guide | 796 | 3 | 75 | visible_date;date_modified;sources |
 | `/act-bdt-farki` | clinical-guide | 390 | 3 | 83 | sources;depth |
 | `/editorial-ilkeler` | clinical-guide | 523 | 82 | 83 | sources;depth |
 | `/antalya-okb-psikolog` | clinical-guide | 653 | 5 | 83 | sources;depth |
+| `/araclar` | trust-or-navigation | 196 | 81 | 92 | depth |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.
