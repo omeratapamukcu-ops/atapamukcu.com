@@ -2,6 +2,7 @@
 
 ## 2026-09-04
 
+- Ana sayfa hero mesajı kaygı, kaçınma ve tekrar eden döngülere odaklanan bilimsel temelli psikolojik destek konumlandırmasıyla güncellendi. CTA doğrudan WhatsApp ilk görüşme aksiyonuna çevrildi; ücretsiz ilk değerlendirme, tek görüşme ve aylık çalışma planı ücretleri görünür FAQ ile eşleşen FAQPage verisinde açıklandı.
 - Ana sayfa hero alanı insan odaklı değer önerisiyle yenilendi: online psikolojik danışmanlık bağlamı, zorlayıcı iç deneyimlerle birlikte ilerleme mesajı, ilk ücretsiz değerlendirmenin amacı ve `50 dakika • Online • Google Meet` bilgisi görünür hale getirildi. WhatsApp hedefi ve önceden doldurulmuş mesaj korunurken CTA terminolojisi `Ücretsiz ilk değerlendirmeyi planlayın` olarak tutarlılaştırıldı; aktif deney sayfalarına dokunulmadı.
 - B028–B029 kalite dalgasında aynı yaygın endişe kümesindeki `/yaygin-anksiyete-bozuklugu` ve `/surekli-endise` geliştirildi; aktif B013–B027 deney URL'leri ve öğeleri değiştirilmedi. İki URL ve canonical korundu.
 - YAB için çoklu yaşam alanına yayılan kontrolü güç endişe; sürekli endişe için kesinlik arama ve güvence davranışları doğrudan yanıtlandı. Sorun → mekanizma → kısa rahatlama/uzun vadeli sürdürme döngüsü, panik/OKB/ruminasyon/problem çözme ayrımları, güvenli gözlem adımı, tıbbi değerlendirme eşiği ve 112/acil güvenlik kapısı görünür hale getirildi.
