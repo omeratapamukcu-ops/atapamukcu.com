@@ -2,6 +2,7 @@
 
 ## 2026-09-04
 
+- Ana sayfa hero etiketi `Bilimsel temelli online psikolojik danışmanlık` olarak güncellendi; H1 sonundaki nokta kaldırıldı ve CTA altına Google Meet bilgisi eklendi. Mobilde gizlilik paneli ve ayarlar düğmesi, sabit WhatsApp CTA'nın üstüne yerleştirilerek çakışma giderildi; onay kontrollü analytics davranışı ve WhatsApp hedefi korunmuştur.
 - Ana sayfa hero mesajı kaygı, kaçınma ve tekrar eden döngülere odaklanan bilimsel temelli psikolojik destek konumlandırmasıyla güncellendi. CTA doğrudan WhatsApp ilk görüşme aksiyonuna çevrildi; ücretsiz ilk değerlendirme, tek görüşme ve aylık çalışma planı ücretleri görünür FAQ ile eşleşen FAQPage verisinde açıklandı.
 - Ana sayfa hero alanı insan odaklı değer önerisiyle yenilendi: online psikolojik danışmanlık bağlamı, zorlayıcı iç deneyimlerle birlikte ilerleme mesajı, ilk ücretsiz değerlendirmenin amacı ve `50 dakika • Online • Google Meet` bilgisi görünür hale getirildi. WhatsApp hedefi ve önceden doldurulmuş mesaj korunurken CTA terminolojisi `Ücretsiz ilk değerlendirmeyi planlayın` olarak tutarlılaştırıldı; aktif deney sayfalarına dokunulmadı.
 - B028–B029 kalite dalgasında aynı yaygın endişe kümesindeki `/yaygin-anksiyete-bozuklugu` ve `/surekli-endise` geliştirildi; aktif B013–B027 deney URL'leri ve öğeleri değiştirilmedi. İki URL ve canonical korundu.

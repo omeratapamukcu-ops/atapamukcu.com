@@ -1915,6 +1915,20 @@ ul { list-style: none; }
 }
 
 @media (max-width: 700px) {
-  .analytics-consent { align-items: stretch; flex-direction: column; gap: 14px; padding: 18px; }
+  .analytics-consent {
+    z-index: 10000;
+    bottom: calc(112px + env(safe-area-inset-bottom));
+    align-items: stretch;
+    flex-direction: column;
+    gap: 14px;
+    max-height: calc(100svh - 136px - env(safe-area-inset-bottom));
+    padding: 18px;
+    overflow-y: auto;
+  }
   .analytics-consent-actions { justify-content: flex-end; }
+
+  .analytics-settings {
+    right: 16px;
+    bottom: calc(112px + env(safe-area-inset-bottom));
+  }
 }
