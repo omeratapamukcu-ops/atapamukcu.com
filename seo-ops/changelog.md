@@ -1,5 +1,12 @@
 # Değişiklik Günlüğü
 
+## 2026-09-05
+
+- B030-B031 quality wave improved `/bilissel-carpitmalar` and `/dusunce-kaydi`; active B013/B021 and all measurement windows started on 1 September were unchanged.
+- Both pages now include direct intent answers, functional cycles, non-diagnostic distinctions, safe first steps, medical evaluation thresholds, 112/emergency gates, visible author and dates, and consent-gated CTA markers.
+- NHS Every Mind Matters and NICE NG222 sources were accessible on 5 September 2026. Visible references match Article `citation`; Article dates and `speakable`, visible FAQ-aligned FAQPage, BreadcrumbList, canonical, single H1 and contextual internal links were verified locally.
+- Reproducible quality scores increased from `67/100` to `100/100`. Exact GSC position, impressions, clicks and CTR are `UNKNOWN`, not zero. Early review is 19 September and full 28-day review is 3 October 2026.
+
 ## 2026-09-04
 
 - Ana sayfa hero etiketi `Bilimsel temelli online psikolojik danışmanlık` olarak güncellendi; H1 sonundaki nokta kaldırıldı ve CTA altına Google Meet bilgisi eklendi. Mobilde gizlilik paneli ve ayarlar düğmesi, sabit WhatsApp CTA'nın üstüne yerleştirilerek çakışma giderildi; onay kontrollü analytics davranışı ve WhatsApp hedefi korunmuştur.

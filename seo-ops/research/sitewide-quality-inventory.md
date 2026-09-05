@@ -9,10 +9,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6, utility=1
 
 ## Site çapında açıklar
-- `depth`: 40 sayfa
-- `sources`: 25 sayfa
-- `visible_date`: 22 sayfa
-- `date_modified`: 16 sayfa
+- `depth`: 38 sayfa
+- `sources`: 23 sayfa
+- `visible_date`: 20 sayfa
+- `date_modified`: 14 sayfa
 - `author`: 3 sayfa
 - `schema`: 2 sayfa
 - `canonical`: 1 sayfa
@@ -26,9 +26,7 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/psikoloji-3` | clinical-guide | 175 | 81 | 67 | author;visible_date;sources;depth |
 | `/baslangic` | clinical-guide | 202 | 82 | 67 | author;visible_date;sources;depth |
 | `/psikolojik-surec-haritasi` | clinical-guide | 344 | 7 | 67 | visible_date;date_modified;sources;depth |
-| `/dusunce-kaydi` | clinical-guide | 347 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/terapi-surecinde-dongu-analizi` | clinical-guide | 347 | 2 | 67 | visible_date;date_modified;sources;depth |
-| `/bilissel-carpitmalar` | clinical-guide | 365 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/anda-kalma` | clinical-guide | 374 | 1 | 67 | visible_date;date_modified;sources;depth |
 | `/surec-temelli-terapi` | clinical-guide | 377 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/basarisizlik-korkusu` | clinical-guide | 387 | 1 | 67 | visible_date;date_modified;sources;depth |
@@ -53,6 +51,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/araclar` | trust-or-navigation | 196 | 81 | 92 | depth |
 | `/ogrenme-yollari/kaygi` | learning-path | 346 | 7 | 92 | depth |
 | `/kabul-ve-kararlilik-terapisi` | clinical-guide | 485 | 6 | 92 | depth |
+| `/bdt-nedir` | clinical-guide | 507 | 6 | 92 | depth |
+| `/cbt-nedir` | clinical-guide | 552 | 4 | 92 | depth |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.
