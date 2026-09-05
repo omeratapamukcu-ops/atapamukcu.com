@@ -9,9 +9,9 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6, utility=1
 
 ## Site çapında açıklar
-- `depth`: 37 sayfa
-- `sources`: 22 sayfa
-- `visible_date`: 19 sayfa
+- `depth`: 35 sayfa
+- `sources`: 20 sayfa
+- `visible_date`: 18 sayfa
 - `date_modified`: 13 sayfa
 - `author`: 3 sayfa
 - `schema`: 2 sayfa
@@ -40,19 +40,19 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/surec` | clinical-guide | 219 | 4 | 75 | author;visible_date;depth |
 | `/gizlilik` | trust-or-navigation | 222 | 82 | 75 | schema;breadcrumb;depth |
 | `/antalya-panik-atak-psikolog` | clinical-guide | 471 | 3 | 75 | visible_date;sources;depth |
-| `/antalya-sosyal-kaygi-psikolog` | clinical-guide | 473 | 5 | 75 | visible_date;sources;depth |
 | `/antalya-kaygi-psikolog` | clinical-guide | 635 | 5 | 75 | visible_date;sources;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
 | `/sosyal-fobi` | clinical-guide | 796 | 3 | 75 | visible_date;date_modified;sources |
 | `/act-bdt-farki` | clinical-guide | 390 | 3 | 83 | sources;depth |
 | `/editorial-ilkeler` | clinical-guide | 523 | 82 | 83 | sources;depth |
-| `/antalya-okb-psikolog` | clinical-guide | 653 | 5 | 83 | sources;depth |
 | `/araclar` | trust-or-navigation | 196 | 81 | 92 | depth |
 | `/ogrenme-yollari/kaygi` | learning-path | 346 | 7 | 92 | depth |
 | `/kabul-ve-kararlilik-terapisi` | clinical-guide | 485 | 6 | 92 | depth |
 | `/bdt-nedir` | clinical-guide | 507 | 6 | 92 | depth |
 | `/cbt-nedir` | clinical-guide | 552 | 4 | 92 | depth |
 | `/kisisellestirilmis-terapi` | clinical-guide | 555 | 1 | 92 | depth |
+| `/okb-belirtileri` | clinical-guide | 577 | 6 | 92 | depth |
+| `/davranissal-aktivasyon` | clinical-guide | 630 | 6 | 92 | depth |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.

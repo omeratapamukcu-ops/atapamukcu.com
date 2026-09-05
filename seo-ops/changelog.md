@@ -2,6 +2,12 @@
 
 ## 2026-09-05
 
+- `/panik-atak-belirtileri` yüksek gösterim kaybı sonrası arama niyetine daha doğrudan yanıt verecek biçimde güncellendi. Title, description, H1 ve ilk ekran; belirtiler, “ne yapmalı” niyeti ve tıbbi acil ayrımını birlikte kapsayacak şekilde eşleştirildi. Hızlı yanıt, 112/acil değerlendirme kapısı, görünür güncellik ve onaya bağlı hero CTA ölçüm işaretleyicisi eklendi; canonical ile panik kümesindeki URL görevleri korundu.
+- `/antalya-psikolog`, `/antalya-okb-psikolog` ve `/antalya-sosyal-kaygi-psikolog` sayfaları online-only işletme gerçeği korunarak yerel ticari niyetle eşleştirildi. Ana hizmet başlığı sadeleştirildi; iki konu sayfasında exact yerel title/H1, online süreç ve uygunluk sınırları, görünür yazar/tarih, NICE/NHS/NIMH kaynakları, Article citation ve CTA yüzeyleri tamamlandı.
+- Tekrarlanabilir kalite puanları `/panik-atak-belirtileri`, `/antalya-psikolog` ve `/antalya-okb-psikolog` için `100/100` olarak korundu; `/antalya-sosyal-kaygi-psikolog` görünür tarih, kaynak ve içerik derinliği kapılarıyla `75/100` seviyesinden `100/100` seviyesine çıkarıldı. Sitemap `lastmod` değerleri 5 Eylül ile eşleştirildi.
+- `/kompulsiyon-nedir` sayfasının 1 Eylül’de başlayan B013 deneyi değiştirilmedi. Erken CTR/konum kontrolü 15 Eylül, tam 28 günlük değerlendirme 29 Eylül 2026 tarihinde yapılacak.
+- Yeni değişikliklerin erken sinyali 19 Eylül, tam 28 günlük değerlendirmesi 3 Ekim 2026 tarihinde GSC sorgu+URL+cihaz kırılımıyla yapılacak. Düşük hacimli Antalya sorgularında tekil gösterimler başarı sayılmayacak.
+
 - B032 quality wave improved `/tssb` from `67/100` to `100/100`; active experiments and their measurement windows were unchanged.
 - The page now answers the TSSB definition and symptom intent directly, distinguishes common post-trauma reactions from clinical assessment, explains the alarm and avoidance maintenance cycle, and states treatment, self-observation, medical and 112/emergency safety boundaries without enabling unsafe self-exposure.
 - T.C. Ministry of Health, NICE NG116 and VA National Center for PTSD sources returned HTTP 200 on 5 September 2026. Visible references match Article `citation`; Article dates and `speakable`, visible FAQ-aligned FAQPage, BreadcrumbList, canonical, single H1 and trauma-cluster internal links were verified locally.
