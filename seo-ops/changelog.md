@@ -2,6 +2,11 @@
 
 ## 2026-09-05
 
+- B032 quality wave improved `/tssb` from `67/100` to `100/100`; active experiments and their measurement windows were unchanged.
+- The page now answers the TSSB definition and symptom intent directly, distinguishes common post-trauma reactions from clinical assessment, explains the alarm and avoidance maintenance cycle, and states treatment, self-observation, medical and 112/emergency safety boundaries without enabling unsafe self-exposure.
+- T.C. Ministry of Health, NICE NG116 and VA National Center for PTSD sources returned HTTP 200 on 5 September 2026. Visible references match Article `citation`; Article dates and `speakable`, visible FAQ-aligned FAQPage, BreadcrumbList, canonical, single H1 and trauma-cluster internal links were verified locally.
+- Exact GSC position, impressions, clicks and CTR are `UNKNOWN`, not zero. Early review is 19 September and full 28-day review is 3 October 2026.
+
 - B030-B031 quality wave improved `/bilissel-carpitmalar` and `/dusunce-kaydi`; active B013/B021 and all measurement windows started on 1 September were unchanged.
 - Both pages now include direct intent answers, functional cycles, non-diagnostic distinctions, safe first steps, medical evaluation thresholds, 112/emergency gates, visible author and dates, and consent-gated CTA markers.
 - NHS Every Mind Matters and NICE NG222 sources were accessible on 5 September 2026. Visible references match Article `citation`; Article dates and `speakable`, visible FAQ-aligned FAQPage, BreadcrumbList, canonical, single H1 and contextual internal links were verified locally.
