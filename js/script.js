@@ -97,45 +97,76 @@ document.addEventListener('DOMContentLoaded', function () {
   const savedMarketingConsent = readMarketingConsent();
   setGoogleConsent('default', savedAnalyticsConsent === 'granted' ? 'granted' : 'denied');
 
-  function showAnalyticsConsent() {
+  function applyConsent(analyticsValue, marketingValue, panel) {
+    try {
+      window.localStorage.setItem(analyticsConsentKey, analyticsValue);
+      window.localStorage.setItem(marketingConsentKey, marketingValue);
+    } catch (error) {}
+    setGoogleConsent('update', analyticsValue);
+    if (analyticsValue === 'denied') clearAnalyticsCookies();
+    if (marketingValue === 'granted') loadMetaPixel();
+    else {
+      if (window.fbq) window.fbq('consent', 'revoke');
+      clearMetaCookies();
+    }
+    panel.hidden = true;
+  }
+
+  function showAnalyticsConsent(showDetails) {
     let panel = document.getElementById('analytics-consent');
     if (!panel) {
       panel = document.createElement('section');
       panel.id = 'analytics-consent';
       panel.className = 'analytics-consent';
-      panel.setAttribute('aria-label', 'İstatistik, pazarlama ölçümü ve gizlilik tercihi');
-      panel.innerHTML = '<div><strong>Gizlilik tercihiniz</strong><p>Google Analytics ile istatistik; yalnızca ana sayfada Meta Pixel ile reklamdan gelen ziyaret ve WhatsApp yönlendirme tıklaması ölçülebilir. Meta ölçümü açık onayınız olmadan yüklenmez. WhatsApp mesajı, form yanıtı veya sağlık bilgisi gönderilmez.</p><a href="/gizlilik">Ayrıntıları okuyun</a></div><div class="analytics-consent-actions"><button type="button" data-analytics-consent="denied" data-marketing-consent="denied">Tümünü reddet</button><button type="button" data-analytics-consent="granted" data-marketing-consent="denied">Yalnız istatistik</button><button type="button" class="consent-accept" data-analytics-consent="granted" data-marketing-consent="granted">İstatistik + reklam ölçümü</button></div>';
+      panel.setAttribute('aria-label', 'Çerez tercihleri');
+      panel.innerHTML = '<div class="consent-summary"><strong>Gizliliğiniz</strong><p>Deneyimi iyileştirmek ve reklam performansını ölçmek için isteğe bağlı çerezler kullanıyoruz.</p><a href="/gizlilik">Detaylar</a></div><div class="analytics-consent-actions"><button type="button" data-analytics-consent="denied" data-marketing-consent="denied">Reddet</button><button type="button" data-open-consent-settings>Ayarlar</button><button type="button" class="consent-accept" data-analytics-consent="granted" data-marketing-consent="granted">Kabul et</button></div><div class="consent-details" hidden><label><span><strong>İstatistik</strong><small>Site kullanımını anlamamıza yardımcı olur.</small></span><input type="checkbox" data-consent-analytics></label><label><span><strong>Reklam ölçümü</strong><small>Ana sayfadaki reklam ve WhatsApp yönlendirme performansını ölçer.</small></span><input type="checkbox" data-consent-marketing></label><div class="consent-detail-actions"><button type="button" data-close-consent-settings>Geri</button><button type="button" class="consent-accept" data-save-consent>Seçimi kaydet</button></div></div>';
       document.body.appendChild(panel);
       panel.addEventListener('click', function (event) {
-        const button = event.target.closest('button[data-analytics-consent][data-marketing-consent]');
-        if (!button) return;
-        const analyticsValue = button.dataset.analyticsConsent;
-        const marketingValue = button.dataset.marketingConsent;
-        try {
-          window.localStorage.setItem(analyticsConsentKey, analyticsValue);
-          window.localStorage.setItem(marketingConsentKey, marketingValue);
-        } catch (error) {}
-        setGoogleConsent('update', analyticsValue);
-        if (analyticsValue === 'denied') clearAnalyticsCookies();
-        if (marketingValue === 'granted') loadMetaPixel();
-        else {
-          if (window.fbq) window.fbq('consent', 'revoke');
-          clearMetaCookies();
+        const preset = event.target.closest('button[data-analytics-consent][data-marketing-consent]');
+        if (preset) {
+          applyConsent(preset.dataset.analyticsConsent, preset.dataset.marketingConsent, panel);
+          return;
         }
-        panel.hidden = true;
+        if (event.target.closest('[data-open-consent-settings]')) {
+          openConsentDetails(panel);
+          return;
+        }
+        if (event.target.closest('[data-close-consent-settings]')) {
+          closeConsentDetails(panel);
+          return;
+        }
+        if (event.target.closest('[data-save-consent]')) {
+          const analyticsValue = panel.querySelector('[data-consent-analytics]').checked ? 'granted' : 'denied';
+          const marketingValue = panel.querySelector('[data-consent-marketing]').checked ? 'granted' : 'denied';
+          applyConsent(analyticsValue, marketingValue, panel);
+        }
       });
     }
     panel.hidden = false;
+    if (showDetails === true) openConsentDetails(panel);
+    else closeConsentDetails(panel);
+  }
+
+  function openConsentDetails(panel) {
+    panel.classList.add('show-details');
+    panel.querySelector('.consent-details').hidden = false;
+    panel.querySelector('[data-consent-analytics]').checked = hasAnalyticsConsent();
+    panel.querySelector('[data-consent-marketing]').checked = hasMarketingConsent();
+  }
+
+  function closeConsentDetails(panel) {
+    panel.classList.remove('show-details');
+    panel.querySelector('.consent-details').hidden = true;
   }
 
   const settingsButton = document.createElement('button');
   settingsButton.type = 'button';
   settingsButton.className = 'analytics-settings';
-  settingsButton.textContent = 'Gizlilik ayarları';
-  settingsButton.addEventListener('click', showAnalyticsConsent);
+  settingsButton.textContent = 'Çerezler';
+  settingsButton.addEventListener('click', function () { showAnalyticsConsent(true); });
   document.body.appendChild(settingsButton);
 
-  if (!savedAnalyticsConsent || !savedMarketingConsent) showAnalyticsConsent();
+  if (!savedAnalyticsConsent || !savedMarketingConsent) showAnalyticsConsent(false);
   loadMetaPixel();
 
   // --- FAQ ACCORDION ---
