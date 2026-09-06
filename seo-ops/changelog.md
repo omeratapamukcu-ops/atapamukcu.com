@@ -1,3 +1,11 @@
+## 2026-09-06 - Başarısızlık korkusu kalite ve sorgu niyeti iyileştirmesi (B038)
+
+- Aynı gün dönüştürülen ikinci ve son küme URL'si olarak `/basarisizlik-korkusu` seçildi; önceki envanter skoru 67/100'dü. `/mukemmeliyetcilik` ile konu bağı güçlendirildi; aktif deney sayfaları ve nötr `/ilk-gorusme` reklam sayfası değiştirilmedi.
+- Güncel sınırlı SERP örnekleminde tanım, neden, belirti, atikifobi, erteleme ve “nasıl yenilir” intentleri ortak bulundu. Rakiplerde görülen resmi tanı izlenimi, tek neden anlatısı ve sonuç garantili öneriler yerine tanı sınırı, beş başarısızlık anlamı ve işlevsel kaçınma döngüsü kullanıldı.
+- Title, description, H1 ve ilk ekran yanıtı ana sorguyla eşleştirildi. Mükemmeliyetçilik ve performans kaygısından ayrım, ertelemeyle koşullu ilişki, düşük riskli davranış deneyleri, profesyonel destek eşiği ve 112/acil güvenlik kapısı görünür hale getirildi.
+- Görünür yazar ile gerçek ilk yayın/güncelleme tarihleri, beş araştırma kaynağı, Article `datePublished`/`dateModified`/`citation`/`speakable`, BreadcrumbList ve görünür içerikle birebir FAQPage eklendi. Canonical, tek H1, yalnız online hizmet modeli ve consent-gated CTA ölçümü korundu.
+- Dört exact sorgu haftalık P1 portföyüne eklendi. GSC başlangıç konumu, gösterim, tıklama ve CTR değerleri güncel API erişimi olmadığı için `UNKNOWN` bırakıldı; sıfır kabul edilmedi. Erken kontrol 20 Eylül, tam 28 günlük değerlendirme 4 Ekim 2026.
+
 ## 2026-09-06 - Mükemmeliyetçilik kalite ve sorgu niyeti iyileştirmesi (B037)
 
 - `/mukemmeliyetcilik`, site kalite envanterindeki 67/100 skor, doğrudan sorgu sahipliği ve performans-erteleme kümesindeki merkezi rolü nedeniyle seçildi. Aktif deney URL'leri ve nötr `/ilk-gorusme` reklam sayfası değiştirilmedi.
