@@ -2,8 +2,10 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  // --- ANALYTICS CONSENT ---
+  // --- ANALYTICS AND MARKETING CONSENT ---
   const analyticsConsentKey = 'atap_analytics_consent';
+  const marketingConsentKey = 'atap_marketing_consent';
+  const metaPixelId = '2107772050122070';
 
   function readAnalyticsConsent() {
     try { return window.localStorage.getItem(analyticsConsentKey); }
@@ -12,6 +14,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function hasAnalyticsConsent() {
     return readAnalyticsConsent() === 'granted';
+  }
+
+  function readMarketingConsent() {
+    try { return window.localStorage.getItem(marketingConsentKey); }
+    catch (error) { return null; }
+  }
+
+  function hasMarketingConsent() {
+    return readMarketingConsent() === 'granted';
   }
 
   function setGoogleConsent(command, value) {
@@ -35,7 +46,55 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  function clearMetaCookies() {
+    ['_fbp', '_fbc'].forEach(function (name) {
+      document.cookie = name + '=; Max-Age=0; path=/; SameSite=Lax';
+      document.cookie = name + '=; Max-Age=0; path=/; domain=.atapamukcu.com; SameSite=Lax';
+    });
+  }
+
+  function isMetaAllowlistedPage() {
+    const allowedPaths = ['/', '/index.html'];
+    const allowedQueryKeys = [
+      'fbclid', 'gclid', 'utm_campaign', 'utm_content', 'utm_medium',
+      'utm_source', 'utm_term'
+    ];
+    const hasUnknownQuery = Array.from(new URLSearchParams(window.location.search).keys())
+      .some(function (key) { return !allowedQueryKeys.includes(key); });
+
+    return allowedPaths.includes(window.location.pathname) &&
+      !hasUnknownQuery && !window.location.hash;
+  }
+
+  function loadMetaPixel() {
+    if (!hasMarketingConsent() || !isMetaAllowlistedPage() || window.__metaPixelLoaded) return;
+
+    window.__metaPixelLoaded = true;
+    (function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = true;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = true;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+    window.fbq('set', 'autoConfig', false, metaPixelId);
+    window.fbq('consent', 'grant');
+    window.fbq('init', metaPixelId);
+    window.fbq('track', 'PageView');
+  }
+
   const savedAnalyticsConsent = readAnalyticsConsent();
+  const savedMarketingConsent = readMarketingConsent();
   setGoogleConsent('default', savedAnalyticsConsent === 'granted' ? 'granted' : 'denied');
 
   function showAnalyticsConsent() {
@@ -44,16 +103,25 @@ document.addEventListener('DOMContentLoaded', function () {
       panel = document.createElement('section');
       panel.id = 'analytics-consent';
       panel.className = 'analytics-consent';
-      panel.setAttribute('aria-label', 'İstatistik ve gizlilik tercihi');
-      panel.innerHTML = '<div><strong>Gizlilik tercihiniz</strong><p>Siteyi geliştirmek ve değerlendirme seansı bağlantılarının kullanımını ölçmek için Google Analytics kullanılabilir. Onay vermediğiniz sürece analitik depolama kapalı kalır. Sağlık içeriği, WhatsApp mesajı, telefon veya e-posta analitiğe gönderilmez.</p><a href="/gizlilik">Ayrıntıları okuyun</a></div><div class="analytics-consent-actions"><button type="button" data-consent="denied">Reddet</button><button type="button" class="consent-accept" data-consent="granted">İzin ver</button></div>';
+      panel.setAttribute('aria-label', 'İstatistik, pazarlama ölçümü ve gizlilik tercihi');
+      panel.innerHTML = '<div><strong>Gizlilik tercihiniz</strong><p>Google Analytics ile istatistik; yalnızca ana sayfada Meta Pixel ile reklamdan gelen ziyaret ve WhatsApp yönlendirme tıklaması ölçülebilir. Meta ölçümü açık onayınız olmadan yüklenmez. WhatsApp mesajı, form yanıtı veya sağlık bilgisi gönderilmez.</p><a href="/gizlilik">Ayrıntıları okuyun</a></div><div class="analytics-consent-actions"><button type="button" data-analytics-consent="denied" data-marketing-consent="denied">Tümünü reddet</button><button type="button" data-analytics-consent="granted" data-marketing-consent="denied">Yalnız istatistik</button><button type="button" class="consent-accept" data-analytics-consent="granted" data-marketing-consent="granted">İstatistik + reklam ölçümü</button></div>';
       document.body.appendChild(panel);
       panel.addEventListener('click', function (event) {
-        const button = event.target.closest('button[data-consent]');
+        const button = event.target.closest('button[data-analytics-consent][data-marketing-consent]');
         if (!button) return;
-        const value = button.dataset.consent;
-        try { window.localStorage.setItem(analyticsConsentKey, value); } catch (error) {}
-        setGoogleConsent('update', value);
-        if (value === 'denied') clearAnalyticsCookies();
+        const analyticsValue = button.dataset.analyticsConsent;
+        const marketingValue = button.dataset.marketingConsent;
+        try {
+          window.localStorage.setItem(analyticsConsentKey, analyticsValue);
+          window.localStorage.setItem(marketingConsentKey, marketingValue);
+        } catch (error) {}
+        setGoogleConsent('update', analyticsValue);
+        if (analyticsValue === 'denied') clearAnalyticsCookies();
+        if (marketingValue === 'granted') loadMetaPixel();
+        else {
+          if (window.fbq) window.fbq('consent', 'revoke');
+          clearMetaCookies();
+        }
         panel.hidden = true;
       });
     }
@@ -67,7 +135,8 @@ document.addEventListener('DOMContentLoaded', function () {
   settingsButton.addEventListener('click', showAnalyticsConsent);
   document.body.appendChild(settingsButton);
 
-  if (!savedAnalyticsConsent) showAnalyticsConsent();
+  if (!savedAnalyticsConsent || !savedMarketingConsent) showAnalyticsConsent();
+  loadMetaPixel();
 
   // --- FAQ ACCORDION ---
   const faqItems = document.querySelectorAll('.faq-item');
@@ -175,6 +244,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (normalizedHref.includes('wa.me/') || normalizedHref.includes('whatsapp.com/')) {
       sendAnalyticsEvent('whatsapp_click', eventParameters);
+
+      // This is only a redirect click. It is not a sent message, lead or appointment.
+      if (hasMarketingConsent() && isMetaAllowlistedPage() && window.fbq) {
+        window.fbq('trackCustom', 'WhatsAppCTAClick');
+      }
 
       const explicitEvent = link.dataset.analyticsEvent;
       if (explicitEvent === 'seans_degerlendirme_cta_click') {
