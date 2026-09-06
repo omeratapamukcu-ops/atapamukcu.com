@@ -1,3 +1,11 @@
+## 2026-09-06 - Mükemmeliyetçilik kalite ve sorgu niyeti iyileştirmesi (B037)
+
+- `/mukemmeliyetcilik`, site kalite envanterindeki 67/100 skor, doğrudan sorgu sahipliği ve performans-erteleme kümesindeki merkezi rolü nedeniyle seçildi. Aktif deney URL'leri ve nötr `/ilk-gorusme` reklam sayfası değiştirilmedi.
+- Sınırlı güncel SERP örnekleminde ilk sonuçların tanım, belirtiler, yüksek standart ayrımı ve baş etme yollarını kapsadığı; ancak neden-sonuç dilini çoğu zaman aşırı kesin kurduğu görüldü. Sayfa bunları kopyalamadan işlevsel kontrol-erteleme döngüsü, tanı sınırı ve kanıt kapsamı ile farklılaştırıldı.
+- Title, description, H1 ve ilk ekran yanıtı `mükemmeliyetçilik nedir` niyetiyle eşleştirildi. Belirti örnekleri, yüksek standart ayrımı, sürdürücü döngü, erteleme ilişkisi, ihtiyatlı gelişim açıklaması, güvenli davranış gözlemi, profesyonel destek ve 112/acil sınırı görünür hale getirildi.
+- Görünür yazar ile gerçek ilk yayın/güncelleme tarihleri, altı doğrulanmış kaynak, Article `datePublished`/`dateModified`/`citation`/`speakable`, BreadcrumbList ve görünür içerikle birebir FAQPage eklendi. Canonical, tek H1 ve consent-gated CTA ölçümü korundu.
+- Üç exact sorgu haftalık P1 portföyüne eklendi. GSC API'sinin bu koşudaki 403 yanıtı nedeniyle başlangıç konum, gösterim, tıklama ve CTR değerleri `UNKNOWN` bırakıldı; sıfır kabul edilmedi. Erken kontrol 20 Eylül, tam 28 günlük değerlendirme 4 Ekim 2026.
+
 ## 2026-09-06 - Sosyal kaygı kümesi kalite iyileştirmesi (B035-B036)
 
 - Envanterde 67/100 olan ve önceki koşularda geliştirilmemiş `/sosyal-fobi` ile `/sosyal-kaygi-neden-olur` aynı içerik kümesindeki iki URL sınırı içinde seçildi.

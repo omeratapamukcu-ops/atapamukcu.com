@@ -21,6 +21,18 @@ TAG_RE = re.compile(r"<[^>]+>")
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.I | re.S)
 LINK_RE = re.compile(r"<a\b[^>]*href=[\"']([^\"']+)[\"']", re.I)
 SCHEMA_RE = re.compile(r"<script\b[^>]*type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>", re.I | re.S)
+ROBOTS_META_RE = re.compile(
+    r"<meta\b[^>]*(?:name=[\"']robots[\"'][^>]*content=[\"']([^\"']*)|content=[\"']([^\"']*)[\"'][^>]*name=[\"']robots[\"'])",
+    re.I,
+)
+
+
+def is_indexable(path: Path) -> bool:
+    """Exclude intentionally noindexed campaign/utility pages from editorial scoring."""
+    raw = path.read_text(encoding="utf-8")
+    match = ROBOTS_META_RE.search(raw)
+    directives = " ".join(part or "" for part in match.groups()).lower() if match else ""
+    return "noindex" not in directives
 
 
 def text_of(raw: str) -> str:
@@ -97,6 +109,7 @@ def main() -> int:
     files = sorted(
         p for p in ROOT.rglob("*.html")
         if not any(part in EXCLUDED_DIRS for part in p.relative_to(ROOT).parts)
+        and is_indexable(p)
     )
     routes = {page_route(p) for p in files}
     inbound = Counter()

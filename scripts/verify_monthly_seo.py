@@ -37,12 +37,14 @@ analytics = require(
     "whatsapp_click",
     "phone_click",
     "email_click",
-    "appointment_start",
     "appointment_complete",
     "seans_degerlendirme_cta_click",
+    "WhatsAppCTAClick",
     "appointment:complete",
     "verified_success",
 )
+if "appointment_start" in analytics:
+    errors.append("js/script.js: redirect click must not be classified as appointment_start")
 for forbidden in ("link_url", "link_text", "form_content", "health_data"):
     if forbidden in analytics:
         errors.append(f"js/script.js: privacy-sensitive parameter present: {forbidden}")
@@ -129,5 +131,5 @@ if errors:
     sys.exit(1)
 
 print("monthly_seo=PASS")
-print("analytics_events=6 privacy_guard=PASS")
+print("analytics_events=5 privacy_guard=PASS")
 print("target_pages=3 internal_links=PASS metadata_dates=PASS")
