@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function isMetaAllowlistedPage() {
-    const allowedPaths = ['/', '/index.html'];
+    const allowedPaths = ['/ilk-gorusme', '/ilk-gorusme.html'];
     const allowedQueryKeys = [
       'fbclid', 'gclid', 'utm_campaign', 'utm_content', 'utm_medium',
       'utm_source', 'utm_term'
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
       panel.id = 'analytics-consent';
       panel.className = 'analytics-consent';
       panel.setAttribute('aria-label', 'Çerez tercihleri');
-      panel.innerHTML = '<div class="consent-summary"><strong>Gizliliğiniz</strong><p>Deneyimi iyileştirmek ve reklam performansını ölçmek için isteğe bağlı çerezler kullanıyoruz.</p><a href="/gizlilik">Detaylar</a></div><div class="analytics-consent-actions"><button type="button" data-analytics-consent="denied" data-marketing-consent="denied">Reddet</button><button type="button" data-open-consent-settings>Ayarlar</button><button type="button" class="consent-accept" data-analytics-consent="granted" data-marketing-consent="granted">Kabul et</button></div><div class="consent-details" hidden><label><span><strong>İstatistik</strong><small>Site kullanımını anlamamıza yardımcı olur.</small></span><input type="checkbox" data-consent-analytics></label><label><span><strong>Reklam ölçümü</strong><small>Ana sayfadaki reklam ve WhatsApp yönlendirme performansını ölçer.</small></span><input type="checkbox" data-consent-marketing></label><div class="consent-detail-actions"><button type="button" data-close-consent-settings>Geri</button><button type="button" class="consent-accept" data-save-consent>Seçimi kaydet</button></div></div>';
+      panel.innerHTML = '<div class="consent-summary"><strong>Gizliliğiniz</strong><p>Deneyimi iyileştirmek ve reklam performansını ölçmek için isteğe bağlı çerezler kullanıyoruz.</p><a href="/gizlilik">Detaylar</a></div><div class="analytics-consent-actions"><button type="button" data-analytics-consent="denied" data-marketing-consent="denied">Reddet</button><button type="button" data-open-consent-settings>Ayarlar</button><button type="button" class="consent-accept" data-analytics-consent="granted" data-marketing-consent="granted">Kabul et</button></div><div class="consent-details" hidden><label><span><strong>İstatistik</strong><small>Site kullanımını anlamamıza yardımcı olur.</small></span><input type="checkbox" data-consent-analytics></label><label><span><strong>Reklam ölçümü</strong><small>İzin verilen sayfalardaki reklam ve WhatsApp yönlendirme performansını ölçer.</small></span><input type="checkbox" data-consent-marketing></label><div class="consent-detail-actions"><button type="button" data-close-consent-settings>Geri</button><button type="button" class="consent-accept" data-save-consent>Seçimi kaydet</button></div></div>';
       document.body.appendChild(panel);
       panel.addEventListener('click', function (event) {
         const preset = event.target.closest('button[data-analytics-consent][data-marketing-consent]');
@@ -286,14 +286,8 @@ document.addEventListener('DOMContentLoaded', function () {
         sendAnalyticsEvent(explicitEvent, eventParameters);
       }
 
-      const visibleLabel = (link.textContent || '').toLocaleLowerCase('tr-TR');
-      const startsAppointment = link.classList.contains('btn-primary') ||
-        visibleLabel.includes('randevu') ||
-        visibleLabel.includes('değerlendirme');
-
-      if (startsAppointment) {
-        sendAnalyticsEvent('appointment_start', eventParameters);
-      }
+      // A WhatsApp redirect remains only a click signal. It is never promoted
+      // to an appointment, sent message, lead or completed consultation.
     }
   });
 
