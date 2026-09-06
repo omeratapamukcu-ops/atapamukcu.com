@@ -1,3 +1,11 @@
+## 2026-09-06 - Sosyal kaygı kümesi kalite iyileştirmesi (B035-B036)
+
+- Envanterde 67/100 olan ve önceki koşularda geliştirilmemiş `/sosyal-fobi` ile `/sosyal-kaygi-neden-olur` aynı içerik kümesindeki iki URL sınırı içinde seçildi.
+- Doğrudan yanıt, tanı koymadan ayrımlar, sorun-mekanizma-işlevsel döngü, güvenli ilk gözlem, tıbbi değerlendirme eşiği ve 112/acil kapısı görünür hale getirildi; kesin nedensellik ve sonuç garantisi veren anlatım kaldırıldı.
+- Görünür yazar, doğru ilk yayın ve güncelleme tarihi, NICE/NHS/NIMH kaynakçası, Article citation/datePublished/dateModified/speakable, BreadcrumbList ve görünür metinle eşleşen FAQPage eklendi. Canonical, tek H1 ve consent-gated genel CTA marker'ı korundu.
+- İki URL de yerel kalite envanterinde 67/100'den 100/100'e yükseldi; sitemap lastmod yalnız bu iki gerçek değişiklik için 2026-09-06 yapıldı.
+- B035 ve B036 yeni deney kimlikleriyle kaydedildi. Exact GSC konum, gösterim, tıklama ve CTR değerleri `UNKNOWN`; sıfır kabul edilmedi. 14 günlük erken kontrol 20 Eylül, 28 günlük tam değerlendirme 4 Ekim 2026.
+
 # Değişiklik Günlüğü
 
 ## 2026-09-05

@@ -9,10 +9,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6, utility=1
 
 ## Site çapında açıklar
-- `depth`: 35 sayfa
-- `sources`: 20 sayfa
-- `visible_date`: 18 sayfa
-- `date_modified`: 13 sayfa
+- `depth`: 34 sayfa
+- `sources`: 18 sayfa
+- `visible_date`: 16 sayfa
+- `date_modified`: 11 sayfa
 - `author`: 3 sayfa
 - `schema`: 2 sayfa
 - `canonical`: 1 sayfa
@@ -34,7 +34,6 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/takinti-hastaligi` | clinical-guide | 436 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/uyku-sorunlari` | clinical-guide | 508 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
-| `/sosyal-kaygi-neden-olur` | clinical-guide | 549 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/ucak-korkusu` | clinical-guide | 613 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/404` | utility | 27 | 0 | 75 | canonical;schema;inbound |
 | `/surec` | clinical-guide | 219 | 4 | 75 | author;visible_date;depth |
@@ -42,7 +41,6 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/antalya-panik-atak-psikolog` | clinical-guide | 471 | 3 | 75 | visible_date;sources;depth |
 | `/antalya-kaygi-psikolog` | clinical-guide | 635 | 5 | 75 | visible_date;sources;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
-| `/sosyal-fobi` | clinical-guide | 796 | 3 | 75 | visible_date;date_modified;sources |
 | `/act-bdt-farki` | clinical-guide | 390 | 3 | 83 | sources;depth |
 | `/editorial-ilkeler` | clinical-guide | 523 | 82 | 83 | sources;depth |
 | `/araclar` | trust-or-navigation | 196 | 81 | 92 | depth |
@@ -53,6 +51,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/kisisellestirilmis-terapi` | clinical-guide | 555 | 1 | 92 | depth |
 | `/okb-belirtileri` | clinical-guide | 577 | 6 | 92 | depth |
 | `/davranissal-aktivasyon` | clinical-guide | 630 | 6 | 92 | depth |
+| `/karar-verememe` | clinical-guide | 648 | 1 | 92 | depth |
+| `/kendini-sabote-etmek` | clinical-guide | 660 | 1 | 92 | depth |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.
