@@ -9,10 +9,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6
 
 ## Site çapında açıklar
-- `depth`: 31 sayfa
-- `sources`: 15 sayfa
-- `visible_date`: 13 sayfa
-- `date_modified`: 8 sayfa
+- `depth`: 30 sayfa
+- `sources`: 14 sayfa
+- `visible_date`: 12 sayfa
+- `date_modified`: 7 sayfa
 - `author`: 3 sayfa
 - `schema`: 1 sayfa
 - `breadcrumb`: 1 sayfa
@@ -25,7 +25,6 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/baslangic` | clinical-guide | 202 | 81 | 67 | author;visible_date;sources;depth |
 | `/psikolojik-surec-haritasi` | clinical-guide | 344 | 7 | 67 | visible_date;date_modified;sources;depth |
 | `/terapi-surecinde-dongu-analizi` | clinical-guide | 347 | 2 | 67 | visible_date;date_modified;sources;depth |
-| `/anda-kalma` | clinical-guide | 374 | 1 | 67 | visible_date;date_modified;sources;depth |
 | `/surec-temelli-terapi` | clinical-guide | 377 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/takinti-hastaligi` | clinical-guide | 436 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
@@ -48,9 +47,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/karar-verememe` | clinical-guide | 648 | 1 | 92 | depth |
 | `/kendini-sabote-etmek` | clinical-guide | 660 | 3 | 92 | depth |
 | `/travma-belirtileri` | clinical-guide | 666 | 2 | 92 | depth |
-| `/kaygi-dongusu` | clinical-guide | 676 | 13 | 92 | depth |
+| `/kaygi-dongusu` | clinical-guide | 676 | 14 | 92 | depth |
 | `/kabul-ne-demek` | clinical-guide | 681 | 4 | 92 | depth |
 | `/sosyal-kaygi-belirtileri` | clinical-guide | 681 | 4 | 92 | depth |
+| `/travma-kacinma` | clinical-guide | 687 | 2 | 92 | depth |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.

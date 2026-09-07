@@ -1,3 +1,10 @@
+## 2026-09-07 - Anda kalma kalite, güvenlik ve sorgu niyeti iyileştirmesi (B040)
+
+- `/anda-kalma`, envanterdeki 67/100 skor, henüz geliştirilmemiş olması ve dikkat-farkındalık kümesindeki bağımsız sorgu niyeti nedeniyle seçildi. `/surec-temelli-terapi`, aktif `/pbt-nedir` ölçüm penceresiyle olası niyet çakışması nedeniyle değiştirilmedi; B013, B021 ve 1 Eylül'de başlayan diğer deneyler korundu.
+- Doğrudan tanım, dikkat daralmasının işlevsel döngüsü, bir dakikalık düşük riskli uygulama, “ne değildir” ayrımları, tıbbi/profesyonel değerlendirme eşiği, meditasyonda olumsuz etki sınırı ve 112/acil kapısı görünür hale getirildi.
+- Görünür yazar ile gerçek ilk yayın/güncelleme tarihleri, erişimi doğrulanan NHS, NCCIH ve iki hakemli kaynak, Article `citation`/`datePublished`/`dateModified`/`speakable`, BreadcrumbList ve görünür içerikle birebir FAQPage eklendi. Canonical, tek H1 ve consent-gated CTA işareti doğrulandı.
+- Yerel kalite skoru 67/100'den 100/100'e, görünür içerik 374 kelimeden 973 kelimeye çıktı. Üç exact sorgu haftalık P1 portföyüne eklendi. GSC exact konum, gösterim, tıklama ve CTR `UNKNOWN`; sıfır kabul edilmedi. Erken kontrol 21 Eylül, tam 28 günlük değerlendirme 5 Ekim 2026.
+
 ## 2026-09-07 - Uyku sorunları kalite ve sorgu niyeti iyileştirmesi (B039)
 
 - `/uyku-sorunlari`, envanterdeki 67/100 skor ve uyku-uykusuzluk sorgu kümesindeki merkezi rolü nedeniyle seçildi. Aktif deney URL'leri ile 1 Eylül'de başlayan ölçüm pencereleri değiştirilmedi.
