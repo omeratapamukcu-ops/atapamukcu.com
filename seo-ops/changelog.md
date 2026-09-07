@@ -1,3 +1,11 @@
+## 2026-09-07 - Uyku sorunları kalite ve sorgu niyeti iyileştirmesi (B039)
+
+- `/uyku-sorunlari`, envanterdeki 67/100 skor ve uyku-uykusuzluk sorgu kümesindeki merkezi rolü nedeniyle seçildi. Aktif deney URL'leri ile 1 Eylül'de başlayan ölçüm pencereleri değiştirilmedi.
+- Title, description, H1 ve ilk ekran yanıtı bilgi arama niyetiyle eşleştirildi. Tek neden anlatımı yerine tetikleyici-sürdürücü etken ayrımı, kaygı ve uyku kontrolü döngüsü, uykusuzluk-yorgunluk-uyku apnesi ayrımları ve düşük riskli gözlem adımı eklendi.
+- Tıbbi değerlendirme eşikleri, yapılandırılmış BDT-I uygulamalarına ilişkin güvenlik sınırı ve 112/acil kapısı görünür hale getirildi; tanı, ilaç değişikliği veya sonuç garantisi verilmedi.
+- Gerçek ilk yayın ve güncelleme tarihleri, görünür yazar, erişimi doğrulanan dört kurumsal kaynak, Article `citation`/`datePublished`/`dateModified`/`speakable`, BreadcrumbList ve görünür içerikle birebir FAQPage eklendi. Canonical, tek H1, online hizmet modeli ve consent-gated CTA işareti korundu.
+- Dört exact sorgu haftalık P1 portföyüne eklendi. Güncel GSC exact verisi bu koşuda elde edilmediği için başlangıç konumu, gösterim, tıklama ve CTR `UNKNOWN` bırakıldı; sıfır kabul edilmedi. Erken kontrol 21 Eylül, tam 28 günlük değerlendirme 5 Ekim 2026.
+
 ## 2026-09-06 - Başarısızlık korkusu kalite ve sorgu niyeti iyileştirmesi (B038)
 
 - Aynı gün dönüştürülen ikinci ve son küme URL'si olarak `/basarisizlik-korkusu` seçildi; önceki envanter skoru 67/100'dü. `/mukemmeliyetcilik` ile konu bağı güçlendirildi; aktif deney sayfaları ve nötr `/ilk-gorusme` reklam sayfası değiştirilmedi.
