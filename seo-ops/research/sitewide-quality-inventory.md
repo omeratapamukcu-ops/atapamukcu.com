@@ -9,10 +9,10 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6
 
 ## Site çapında açıklar
-- `depth`: 28 sayfa
-- `sources`: 12 sayfa
-- `visible_date`: 10 sayfa
-- `date_modified`: 7 sayfa
+- `depth`: 26 sayfa
+- `sources`: 10 sayfa
+- `visible_date`: 8 sayfa
+- `date_modified`: 5 sayfa
 - `author`: 3 sayfa
 - `schema`: 1 sayfa
 - `breadcrumb`: 1 sayfa
@@ -26,9 +26,7 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/psikolojik-surec-haritasi` | clinical-guide | 344 | 7 | 67 | visible_date;date_modified;sources;depth |
 | `/terapi-surecinde-dongu-analizi` | clinical-guide | 347 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surec-temelli-terapi` | clinical-guide | 377 | 2 | 67 | visible_date;date_modified;sources;depth |
-| `/takinti-hastaligi` | clinical-guide | 436 | 3 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
-| `/ucak-korkusu` | clinical-guide | 613 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surec` | clinical-guide | 219 | 4 | 75 | author;visible_date;depth |
 | `/gizlilik` | trust-or-navigation | 340 | 81 | 75 | schema;breadcrumb;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
@@ -51,6 +49,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/travma-kacinma` | clinical-guide | 687 | 2 | 92 | depth |
 | `/ofke-kontrolu` | clinical-guide | 698 | 2 | 92 | depth |
 | `/kompulsiyon-nedir` | clinical-guide | 952 | 6 | 92 | sources |
+| `/araclar/panik-atak-ani-plani` | interactive-tool | 173 | 3 | 100 | — |
+| `/araclar/kaygi-dongusu-haritasi` | interactive-tool | 197 | 8 | 100 | — |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.

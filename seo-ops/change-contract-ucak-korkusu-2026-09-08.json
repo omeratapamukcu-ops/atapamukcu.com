@@ -1,0 +1,44 @@
+{
+  "experiment_id": "B043",
+  "release_date": "2026-09-08",
+  "target_query": "uçak korkusu nasıl yenilir",
+  "target_canonical": "https://www.atapamukcu.com/ucak-korkusu",
+  "selection_rationale": "Sitewide kalite envanterinde 67/100 olan, yüksek niyetli bağımsız bir klinik rehberdi; içerik derinliği, görünür tarih ve kaynak boşlukları vardı.",
+  "baseline": {
+    "source": "site_quality_inventory",
+    "quality_score": 67,
+    "gsc_position": "UNKNOWN",
+    "clicks": "UNKNOWN",
+    "impressions": "UNKNOWN",
+    "ctr": "UNKNOWN",
+    "unknown_values_are_not_zero": true
+  },
+  "changes": [
+    "Arama niyetine uygun başlık ve açıklama",
+    "Uçuş korkusu belirtileri ve işlevsel kaçınma-güvence döngüsü",
+    "Türbülans için FAA temelli yolcu güvenliği sınırı",
+    "Kademeli maruz kalma çerçevesi ve tıbbi/acil eşikler",
+    "Görünür yazar-tarih-kaynak alanı",
+    "Article ve FAQPage schema eşleşmesi",
+    "İlgili sayfalara iç bağlantılar",
+    "Sitemap lastmod güncellemesi"
+  ],
+  "guardrails": [
+    "Tanı veya kesin iyileşme vaadi verme",
+    "Türbülans bilgisini psikolojik güvence ritüeline dönüştürme",
+    "Fiziksel belirtileri yalnızca kaygıya bağlama",
+    "İlaç önerme",
+    "Yüz yüze Antalya hizmeti izlenimi verme"
+  ],
+  "evaluation": {
+    "early_signal_date": "2026-09-22",
+    "full_window_date": "2026-10-06",
+    "dimensions": [
+      "query",
+      "page",
+      "country",
+      "device"
+    ],
+    "success_is_not_claimed_at_deployment": true
+  }
+}
