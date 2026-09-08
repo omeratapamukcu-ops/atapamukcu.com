@@ -9,9 +9,9 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6
 
 ## Site çapında açıklar
-- `depth`: 30 sayfa
-- `sources`: 14 sayfa
-- `visible_date`: 12 sayfa
+- `depth`: 28 sayfa
+- `sources`: 12 sayfa
+- `visible_date`: 10 sayfa
 - `date_modified`: 7 sayfa
 - `author`: 3 sayfa
 - `schema`: 1 sayfa
@@ -31,8 +31,6 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/ucak-korkusu` | clinical-guide | 613 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surec` | clinical-guide | 219 | 4 | 75 | author;visible_date;depth |
 | `/gizlilik` | trust-or-navigation | 340 | 81 | 75 | schema;breadcrumb;depth |
-| `/antalya-panik-atak-psikolog` | clinical-guide | 471 | 3 | 75 | visible_date;sources;depth |
-| `/antalya-kaygi-psikolog` | clinical-guide | 635 | 5 | 75 | visible_date;sources;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
 | `/act-bdt-farki` | clinical-guide | 390 | 3 | 83 | sources;depth |
 | `/editorial-ilkeler` | clinical-guide | 523 | 81 | 83 | sources;depth |
@@ -51,6 +49,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/kabul-ne-demek` | clinical-guide | 681 | 4 | 92 | depth |
 | `/sosyal-kaygi-belirtileri` | clinical-guide | 681 | 4 | 92 | depth |
 | `/travma-kacinma` | clinical-guide | 687 | 2 | 92 | depth |
+| `/ofke-kontrolu` | clinical-guide | 698 | 2 | 92 | depth |
+| `/kompulsiyon-nedir` | clinical-guide | 952 | 6 | 92 | sources |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.

@@ -1,3 +1,10 @@
+## 2026-09-08 - Antalya kaygı ve panik atak hizmet niyeti kalite iyileştirmesi (B041–B042)
+
+- Aynı Antalya kaygı/panik hizmet kümesinden `/antalya-kaygi-psikolog` ve `/antalya-panik-atak-psikolog`, envanterdeki 75/100 skorları, sırasıyla 635 ve 471 kelimelik sınırlı derinlikleri ve henüz önceki koşularda geliştirilmemiş olmaları nedeniyle seçildi. Aktif B013, B021, 1 Eylül başlangıçlı diğer ölçüm pencereleri, `/kompulsiyon-nedir` ve `/act-nedir` içindeki `/bilissel-ayrisma` bağlantısı değiştirilmedi.
+- Kaygı sayfasına doğrudan hizmet yanıtı, gerçek sorun–kesinlik arayışı ayrımı, endişe–güvence–kaçınma işlevsel döngüsü, güvenli ilk gözlem ve davranış adımı eklendi. Panik sayfasına panik atak–panik bozukluk tanı sınırı, alarm–felaket yorumu–güvenlik davranışı döngüsü ve atak sırasında güvenli ilk adım eklendi.
+- Her iki sayfada tıbbi değerlendirme eşiği, 112/acil kapısı, görünür yazar ve gerçek yayın/güncelleme tarihi görünür hale getirildi. Erişimi doğrulanan NICE CG113 ve ilgili NHS kaynakları; Article `citation`/`datePublished`/`dateModified`/`speakable`; BreadcrumbList ve görünür içerikle birebir FAQPage korundu ya da tamamlandı.
+- Yerel kalite skorları 75/100'den 100/100'e çıktı; görünür içerik kaygı sayfasında 635'ten 1039, panik sayfasında 471'den 964 kelimeye yükseldi. İki exact yerel ticari sorgu haftalık P1 portföyüne eklendi. GSC exact konum, gösterim, tıklama ve CTR `UNKNOWN`; sıfır kabul edilmedi. Erken kontrol 22 Eylül, tam 28 günlük değerlendirme 6 Ekim 2026.
+
 ## 2026-09-07 - Anda kalma kalite, güvenlik ve sorgu niyeti iyileştirmesi (B040)
 
 - `/anda-kalma`, envanterdeki 67/100 skor, henüz geliştirilmemiş olması ve dikkat-farkındalık kümesindeki bağımsız sorgu niyeti nedeniyle seçildi. `/surec-temelli-terapi`, aktif `/pbt-nedir` ölçüm penceresiyle olası niyet çakışması nedeniyle değiştirilmedi; B013, B021 ve 1 Eylül'de başlayan diğer deneyler korundu.
