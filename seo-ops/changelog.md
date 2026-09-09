@@ -1,3 +1,10 @@
+## 2026-09-09 - Psikolojik süreç haritası ve döngü analizi kalite iyileştirmesi (B045–B046)
+
+- Aynı süreç haritalama kümesinden `/psikolojik-surec-haritasi` ve `/terapi-surecinde-dongu-analizi`, envanterdeki 67/100 skorları, 344 ve 347 kelimelik sınırlı derinlikleri ve önceki koşularda geliştirilmemiş olmaları nedeniyle seçildi. Aktif B013, B021, 1 Eylül başlangıçlı diğer ölçüm pencereleri, `/kompulsiyon-nedir` ve `/act-nedir` içindeki `/bilissel-ayrisma` bağlantısı değiştirilmedi.
+- Harita sayfasına doğrudan tanım, sorun–kontrol–daralma döngüsü, harita/form/tanı ayrımları ve güvenli beş dakikalık gözlem eklendi. Döngü analizi sayfasına dört halkalı uygulama, terapi odası örneği, işlevsel ayrımlar ve düşük riskli ilk adım eklendi.
+- Her iki sayfada tıbbi değerlendirme eşiği, 112/acil kapısı, görünür yazar ve gerçek yayın/güncelleme tarihi görünür hale getirildi. Erişimi doğrulanan üç hakemli süreç temelli terapi kaynağı ve resmî 112 kaynağı; Article `citation`/`datePublished`/`dateModified`/`speakable`; BreadcrumbList ve görünür içerikle birebir FAQPage tamamlandı. Genel WhatsApp CTA'ları consent-gated işaretlendi.
+- Yerel kalite skorları 67/100'den 100/100'e çıktı; görünür içerik harita sayfasında 344'ten 887, döngü analizi sayfasında 347'den 820 kelimeye yükseldi. Üç exact sorgu haftalık P1 portföyüne eklendi. GSC exact konum, gösterim, tıklama ve CTR `UNKNOWN`; sıfır kabul edilmedi. Erken kontrol 23 Eylül, tam 28 günlük değerlendirme 7 Ekim 2026.
+
 ## 2026-09-08 - Antalya kaygı ve panik atak hizmet niyeti kalite iyileştirmesi (B041–B042)
 
 - Aynı Antalya kaygı/panik hizmet kümesinden `/antalya-kaygi-psikolog` ve `/antalya-panik-atak-psikolog`, envanterdeki 75/100 skorları, sırasıyla 635 ve 471 kelimelik sınırlı derinlikleri ve henüz önceki koşularda geliştirilmemiş olmaları nedeniyle seçildi. Aktif B013, B021, 1 Eylül başlangıçlı diğer ölçüm pencereleri, `/kompulsiyon-nedir` ve `/act-nedir` içindeki `/bilissel-ayrisma` bağlantısı değiştirilmedi.

@@ -9,11 +9,11 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 - Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6
 
 ## Site çapında açıklar
-- `depth`: 26 sayfa
-- `sources`: 10 sayfa
-- `visible_date`: 8 sayfa
-- `date_modified`: 5 sayfa
+- `depth`: 24 sayfa
+- `sources`: 8 sayfa
+- `visible_date`: 6 sayfa
 - `author`: 3 sayfa
+- `date_modified`: 3 sayfa
 - `schema`: 1 sayfa
 - `breadcrumb`: 1 sayfa
 
@@ -23,8 +23,6 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 |---|---|---:|---:|---:|---|
 | `/psikoloji-3` | clinical-guide | 175 | 80 | 67 | author;visible_date;sources;depth |
 | `/baslangic` | clinical-guide | 202 | 81 | 67 | author;visible_date;sources;depth |
-| `/psikolojik-surec-haritasi` | clinical-guide | 344 | 7 | 67 | visible_date;date_modified;sources;depth |
-| `/terapi-surecinde-dongu-analizi` | clinical-guide | 347 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surec-temelli-terapi` | clinical-guide | 377 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surec` | clinical-guide | 219 | 4 | 75 | author;visible_date;depth |
@@ -51,6 +49,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/kompulsiyon-nedir` | clinical-guide | 952 | 6 | 92 | sources |
 | `/araclar/panik-atak-ani-plani` | interactive-tool | 173 | 3 | 100 | — |
 | `/araclar/kaygi-dongusu-haritasi` | interactive-tool | 197 | 8 | 100 | — |
+| `/araclar/islevsel-takip` | interactive-tool | 331 | 9 | 100 | — |
+| `/uygulamalar/kacinma-haritasi` | guided-practice | 413 | 12 | 100 | — |
 
 ## Doğrulama notları
 - Yinelenen title ve description alanları CSV'de ayrı sütunlardır.
