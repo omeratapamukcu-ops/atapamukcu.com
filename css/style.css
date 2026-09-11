@@ -1958,3 +1958,82 @@ ul { list-style: none; }
     bottom: calc(96px + env(safe-area-inset-bottom));
   }
 }
+
+/* --- ACCESSIBLE MOBILE MENU --- */
+.mobile-resource-label,
+.mobile-resource-link { display: none; }
+.nav-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  color: #173627;
+  background: transparent;
+  cursor: pointer;
+}
+.nav-toggle span {
+  display: block;
+  width: 23px;
+  height: 2px;
+  margin: 4px auto;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+.nav-toggle:focus-visible { outline: 2px solid #2d6a4f; outline-offset: 2px; }
+
+@media (max-width: 760px) {
+  .site-header .nav-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0 12px;
+    padding: 8px 0;
+  }
+  .site-header .logo { width: auto; text-align: left; }
+  .site-header .nav-toggle { display: inline-block; justify-self: end; }
+  .site-header .nav-right {
+    display: none;
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px 0 4px;
+    border-top: 1px solid rgba(23, 54, 39, 0.12);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .site-header.nav-open .nav-right { display: flex; }
+  .site-header .mobile-resource-label {
+    display: block;
+    margin-top: 7px;
+    padding: 12px 4px 7px;
+    color: #587064;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+  }
+  .site-header .mobile-resource-link { display: block; }
+  .site-header .nav-right a,
+  .site-header .nav-right a[href*="substack"] {
+    display: block;
+    width: 100%;
+    padding: 13px 4px;
+    border-bottom: 1px solid rgba(23, 54, 39, 0.08);
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .site-header .nav-right a[href*="substack"]::after {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .site-header .nav-right a:last-child { border-bottom: 0; }
+  .site-header.nav-open .nav-toggle span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .site-header.nav-open .nav-toggle span:nth-child(2) { opacity: 0; }
+  .site-header.nav-open .nav-toggle span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+}
