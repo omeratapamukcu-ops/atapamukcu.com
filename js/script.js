@@ -55,8 +55,29 @@ document.addEventListener('DOMContentLoaded', function () {
     return !hasUnknownQuery && !window.location.hash;
   }
 
+  const initialTrackingContextWasSafe = hasOnlySafeAttributionContext();
+  if (window.location.search) {
+    window.history.replaceState(
+      window.history.state,
+      '',
+      window.location.pathname + window.location.hash
+    );
+  }
+
+  function sanitizedPageReferrer() {
+    if (!document.referrer) return '';
+    try {
+      const referrer = new URL(document.referrer);
+      return referrer.origin === window.location.origin
+        ? referrer.origin + referrer.pathname
+        : referrer.origin + '/';
+    } catch (error) {
+      return '';
+    }
+  }
+
   function sanitizeTrackingLocation() {
-    if (!hasOnlySafeAttributionContext()) return null;
+    if (!initialTrackingContextWasSafe) return null;
     const cleanPath = window.location.pathname;
     if (window.location.search || window.location.hash) {
       window.history.replaceState(window.history.state, '', cleanPath);
@@ -66,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function isAnalyticsAllowlistedPage() {
     return analyticsAllowedPaths.includes(window.location.pathname) &&
-      hasOnlySafeAttributionContext();
+      initialTrackingContextWasSafe;
   }
 
   function loadGoogleAnalytics() {
@@ -84,7 +105,8 @@ document.addEventListener('DOMContentLoaded', function () {
     window.gtag('config', googleMeasurementId, { send_page_view: false });
     window.gtag('event', 'page_view', {
       page_location: pageLocation,
-      page_path: window.location.pathname
+      page_path: window.location.pathname,
+      page_referrer: sanitizedPageReferrer()
     });
   }
 
@@ -108,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function isMetaAllowlistedPage() {
     const allowedPaths = ['/ilk-gorusme', '/ilk-gorusme.html'];
     return allowedPaths.includes(window.location.pathname) &&
-      hasOnlySafeAttributionContext();
+      initialTrackingContextWasSafe;
   }
 
   function loadMetaPixel() {
