@@ -38,6 +38,9 @@
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="AI-readable site summary">
   <link rel="alternate" type="application/json" href="/ai-context.json" title="AI-readable entity context">
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
   <a href="#main" class="skip-link">İÇERİĞE ATLAYIN</a>
@@ -46,7 +49,7 @@
     <section class="article-hero"><div class="container article-container"><p class="section-eyebrow">Mini araç</p><h1>Panik Atak Anı Planı</h1><p class="article-lead">Panik atak anında neyi hatırlatacağınızı, hangi kontrol davranışını azaltacağınızı ve atak sonrası neye döneceğinizi sadeleştiren kısa araç.</p></div></section>
     <nav class="breadcrumb" aria-label="Sayfa yolu"><a href="/">ANA SAYFA</a><span class="breadcrumb-sep">/</span><span>Panik Atak Anı Planı</span></nav>
     <section class="article-section"><div class="container article-container">
-<div class="article-card muted"><h2>Nasıl kullanılır?</h2><p>Bu araç panik atak anında uzun düşünmeye gerek kalmadan okuyabileceğiniz kısa bir kişisel not oluşturur. Veriler sunucuya gönderilmez; sadece tarayıcınızda çalışır.</p></div>
+<div class="article-card muted"><h2>Nasıl kullanılır?</h2><p>Bu araç panik atak anında uzun düşünmeye gerek kalmadan okuyabileceğiniz kısa bir kişisel not oluşturur. Veriler sunucuya gönderilmez veya kalıcı depolamaya kaydedilmez; yalnızca bu sayfa açıkken tarayıcı belleğinde tutulur ve sayfayı yenilediğinizde silinir.</p></div>
 <form class="article-card" id="panicForm"><h2>Kısa planınızı oluşturun</h2>
 <label>Atak geldiğinde kendime hatırlatacağım cümle<br><textarea id="reminder" rows="3" style="width:100%;margin-top:8px;">Bu bir alarm dalgası. Rahatsız edici ama dalga gibi yükselip azalabilir.</textarea></label><br><br>
 <label>Yapmayacağım kontrol davranışı<br><textarea id="avoid" rows="3" style="width:100%;margin-top:8px;">Nabzımı tekrar tekrar ölçmeyeceğim / sürekli belirti aramayacağım.</textarea></label><br><br>
@@ -56,12 +59,12 @@
 <div class="article-card" id="result" style="display:none;"><h2>Panik atak anı planınız</h2><pre id="out" style="white-space:pre-wrap;font-family:inherit;"></pre><button type="button" class="btn-secondary" onclick="copyResult()">Metni kopyala</button></div>
 <div class="article-card muted"><h2>Önemli sınır</h2><p>İlk kez yaşanan, alışılmıştan farklı veya tıbbi risk düşündüren belirtilerde önce tıbbi değerlendirme gerekir. Bu araç acil durum yönetimi veya tanı koyma amacıyla kullanılmamalıdır.</p></div>
 <div class="related-pages"><div class="related-grid"><a href="/panik-atak-belirtileri" class="related-card"><span><strong>Panik belirtilerini tanımak</strong><br>Bedensel alarmın nasıl çalıştığını okuyun.</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="/panik-atak-aninda-ne-yapmali" class="related-card"><span><strong>Atak anında ne yapılabilir?</strong><br>Panik anı için kısa rehberi okuyun.</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a><a href="/araclar/kaygi-dongusu-haritasi" class="related-card"><span><strong>Kaygı döngüsü haritası</strong><br>Döngüyü daha geniş haritalayın.</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
-<script src="/js/tools.js?v=20260619-tools-fix" defer></script>
+<script src="/js/tools.js?v=20260913-memory-only" defer></script>
 
     </div></section>
   </main>
-  <footer class="site-footer" id="iletisim"><div class="container"><div class="footer-grid"><div class="footer-col"><h3>ATA PAMUKÇU</h3><p><a href="/hakkimda">Hakkımda</a></p><p><a href="/editorial-ilkeler">Editoryal İlkeler</a></p><p><a href="/gizlilik">Gizlilik</a></p><p><a href="/baslangic">Başlangıç</a></p><p><a href="/araclar">Araçlar</a></p><p><a href="/psikoloji-3">Psikoloji 3.0</a></p></div><div class="footer-col"><h3>HİZMET BİÇİMİ</h3><p>ONLINE · TÜRKİYE GENELİ</p></div><div class="footer-col"><h3>İLETİŞİM</h3><p><a href="mailto:atapamukcu@gmail.com">ATAPAMUKCU@GMAIL.COM</a></p><p><a href="tel:+905327624060">(532) 762-4060</a></p></div></div></div></footer>
-  <script src="/js/script.js" defer></script>
+  <footer class="site-footer" id="iletisim"><div class="container"><div class="footer-grid"><div class="footer-col"><h3>ATA PAMUKÇU</h3><p><a href="/hakkimda">Hakkımda</a></p><p><a href="/editorial-ilkeler">Editoryal İlkeler</a></p><p><a href="/gizlilik">Gizlilik</a></p><p><a href="/kullanim-sartlari">Kullanım Şartları</a></p><p><a href="/baslangic">Başlangıç</a></p><p><a href="/araclar">Araçlar</a></p><p><a href="/psikoloji-3">Psikoloji 3.0</a></p></div><div class="footer-col"><h3>HİZMET BİÇİMİ</h3><p>ONLINE · TÜRKİYE GENELİ</p></div><div class="footer-col"><h3>İLETİŞİM</h3><p><a href="mailto:atapamukcu@gmail.com">ATAPAMUKCU@GMAIL.COM</a></p><p><a href="tel:+905327624060">(532) 762-4060</a></p></div></div></div></footer>
+  <script src="/js/script.js?v=20260913-production-ready" defer></script>
 
   <script src="/js/nav.js?v=20260911-mobile-nav" defer></script>
 </body>

@@ -21,6 +21,9 @@
   <link rel="preload" as="image" href="/images/hero-portrait-202608.webp" fetchpriority="high" media="(min-width: 768px)">
   <link rel="stylesheet" href="/css/style.css?v=20260906-first-meeting">
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <style>
     .landing-page{background:#eaf6f0;color:#173627}
     .landing-header{position:relative;background:rgba(234,246,240,.96);border-bottom:1px solid rgba(23,54,39,.1)}
@@ -245,27 +248,13 @@
       <div class="landing-footer-links">
         <a href="/hakkimda">Hakkımda</a>
         <a href="/gizlilik">Gizlilik</a>
+        <a href="/kullanim-sartlari">Kullanım Şartları</a>
         <a href="/">Ana sayfa</a>
       </div>
     </div>
   </footer>
 
-  <script src="/js/script.js?v=20260906-first-meeting" defer></script>
-  <script>
-    window.dataLayer=window.dataLayer||[];
-    function gtag(){dataLayer.push(arguments);}
-    window.addEventListener('load',function(){
-      var loadAnalytics=function(){
-        var script=document.createElement('script');
-        script.async=true;
-        script.src='https://www.googletagmanager.com/gtag/js?id=G-M1K0Q69Q2Z';
-        document.head.appendChild(script);
-        gtag('js',new Date());
-        gtag('config','G-M1K0Q69Q2Z');
-      };
-      if('requestIdleCallback'in window)requestIdleCallback(loadAnalytics,{timeout:15000});
-      else setTimeout(loadAnalytics,15000);
-    });
-  </script>
+  <script src="/js/script.js?v=20260913-production-ready" defer></script>
+
 </body>
 </html>

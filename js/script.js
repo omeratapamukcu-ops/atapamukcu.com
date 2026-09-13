@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', function () {
   const analyticsConsentKey = 'atap_analytics_consent';
   const marketingConsentKey = 'atap_marketing_consent';
   const metaPixelId = '2107772050122070';
+  const googleMeasurementId = 'G-M1K0Q69Q2Z';
+  const safeAttributionQueryKeys = [
+    'fbclid', 'gclid', 'utm_campaign', 'utm_content', 'utm_medium',
+    'utm_source', 'utm_term'
+  ];
+  const analyticsAllowedPaths = [
+    '/', '/index.html', '/baslangic', '/baslangic.html', '/hakkimda', '/hakkimda.html',
+    '/online-psikolog', '/online-psikolog.html', '/surec', '/surec.html',
+    '/psikoloji-3', '/psikoloji-3.html', '/site-haritasi', '/site-haritasi.html',
+    '/araclar', '/araclar.html', '/gizlilik', '/gizlilik.html',
+    '/kullanim-sartlari', '/kullanim-sartlari.html', '/ilk-gorusme', '/ilk-gorusme.html'
+  ];
 
   function readAnalyticsConsent() {
     try { return window.localStorage.getItem(analyticsConsentKey); }
@@ -36,6 +48,46 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  function hasOnlySafeAttributionContext() {
+    const query = new URLSearchParams(window.location.search);
+    const hasUnknownQuery = Array.from(query.keys())
+      .some(function (key) { return !safeAttributionQueryKeys.includes(key); });
+    return !hasUnknownQuery && !window.location.hash;
+  }
+
+  function sanitizeTrackingLocation() {
+    if (!hasOnlySafeAttributionContext()) return null;
+    const cleanPath = window.location.pathname;
+    if (window.location.search || window.location.hash) {
+      window.history.replaceState(window.history.state, '', cleanPath);
+    }
+    return window.location.origin + cleanPath;
+  }
+
+  function isAnalyticsAllowlistedPage() {
+    return analyticsAllowedPaths.includes(window.location.pathname) &&
+      hasOnlySafeAttributionContext();
+  }
+
+  function loadGoogleAnalytics() {
+    if (!hasAnalyticsConsent() || !isAnalyticsAllowlistedPage() || window.__googleAnalyticsLoaded) return;
+    const pageLocation = sanitizeTrackingLocation();
+    if (!pageLocation) return;
+    window.__googleAnalyticsLoaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(googleMeasurementId);
+    document.head.appendChild(script);
+    window.gtag('js', new Date());
+    window.gtag('config', googleMeasurementId, { send_page_view: false });
+    window.gtag('event', 'page_view', {
+      page_location: pageLocation,
+      page_path: window.location.pathname
+    });
+  }
+
   function clearAnalyticsCookies() {
     document.cookie.split(';').forEach(function (cookie) {
       const name = cookie.split('=')[0].trim();
@@ -55,19 +107,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function isMetaAllowlistedPage() {
     const allowedPaths = ['/ilk-gorusme', '/ilk-gorusme.html'];
-    const allowedQueryKeys = [
-      'fbclid', 'gclid', 'utm_campaign', 'utm_content', 'utm_medium',
-      'utm_source', 'utm_term'
-    ];
-    const hasUnknownQuery = Array.from(new URLSearchParams(window.location.search).keys())
-      .some(function (key) { return !allowedQueryKeys.includes(key); });
-
     return allowedPaths.includes(window.location.pathname) &&
-      !hasUnknownQuery && !window.location.hash;
+      hasOnlySafeAttributionContext();
   }
 
   function loadMetaPixel() {
     if (!hasMarketingConsent() || !isMetaAllowlistedPage() || window.__metaPixelLoaded) return;
+    if (!sanitizeTrackingLocation()) return;
 
     window.__metaPixelLoaded = true;
     (function (f, b, e, v, n, t, s) {
@@ -98,18 +144,25 @@ document.addEventListener('DOMContentLoaded', function () {
   setGoogleConsent('default', savedAnalyticsConsent === 'granted' ? 'granted' : 'denied');
 
   function applyConsent(analyticsValue, marketingValue, panel) {
+    const googleWasLoaded = Boolean(window.__googleAnalyticsLoaded);
+    const metaWasLoaded = Boolean(window.__metaPixelLoaded);
     try {
       window.localStorage.setItem(analyticsConsentKey, analyticsValue);
       window.localStorage.setItem(marketingConsentKey, marketingValue);
     } catch (error) {}
     setGoogleConsent('update', analyticsValue);
-    if (analyticsValue === 'denied') clearAnalyticsCookies();
+    if (analyticsValue === 'granted') loadGoogleAnalytics();
+    else clearAnalyticsCookies();
     if (marketingValue === 'granted') loadMetaPixel();
     else {
       if (window.fbq) window.fbq('consent', 'revoke');
       clearMetaCookies();
     }
     panel.hidden = true;
+    if ((googleWasLoaded && analyticsValue === 'denied') ||
+        (metaWasLoaded && marketingValue === 'denied')) {
+      window.location.reload();
+    }
   }
 
   function showAnalyticsConsent(showDetails) {
@@ -167,6 +220,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.body.appendChild(settingsButton);
 
   if (!savedAnalyticsConsent || !savedMarketingConsent) showAnalyticsConsent(false);
+  loadGoogleAnalytics();
   loadMetaPixel();
 
   // --- FAQ ACCORDION ---
@@ -174,6 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   faqItems.forEach(function (item) {
     const question = item.querySelector('.faq-question');
+    if (!question) return;
     question.addEventListener('click', function () {
       // Toggle current
       const isActive = item.classList.contains('active');
@@ -194,6 +249,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const header = document.getElementById('header');
 
   window.addEventListener('scroll', function () {
+    if (!header) return;
     if (window.scrollY > 10) {
       header.style.borderBottomColor = 'rgba(23, 54, 39, 0.15)';
     } else {
@@ -232,15 +288,8 @@ document.addEventListener('DOMContentLoaded', function () {
   // Only generic interaction metadata is sent. Link URLs, phone numbers,
   // email addresses, WhatsApp message text and form/health content are excluded.
   function sendAnalyticsEvent(eventName, parameters) {
-    if (!hasAnalyticsConsent()) return;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = window.gtag || function () {
-      window.dataLayer.push(arguments);
-    };
-    if (!window.__ctaAnalyticsConfigured) {
-      window.gtag('config', 'G-M1K0Q69Q2Z');
-      window.__ctaAnalyticsConfigured = true;
-    }
+    if (!hasAnalyticsConsent() || !isAnalyticsAllowlistedPage()) return;
+    loadGoogleAnalytics();
     window.gtag('event', eventName, parameters);
   }
 

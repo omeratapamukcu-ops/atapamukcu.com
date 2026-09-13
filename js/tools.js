@@ -1,10 +1,16 @@
 (function(){
+  // Remove values saved by the previous implementation. Tool input and output
+  // now remain only in page memory and disappear when the page is closed.
+  try {
+    localStorage.removeItem('kaygiDongusuHaritasi');
+    localStorage.removeItem('panikAtakAniPlani');
+  } catch(e) {}
+
   function val(id){
     var el = document.getElementById(id);
     return el ? el.value.trim() : '';
   }
-  function show(text, key){
-    try { localStorage.setItem(key, text); } catch(e) {}
+  function show(text){
     var out = document.getElementById('out');
     var result = document.getElementById('result');
     if (out) out.textContent = text;
@@ -26,7 +32,7 @@
       '',
       'Kısa not: Bu döngüde ilk bakılacak yer çoğu zaman davranışın kısa vadede neyi rahatlattığıdır.'
     ].join('\n');
-    show(text, 'kaygiDongusuHaritasi');
+    show(text);
   };
   window.buildPlan = function(){
     var text = [
@@ -42,7 +48,7 @@
       '',
       'Not: Amaç paniği zorla durdurmak değil, alarm dalgasını büyüten davranışları azaltmaktır.'
     ].join('\n');
-    show(text, 'panikAtakAniPlani');
+    show(text);
   };
   window.copyResult = function(){
     var out = document.getElementById('out');

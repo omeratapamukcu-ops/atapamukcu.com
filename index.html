@@ -41,8 +41,6 @@
   </style>
   <link rel="preload" href="/css/style.css?v=20260911-desktop-resources" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/css/style.css?v=20260911-desktop-resources"></noscript>
-  <link rel="preconnect" href="https://www.googletagmanager.com">
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
   <!-- JSON-LD Schema: Person + online professional service organization -->
   <script type="application/ld+json">
@@ -155,6 +153,9 @@
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="AI-readable site summary">
   <link rel="alternate" type="application/json" href="/ai-context.json" title="AI-readable entity context">
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="/css/home.css?v=20260910-conversion">
 </head>
 <body class="home-page">
@@ -612,7 +613,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h3>ATA PAMUKÇU</h3>
-          <p><a href="/hakkimda">Hakkımda</a></p><p><a href="/editorial-ilkeler">Editoryal İlkeler</a></p><p><a href="/gizlilik">Gizlilik</a></p>
+          <p><a href="/hakkimda">Hakkımda</a></p><p><a href="/editorial-ilkeler">Editoryal İlkeler</a></p><p><a href="/gizlilik">Gizlilik</a></p><p><a href="/kullanim-sartlari">Kullanım Şartları</a></p>
           <p><a href="https://atapamukcu.substack.com" target="_blank" rel="noopener">Psikoloji 3.0 yazıları</a></p>
         </div>
         <div class="footer-col">
@@ -729,39 +730,7 @@
       });
     })();
   </script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    (function () {
-      function hasHomepageAnalyticsConsent() {
-        try { return window.localStorage.getItem('atap_analytics_consent') === 'granted'; }
-        catch (error) { return false; }
-      }
-      function loadAnalytics() {
-        if (!hasHomepageAnalyticsConsent() || window.__homepageAnalyticsLoaded) return;
-        window.__homepageAnalyticsLoaded = true;
-        gtag('js', new Date());
-        if (!window.__ctaAnalyticsConfigured) {
-          gtag('config', 'G-M1K0Q69Q2Z');
-          window.__ctaAnalyticsConfigured = true;
-        }
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-M1K0Q69Q2Z';
-        document.head.appendChild(script);
-      }
-      window.addEventListener('load', function () {
-        if (!hasHomepageAnalyticsConsent()) return;
-        if ('requestIdleCallback' in window) requestIdleCallback(loadAnalytics, {timeout: 15000});
-        else setTimeout(loadAnalytics, 15000);
-      });
-      document.addEventListener('click', function (event) {
-        if (!event.target.closest('#analytics-consent button[data-analytics-consent], #analytics-consent button[data-save-consent]')) return;
-        // The existing consent panel writes storage before this deferred check.
-        queueMicrotask(loadAnalytics);
-      });
-    })();
-  </script>
+
 
   <script src="/js/nav.js?v=20260911-mobile-nav" defer></script>
 </body>
