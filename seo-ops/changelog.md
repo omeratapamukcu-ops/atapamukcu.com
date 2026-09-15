@@ -1,3 +1,12 @@
+## 2026-09-15 - Başlangıç sayfası kontrollü üretim yayını (B047 / QL030)
+
+- Tarih kapısı 2026-09-15 sonrası akışıyla açıldı; 2026-09-15 GSC paketi yenilendi ve karar `eligible` oldu. B013–B017 Gün 14 erken sinyalde `observing` bırakıldı; aktif/kanıt bekleyen URL'lerin title, description, H1, ana içerik, FAQ, schema ve bağlamsal bağlantıları değiştirilmedi.
+- `seo-staging-2026-09-15` commitleri tek tek incelendi; toplu cherry-pick yapılmadı. Bu koşuda yalnız `cfdf154` içindeki `/baslangic` hipotezi güncel `origin/main` üzerine üç yönlü birleştirilerek taşındı; güncel favicon/manifest, footer ve consent-gated analytics yükleyicileri korundu. Diğer staging URL'leri ölçüm koruması ve exact GSC kanıt eksikliği nedeniyle yayımlanmadı.
+- Tek hipotez: ilk temas sorusunu, tarafsız uzman seçim ölçütlerini, yalnız-online uygunluk sınırını, görünür yazar/tarih ve doğrulanabilir kaynakları doğrudan yanıtlamak; URL, canonical, title ve H1'i değiştirmeden ilk kez destek arayan kişinin bilinçli sonraki adım kararını kolaylaştırır.
+- Eski değer: 202 kelimelik `WebPage`; görünür yazar/tarih/kaynak/FAQ yoktu ve acil sınır geneldi (kalite 67/100). Yeni değer: 703 kelimelik `Article`; tarafsız seçim ölçütleri, online-only uygunluk, 112 sınırı, görünür yazar/tarih, APA/NHS/112 kaynakları, içerikle eşleşen FAQ/citation/speakable eklendi (kalite 100/100).
+- Risk: genişleyen bilgilendirici içerik ilk-adım CTA odağını seyreltebilir. İçerik commit'i `bf79971`; rollback `git revert bf79971`. Gün 14: 2026-09-29; Gün 28: 2026-10-13; kanıt yetersizse Gün 56: 2026-11-10. Exact sorgu+URL GSC metrikleri pakette yok ve `UNKNOWN`; sıfır kabul edilmedi.
+- Yerel doğrulama: site kalite denetimi geçti; `verify_monthly_seo.py` geçti; `verify_evergreen.py` kök `/` bağlantısını `.html` sanan mevcut denetleyici hatası düzeltildikten sonra 5/5 sayfa, 10 JSON-LD, 163 yerel bağlantı ve 4/4 sitemap doğrulamasıyla geçti. Canonical, JSON-LD ayrıştırma, görünür/schema tarih eşleşmesi ve consent-gated loader koruması doğrulandı.
+
 ## 2026-09-09 - Psikolojik süreç haritası ve döngü analizi kalite iyileştirmesi (B045–B046)
 
 - Aynı süreç haritalama kümesinden `/psikolojik-surec-haritasi` ve `/terapi-surecinde-dongu-analizi`, envanterdeki 67/100 skorları, 344 ve 347 kelimelik sınırlı derinlikleri ve önceki koşularda geliştirilmemiş olmaları nedeniyle seçildi. Aktif B013, B021, 1 Eylül başlangıçlı diğer ölçüm pencereleri, `/kompulsiyon-nedir` ve `/act-nedir` içindeki `/bilissel-ayrisma` bağlantısı değiştirilmedi.
