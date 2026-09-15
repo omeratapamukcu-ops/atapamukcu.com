@@ -48,7 +48,7 @@ Cornerstone: `/online-psikolog`.
 
 Cluster bağlantıları: `/kaygi`, `/panik-atak`, `/okb`, `/sosyal-kaygi`, `/act-nedir`, `/pbt-nedir`, `/surec`, `/hakkimda`.
 
-Informational-CTA ekonomisi: önce süreç, uygunluk, gizlilik ve sınırlar; sonra tek ana “Ücretsiz değerlendirme seansı için yazın” CTA'sı.
+Informational-CTA ekonomisi: önce süreç, uygunluk, gizlilik ve sınırlar; sonra tek ana “İlk görüşme için yazın” CTA'sı.
 
 Cannibalization planı: “online psikolog” ana entity'si yalnız `/online-psikolog` hedefidir. Sorun sayfaları kendi klinik entity'sini hedefler ve online hizmet sayfasına bağlanır. `/antalya-psikolog`, yalnızca Antalya merkezli online hizmet bağlamını taşır, yüz yüze hizmet iddiası taşımaz.
 

@@ -51,7 +51,7 @@ Kaygı, panik atak, OKB, sosyal kaygı, travma veya depresyon hakkında detaylı
 
 atapamukcu.com
 
-33 sayfalık psikolojik destek rehberi. İlk adım ücretsiz değerlendirme seansı.
+33 sayfalık psikolojik destek rehberi. İlk adım ilk görüşme.
 ```
 
 ---

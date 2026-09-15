@@ -67,7 +67,7 @@ Bu oranlar tek başına duplicate content göstermez. Risk, gövde benzerliğind
 
 ## 5. AEO/GEO ve E-E-A-T etkisi
 
-Schema headline/about ile görünür H1 artık her URL'nin entity ve intent rolünü aynı yönde anlatıyor. Soru-cevap ve process içeriği silinmedi; yalnızca primary ownership ayrıştırıldı. Mevcut yazar, kaynakça, acil yardım sınırı, ücretsiz değerlendirme CTA'sı, consent gate ve `seans_degerlendirme_cta_click` davranışı korunmuştur. Yeni FAQ veya doğrulanmamış klinik iddia üretilmemiştir.
+Schema headline/about ile görünür H1 artık her URL'nin entity ve intent rolünü aynı yönde anlatıyor. Soru-cevap ve process içeriği silinmedi; yalnızca primary ownership ayrıştırıldı. Mevcut yazar, kaynakça, acil yardım sınırı, ilk görüşme CTA'sı, consent gate ve `seans_degerlendirme_cta_click` davranışı korunmuştur. Yeni FAQ veya doğrulanmamış klinik iddia üretilmemiştir.
 
 ## 6. Ölçüm ve karar kapısı
 
