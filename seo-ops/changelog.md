@@ -7,6 +7,13 @@
 - Risk: genişleyen bilgilendirici içerik ilk-adım CTA odağını seyreltebilir. İçerik commit'i `bf79971`; rollback `git revert bf79971`. Gün 14: 2026-09-29; Gün 28: 2026-10-13; kanıt yetersizse Gün 56: 2026-11-10. Exact sorgu+URL GSC metrikleri pakette yok ve `UNKNOWN`; sıfır kabul edilmedi.
 - Yerel doğrulama: site kalite denetimi geçti; `verify_monthly_seo.py` geçti; `verify_evergreen.py` kök `/` bağlantısını `.html` sanan mevcut denetleyici hatası düzeltildikten sonra 5/5 sayfa, 10 JSON-LD, 163 yerel bağlantı ve 4/4 sitemap doğrulamasıyla geçti. Canonical, JSON-LD ayrıştırma, görünür/schema tarih eşleşmesi ve consent-gated loader koruması doğrulandı.
 
+## 2026-09-15 - Bekleyen staging SEO paketinin üretim yayını (QL027–QL029 / QL031)
+
+- Kullanıcının açık toplu yayın onayıyla bekleyen `/iliski-sorunlari`, `/panik-bozukluk`, `/psikoloji-3` ve `/gizlilik` iyileştirmeleri güncel `main` üzerine taşındı. Daha yeni favicon, manifest, footer, mobil navigasyon ve izin kontrollü analitik altyapısı korundu.
+- Dört sayfanın yeniden üretilebilir kalite skoru `100/100` oldu: ilişki sorunları 907, panik bozukluk 796, Psikoloji 3.0 753 ve gizlilik 362 kelime. Tek H1, self-canonical, JSON-LD ayrıştırma, sitemap XML ve conflict-marker kontrolleri geçti; `verify_evergreen.py` de geçti.
+- GitHub `origin/main` ve production aynı sürüme güncellendi. Dört public URL HTTP 200 döndürdü ve canlı HTML her sayfada yerel yayın artefaktıyla byte düzeyinde birebir eşleşti.
+- Canlı müdahale tarihi dört kayıt için 15 Eylül'e çekildi. Exact sorgu+URL GSC metrikleri `UNKNOWN`; Gün 14 kontrolü 29 Eylül, Gün 28 kontrolü 13 Ekim, gerekirse Gün 56 kontrolü 10 Kasım 2026.
+
 ## 2026-09-09 - Psikolojik süreç haritası ve döngü analizi kalite iyileştirmesi (B045–B046)
 
 - Aynı süreç haritalama kümesinden `/psikolojik-surec-haritasi` ve `/terapi-surecinde-dongu-analizi`, envanterdeki 67/100 skorları, 344 ve 347 kelimelik sınırlı derinlikleri ve önceki koşularda geliştirilmemiş olmaları nedeniyle seçildi. Aktif B013, B021, 1 Eylül başlangıçlı diğer ölçüm pencereleri, `/kompulsiyon-nedir` ve `/act-nedir` içindeki `/bilissel-ayrisma` bağlantısı değiştirilmedi.
