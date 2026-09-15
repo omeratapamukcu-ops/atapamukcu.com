@@ -3,34 +3,34 @@
 Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan bir sıralama tahmini değil; sayfa içi kalite kapılarının kapsama oranıdır.
 
 ## Kapsam
-- HTML sayfası: **82**
-- Editoryal/klinik sayfa: **70**
+- HTML sayfası: **83**
+- Editoryal/klinik sayfa: **71**
 - İç link hedefi bulunamayan rota: **0**
-- Sayfa türleri: clinical-guide=68, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6
+- Sayfa türleri: clinical-guide=69, guided-practice=1, home=1, interactive-tool=3, learning-path=1, service=2, trust-or-navigation=6
 
 ## Site çapında açıklar
-- `depth`: 24 sayfa
+- `depth`: 23 sayfa
 - `sources`: 8 sayfa
 - `visible_date`: 6 sayfa
-- `author`: 3 sayfa
-- `date_modified`: 3 sayfa
-- `schema`: 1 sayfa
+- `date_modified`: 4 sayfa
+- `schema`: 2 sayfa
+- `author`: 2 sayfa
 - `breadcrumb`: 1 sayfa
 
 ## En düşük puanlı ilk 30 sayfa
 
 | Sayfa | Tür | Kelime | Inbound | Puan | Açıklar |
 |---|---|---:|---:|---:|---|
-| `/psikoloji-3` | clinical-guide | 175 | 80 | 67 | author;visible_date;sources;depth |
-| `/baslangic` | clinical-guide | 202 | 81 | 67 | author;visible_date;sources;depth |
+| `/kullanim-sartlari` | clinical-guide | 295 | 82 | 58 | schema;visible_date;date_modified;sources;depth |
+| `/psikoloji-3` | clinical-guide | 175 | 81 | 67 | author;visible_date;sources;depth |
 | `/surec-temelli-terapi` | clinical-guide | 377 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/iliski-sorunlari` | clinical-guide | 521 | 2 | 67 | visible_date;date_modified;sources;depth |
 | `/surec` | clinical-guide | 219 | 4 | 75 | author;visible_date;depth |
-| `/gizlilik` | trust-or-navigation | 340 | 81 | 75 | schema;breadcrumb;depth |
 | `/panik-bozukluk` | clinical-guide | 767 | 5 | 75 | visible_date;date_modified;sources |
+| `/gizlilik` | trust-or-navigation | 356 | 82 | 83 | schema;breadcrumb |
 | `/act-bdt-farki` | clinical-guide | 390 | 3 | 83 | sources;depth |
-| `/editorial-ilkeler` | clinical-guide | 523 | 81 | 83 | sources;depth |
-| `/araclar` | trust-or-navigation | 196 | 80 | 92 | depth |
+| `/editorial-ilkeler` | clinical-guide | 523 | 82 | 83 | sources;depth |
+| `/araclar` | trust-or-navigation | 196 | 81 | 92 | depth |
 | `/ogrenme-yollari/kaygi` | learning-path | 346 | 7 | 92 | depth |
 | `/kabul-ve-kararlilik-terapisi` | clinical-guide | 485 | 6 | 92 | depth |
 | `/bdt-nedir` | clinical-guide | 507 | 6 | 92 | depth |
@@ -47,8 +47,8 @@ Bu rapor `python3 scripts/audit_site_quality.py` ile yeniden üretilebilir. Puan
 | `/travma-kacinma` | clinical-guide | 687 | 2 | 92 | depth |
 | `/ofke-kontrolu` | clinical-guide | 698 | 2 | 92 | depth |
 | `/kompulsiyon-nedir` | clinical-guide | 952 | 6 | 92 | sources |
-| `/araclar/panik-atak-ani-plani` | interactive-tool | 173 | 3 | 100 | — |
-| `/araclar/kaygi-dongusu-haritasi` | interactive-tool | 197 | 8 | 100 | — |
+| `/araclar/panik-atak-ani-plani` | interactive-tool | 185 | 3 | 100 | — |
+| `/araclar/kaygi-dongusu-haritasi` | interactive-tool | 212 | 8 | 100 | — |
 | `/araclar/islevsel-takip` | interactive-tool | 331 | 9 | 100 | — |
 | `/uygulamalar/kacinma-haritasi` | guided-practice | 413 | 12 | 100 | — |
 

@@ -60,10 +60,9 @@ class AuditParser(HTMLParser):
 def local_target(href):
     if href.startswith(("http://", "https://", "mailto:", "tel:", "#", "javascript:")):
         return None
-    path = href.split("#", 1)[0].split("?", 1)[0]
+    path = href.split("#", 1)[0].split("?", 1)[0].lstrip("/")
     if not path:
-        return None
-    path = path.lstrip("/")
+        return ROOT / "index.html"
     candidate = ROOT / path
     if candidate.suffix:
         return candidate
